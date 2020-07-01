@@ -66,6 +66,7 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 			addVarNamePropertyDescriptor(object);
 			addIdentifierPropertyDescriptor(object);
 			addAdditionalCodePropertyDescriptor(object);
+			addDefaultInstanceTenancyPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -247,6 +248,22 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	}
 
 	/**
+	 * This adds a property descriptor for the Default Instance Tenancy feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addDefaultInstanceTenancyPropertyDescriptor(Object object) {
+		itemPropertyDescriptors
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_VpcBuilder_defaultInstanceTenancy_feature"),
+						getString("_UI_PropertyDescriptor_description", "_UI_VpcBuilder_defaultInstanceTenancy_feature",
+								"_UI_VpcBuilder_type"),
+						BuildersPackage.Literals.VPC_BUILDER__DEFAULT_INSTANCE_TENANCY, true, false, false,
+						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+	}
+
+	/**
 	 * This returns VpcBuilder.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -303,6 +320,7 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 		case BuildersPackage.VPC_BUILDER__VAR_NAME:
 		case BuildersPackage.VPC_BUILDER__IDENTIFIER:
 		case BuildersPackage.VPC_BUILDER__ADDITIONAL_CODE:
+		case BuildersPackage.VPC_BUILDER__DEFAULT_INSTANCE_TENANCY:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		}
