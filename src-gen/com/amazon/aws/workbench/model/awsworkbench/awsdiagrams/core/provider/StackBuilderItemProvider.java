@@ -1,12 +1,13 @@
 /**
  */
-package com.amazon.aws.workbench.model.awsworkbench.builders.provider;
+package com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.provider;
 
-import com.amazon.aws.workbench.model.awsworkbench.builders.AppBuilder;
-import com.amazon.aws.workbench.model.awsworkbench.builders.BuildersFactory;
-import com.amazon.aws.workbench.model.awsworkbench.builders.BuildersPackage;
+import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.CorePackage;
+import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.StackBuilder;
 
-import com.amazon.aws.workbench.model.awsworkbench.datatypes.java.lang.provider.AwsworkbenchEditPlugin;
+import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.datatypes.java.lang.provider.AwsworkbenchEditPlugin;
+
+import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.services.ec2.Ec2Factory;
 
 import java.util.Collection;
 import java.util.List;
@@ -30,12 +31,12 @@ import org.eclipse.emf.edit.provider.ItemProviderAdapter;
 import org.eclipse.emf.edit.provider.ViewerNotification;
 
 /**
- * This is the item provider adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.builders.AppBuilder} object.
+ * This is the item provider adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.StackBuilder} object.
  * <!-- begin-user-doc -->
  * <!-- end-user-doc -->
  * @generated
  */
-public class AppBuilderItemProvider extends ItemProviderAdapter implements IEditingDomainItemProvider,
+public class StackBuilderItemProvider extends ItemProviderAdapter implements IEditingDomainItemProvider,
 		IStructuredItemContentProvider, ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
 	/**
 	 * This constructs an instance from a factory and a notifier.
@@ -43,7 +44,7 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public AppBuilderItemProvider(AdapterFactory adapterFactory) {
+	public StackBuilderItemProvider(AdapterFactory adapterFactory) {
 		super(adapterFactory);
 	}
 
@@ -58,11 +59,9 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
-			addAutoSynthPropertyDescriptor(object);
-			addOutdirPropertyDescriptor(object);
-			addRuntimeInfoPropertyDescriptor(object);
-			addStackTracesPropertyDescriptor(object);
-			addTreeMetadataPropertyDescriptor(object);
+			addDescriptionPropertyDescriptor(object);
+			addStackNamePropertyDescriptor(object);
+			addTerminationProtectionPropertyDescriptor(object);
 			addGeneratedClassNamePropertyDescriptor(object);
 			addVarNamePropertyDescriptor(object);
 			addIdentifierPropertyDescriptor(object);
@@ -72,83 +71,51 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	}
 
 	/**
-	 * This adds a property descriptor for the Auto Synth feature.
+	 * This adds a property descriptor for the Description feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addAutoSynthPropertyDescriptor(Object object) {
+	protected void addDescriptionPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
 				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_AppBuilder_autoSynth_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_autoSynth_feature",
-								"_UI_AppBuilder_type"),
-						BuildersPackage.Literals.APP_BUILDER__AUTO_SYNTH, true, false, false,
+						getResourceLocator(), getString("_UI_StackBuilder_description_feature"),
+						getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_description_feature",
+								"_UI_StackBuilder_type"),
+						CorePackage.Literals.STACK_BUILDER__DESCRIPTION, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
-	 * This adds a property descriptor for the Outdir feature.
+	 * This adds a property descriptor for the Stack Name feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addOutdirPropertyDescriptor(Object object) {
+	protected void addStackNamePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
 				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_AppBuilder_outdir_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_outdir_feature",
-								"_UI_AppBuilder_type"),
-						BuildersPackage.Literals.APP_BUILDER__OUTDIR, true, false, false,
+						getResourceLocator(), getString("_UI_StackBuilder_stackName_feature"),
+						getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_stackName_feature",
+								"_UI_StackBuilder_type"),
+						CorePackage.Literals.STACK_BUILDER__STACK_NAME, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
-	 * This adds a property descriptor for the Runtime Info feature.
+	 * This adds a property descriptor for the Termination Protection feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addRuntimeInfoPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_AppBuilder_runtimeInfo_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_runtimeInfo_feature",
-								"_UI_AppBuilder_type"),
-						BuildersPackage.Literals.APP_BUILDER__RUNTIME_INFO, true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Stack Traces feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addStackTracesPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_AppBuilder_stackTraces_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_stackTraces_feature",
-								"_UI_AppBuilder_type"),
-						BuildersPackage.Literals.APP_BUILDER__STACK_TRACES, true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Tree Metadata feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addTreeMetadataPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_AppBuilder_treeMetadata_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_treeMetadata_feature",
-								"_UI_AppBuilder_type"),
-						BuildersPackage.Literals.APP_BUILDER__TREE_METADATA, true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+	protected void addTerminationProtectionPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_StackBuilder_terminationProtection_feature"),
+				getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_terminationProtection_feature",
+						"_UI_StackBuilder_type"),
+				CorePackage.Literals.STACK_BUILDER__TERMINATION_PROTECTION, true, false, false,
+				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -160,10 +127,10 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	protected void addGeneratedClassNamePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
 				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_AppBuilder_generatedClassName_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_generatedClassName_feature",
-								"_UI_AppBuilder_type"),
-						BuildersPackage.Literals.APP_BUILDER__GENERATED_CLASS_NAME, true, false, false,
+						getResourceLocator(), getString("_UI_StackBuilder_generatedClassName_feature"),
+						getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_generatedClassName_feature",
+								"_UI_StackBuilder_type"),
+						CorePackage.Literals.STACK_BUILDER__GENERATED_CLASS_NAME, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -176,10 +143,10 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	protected void addVarNamePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
 				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_AppBuilder_varName_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_varName_feature",
-								"_UI_AppBuilder_type"),
-						BuildersPackage.Literals.APP_BUILDER__VAR_NAME, true, false, false,
+						getResourceLocator(), getString("_UI_StackBuilder_varName_feature"),
+						getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_varName_feature",
+								"_UI_StackBuilder_type"),
+						CorePackage.Literals.STACK_BUILDER__VAR_NAME, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -192,10 +159,10 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	protected void addIdentifierPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
 				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_AppBuilder_identifier_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_identifier_feature",
-								"_UI_AppBuilder_type"),
-						BuildersPackage.Literals.APP_BUILDER__IDENTIFIER, true, false, false,
+						getResourceLocator(), getString("_UI_StackBuilder_identifier_feature"),
+						getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_identifier_feature",
+								"_UI_StackBuilder_type"),
+						CorePackage.Literals.STACK_BUILDER__IDENTIFIER, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -208,10 +175,10 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	protected void addAdditionalCodePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
 				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_AppBuilder_additionalCode_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_additionalCode_feature",
-								"_UI_AppBuilder_type"),
-						BuildersPackage.Literals.APP_BUILDER__ADDITIONAL_CODE, true, false, false,
+						getResourceLocator(), getString("_UI_StackBuilder_additionalCode_feature"),
+						getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_additionalCode_feature",
+								"_UI_StackBuilder_type"),
+						CorePackage.Literals.STACK_BUILDER__ADDITIONAL_CODE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -227,7 +194,7 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures.add(BuildersPackage.Literals.APP_BUILDER__VPCBUILDER);
+			childrenFeatures.add(CorePackage.Literals.STACK_BUILDER__VPCBUILDER);
 		}
 		return childrenFeatures;
 	}
@@ -246,14 +213,14 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	}
 
 	/**
-	 * This returns AppBuilder.gif.
+	 * This returns StackBuilder.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage("full/obj16/AppBuilder"));
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/StackBuilder"));
 	}
 
 	/**
@@ -274,9 +241,9 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((AppBuilder) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_AppBuilder_type")
-				: getString("_UI_AppBuilder_type") + " " + label;
+		String label = ((StackBuilder) object).getStackName();
+		return label == null || label.length() == 0 ? getString("_UI_StackBuilder_type")
+				: getString("_UI_StackBuilder_type") + " " + label;
 	}
 
 	/**
@@ -290,19 +257,17 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	public void notifyChanged(Notification notification) {
 		updateChildren(notification);
 
-		switch (notification.getFeatureID(AppBuilder.class)) {
-		case BuildersPackage.APP_BUILDER__AUTO_SYNTH:
-		case BuildersPackage.APP_BUILDER__OUTDIR:
-		case BuildersPackage.APP_BUILDER__RUNTIME_INFO:
-		case BuildersPackage.APP_BUILDER__STACK_TRACES:
-		case BuildersPackage.APP_BUILDER__TREE_METADATA:
-		case BuildersPackage.APP_BUILDER__GENERATED_CLASS_NAME:
-		case BuildersPackage.APP_BUILDER__VAR_NAME:
-		case BuildersPackage.APP_BUILDER__IDENTIFIER:
-		case BuildersPackage.APP_BUILDER__ADDITIONAL_CODE:
+		switch (notification.getFeatureID(StackBuilder.class)) {
+		case CorePackage.STACK_BUILDER__DESCRIPTION:
+		case CorePackage.STACK_BUILDER__STACK_NAME:
+		case CorePackage.STACK_BUILDER__TERMINATION_PROTECTION:
+		case CorePackage.STACK_BUILDER__GENERATED_CLASS_NAME:
+		case CorePackage.STACK_BUILDER__VAR_NAME:
+		case CorePackage.STACK_BUILDER__IDENTIFIER:
+		case CorePackage.STACK_BUILDER__ADDITIONAL_CODE:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
-		case BuildersPackage.APP_BUILDER__VPCBUILDER:
+		case CorePackage.STACK_BUILDER__VPCBUILDER:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
@@ -320,8 +285,8 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(BuildersPackage.Literals.APP_BUILDER__VPCBUILDER,
-				BuildersFactory.eINSTANCE.createVpcBuilder()));
+		newChildDescriptors.add(createChildParameter(CorePackage.Literals.STACK_BUILDER__VPCBUILDER,
+				Ec2Factory.eINSTANCE.createVpcBuilder()));
 	}
 
 	/**

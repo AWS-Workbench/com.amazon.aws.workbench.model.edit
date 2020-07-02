@@ -9,8 +9,8 @@
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated awsworkbench -->
       <factory
-            uri="default.builders"
-            class="com.amazon.aws.workbench.model.awsworkbench.builders.provider.BuildersItemProviderAdapterFactory"
+            uri="default.awsworkbench.awsdiagrams.core"
+            class="com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.provider.CoreItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
                org.eclipse.emf.edit.provider.IStructuredItemContentProvider
@@ -19,4 +19,16 @@
                org.eclipse.emf.edit.provider.IItemPropertySource"/>
    </extension>
 
+   <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
+      <!-- @generated awsworkbench -->
+      <factory
+            uri="default.awsworkbench.awsdiagrams.services.ec2"
+            class="com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.services.ec2.provider.Ec2ItemProviderAdapterFactory"
+            supportedTypes=
+              "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
+               org.eclipse.emf.edit.provider.IStructuredItemContentProvider
+               org.eclipse.emf.edit.provider.ITreeItemContentProvider
+               org.eclipse.emf.edit.provider.IItemLabelProvider
+               org.eclipse.emf.edit.provider.IItemPropertySource"/>
+   </extension>
 </plugin>
