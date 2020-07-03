@@ -13,9 +13,7 @@ import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
 
 import org.eclipse.emf.common.util.ResourceLocator;
-
 import org.eclipse.emf.ecore.EStructuralFeature;
-
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
 import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
 import org.eclipse.emf.edit.provider.IItemLabelProvider;
@@ -191,7 +189,7 @@ public class StackBuilderItemProvider extends ItemProviderAdapter implements IEd
 	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures.add(AwsworkbenchPackage.Literals.STACK_BUILDER__VPCBUILDER);
+			childrenFeatures.add(AwsworkbenchPackage.Literals.STACK_BUILDER__SERVICERESOURCES);
 		}
 		return childrenFeatures;
 	}
@@ -264,7 +262,7 @@ public class StackBuilderItemProvider extends ItemProviderAdapter implements IEd
 		case AwsworkbenchPackage.STACK_BUILDER__ADDITIONAL_CODE:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
-		case AwsworkbenchPackage.STACK_BUILDER__VPCBUILDER:
+		case AwsworkbenchPackage.STACK_BUILDER__SERVICERESOURCES:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
@@ -282,7 +280,7 @@ public class StackBuilderItemProvider extends ItemProviderAdapter implements IEd
 	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER__VPCBUILDER,
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER__SERVICERESOURCES,
 				AwsworkbenchFactory.eINSTANCE.createVpcBuilder()));
 	}
 
