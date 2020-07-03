@@ -1,13 +1,10 @@
 /**
  */
-package com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.provider;
+package com.amazon.aws.workbench.model.awsworkbench.provider;
 
-import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.CorePackage;
-import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.StackBuilder;
-
-import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.datatypes.java.lang.provider.AwsworkbenchEditPlugin;
-
-import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.services.ec2.Ec2Factory;
+import com.amazon.aws.workbench.model.awsworkbench.AwsworkbenchFactory;
+import com.amazon.aws.workbench.model.awsworkbench.AwsworkbenchPackage;
+import com.amazon.aws.workbench.model.awsworkbench.StackBuilder;
 
 import java.util.Collection;
 import java.util.List;
@@ -31,7 +28,7 @@ import org.eclipse.emf.edit.provider.ItemProviderAdapter;
 import org.eclipse.emf.edit.provider.ViewerNotification;
 
 /**
- * This is the item provider adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.StackBuilder} object.
+ * This is the item provider adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.StackBuilder} object.
  * <!-- begin-user-doc -->
  * <!-- end-user-doc -->
  * @generated
@@ -82,7 +79,7 @@ public class StackBuilderItemProvider extends ItemProviderAdapter implements IEd
 						getResourceLocator(), getString("_UI_StackBuilder_description_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_description_feature",
 								"_UI_StackBuilder_type"),
-						CorePackage.Literals.STACK_BUILDER__DESCRIPTION, true, false, false,
+						AwsworkbenchPackage.Literals.STACK_BUILDER__DESCRIPTION, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -98,7 +95,7 @@ public class StackBuilderItemProvider extends ItemProviderAdapter implements IEd
 						getResourceLocator(), getString("_UI_StackBuilder_stackName_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_stackName_feature",
 								"_UI_StackBuilder_type"),
-						CorePackage.Literals.STACK_BUILDER__STACK_NAME, true, false, false,
+						AwsworkbenchPackage.Literals.STACK_BUILDER__STACK_NAME, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -114,7 +111,7 @@ public class StackBuilderItemProvider extends ItemProviderAdapter implements IEd
 				getString("_UI_StackBuilder_terminationProtection_feature"),
 				getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_terminationProtection_feature",
 						"_UI_StackBuilder_type"),
-				CorePackage.Literals.STACK_BUILDER__TERMINATION_PROTECTION, true, false, false,
+				AwsworkbenchPackage.Literals.STACK_BUILDER__TERMINATION_PROTECTION, true, false, false,
 				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -125,13 +122,13 @@ public class StackBuilderItemProvider extends ItemProviderAdapter implements IEd
 	 * @generated
 	 */
 	protected void addGeneratedClassNamePropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_StackBuilder_generatedClassName_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_generatedClassName_feature",
-								"_UI_StackBuilder_type"),
-						CorePackage.Literals.STACK_BUILDER__GENERATED_CLASS_NAME, true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_StackBuilder_generatedClassName_feature"),
+				getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_generatedClassName_feature",
+						"_UI_StackBuilder_type"),
+				AwsworkbenchPackage.Literals.STACK_BUILDER__GENERATED_CLASS_NAME, true, false, false,
+				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -146,7 +143,7 @@ public class StackBuilderItemProvider extends ItemProviderAdapter implements IEd
 						getResourceLocator(), getString("_UI_StackBuilder_varName_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_varName_feature",
 								"_UI_StackBuilder_type"),
-						CorePackage.Literals.STACK_BUILDER__VAR_NAME, true, false, false,
+						AwsworkbenchPackage.Literals.STACK_BUILDER__VAR_NAME, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -162,7 +159,7 @@ public class StackBuilderItemProvider extends ItemProviderAdapter implements IEd
 						getResourceLocator(), getString("_UI_StackBuilder_identifier_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_identifier_feature",
 								"_UI_StackBuilder_type"),
-						CorePackage.Literals.STACK_BUILDER__IDENTIFIER, true, false, false,
+						AwsworkbenchPackage.Literals.STACK_BUILDER__IDENTIFIER, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -178,7 +175,7 @@ public class StackBuilderItemProvider extends ItemProviderAdapter implements IEd
 						getResourceLocator(), getString("_UI_StackBuilder_additionalCode_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_additionalCode_feature",
 								"_UI_StackBuilder_type"),
-						CorePackage.Literals.STACK_BUILDER__ADDITIONAL_CODE, true, false, false,
+						AwsworkbenchPackage.Literals.STACK_BUILDER__ADDITIONAL_CODE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -194,7 +191,7 @@ public class StackBuilderItemProvider extends ItemProviderAdapter implements IEd
 	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures.add(CorePackage.Literals.STACK_BUILDER__VPCBUILDER);
+			childrenFeatures.add(AwsworkbenchPackage.Literals.STACK_BUILDER__VPCBUILDER);
 		}
 		return childrenFeatures;
 	}
@@ -258,16 +255,16 @@ public class StackBuilderItemProvider extends ItemProviderAdapter implements IEd
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(StackBuilder.class)) {
-		case CorePackage.STACK_BUILDER__DESCRIPTION:
-		case CorePackage.STACK_BUILDER__STACK_NAME:
-		case CorePackage.STACK_BUILDER__TERMINATION_PROTECTION:
-		case CorePackage.STACK_BUILDER__GENERATED_CLASS_NAME:
-		case CorePackage.STACK_BUILDER__VAR_NAME:
-		case CorePackage.STACK_BUILDER__IDENTIFIER:
-		case CorePackage.STACK_BUILDER__ADDITIONAL_CODE:
+		case AwsworkbenchPackage.STACK_BUILDER__DESCRIPTION:
+		case AwsworkbenchPackage.STACK_BUILDER__STACK_NAME:
+		case AwsworkbenchPackage.STACK_BUILDER__TERMINATION_PROTECTION:
+		case AwsworkbenchPackage.STACK_BUILDER__GENERATED_CLASS_NAME:
+		case AwsworkbenchPackage.STACK_BUILDER__VAR_NAME:
+		case AwsworkbenchPackage.STACK_BUILDER__IDENTIFIER:
+		case AwsworkbenchPackage.STACK_BUILDER__ADDITIONAL_CODE:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
-		case CorePackage.STACK_BUILDER__VPCBUILDER:
+		case AwsworkbenchPackage.STACK_BUILDER__VPCBUILDER:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
@@ -285,8 +282,8 @@ public class StackBuilderItemProvider extends ItemProviderAdapter implements IEd
 	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(CorePackage.Literals.STACK_BUILDER__VPCBUILDER,
-				Ec2Factory.eINSTANCE.createVpcBuilder()));
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER__VPCBUILDER,
+				AwsworkbenchFactory.eINSTANCE.createVpcBuilder()));
 	}
 
 	/**

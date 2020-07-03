@@ -1,8 +1,8 @@
 /**
  */
-package com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.services.ec2.provider;
+package com.amazon.aws.workbench.model.awsworkbench.provider;
 
-import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.services.ec2.util.Ec2AdapterFactory;
+import com.amazon.aws.workbench.model.awsworkbench.util.AwsworkbenchAdapterFactory;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -32,7 +32,7 @@ import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
  * <!-- end-user-doc -->
  * @generated
  */
-public class Ec2ItemProviderAdapterFactory extends Ec2AdapterFactory
+public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterFactory
 		implements ComposeableAdapterFactory, IChangeNotifier, IDisposable {
 	/**
 	 * This keeps track of the root adapter factory that delegates to this adapter factory.
@@ -64,7 +64,7 @@ public class Ec2ItemProviderAdapterFactory extends Ec2AdapterFactory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Ec2ItemProviderAdapterFactory() {
+	public AwsworkbenchItemProviderAdapterFactory() {
 		supportedTypes.add(IEditingDomainItemProvider.class);
 		supportedTypes.add(IStructuredItemContentProvider.class);
 		supportedTypes.add(ITreeItemContentProvider.class);
@@ -73,7 +73,53 @@ public class Ec2ItemProviderAdapterFactory extends Ec2AdapterFactory
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.services.ec2.VpcBuilder} instances.
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AppBuilder} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AppBuilderItemProvider appBuilderItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AppBuilder}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAppBuilderAdapter() {
+		if (appBuilderItemProvider == null) {
+			appBuilderItemProvider = new AppBuilderItemProvider(this);
+		}
+
+		return appBuilderItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.StackBuilder} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected StackBuilderItemProvider stackBuilderItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.StackBuilder}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createStackBuilderAdapter() {
+		if (stackBuilderItemProvider == null) {
+			stackBuilderItemProvider = new StackBuilderItemProvider(this);
+		}
+
+		return stackBuilderItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.VpcBuilder} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -81,7 +127,7 @@ public class Ec2ItemProviderAdapterFactory extends Ec2AdapterFactory
 	protected VpcBuilderItemProvider vpcBuilderItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.services.ec2.VpcBuilder}.
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.VpcBuilder}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -200,6 +246,10 @@ public class Ec2ItemProviderAdapterFactory extends Ec2AdapterFactory
 	 */
 	@Override
 	public void dispose() {
+		if (appBuilderItemProvider != null)
+			appBuilderItemProvider.dispose();
+		if (stackBuilderItemProvider != null)
+			stackBuilderItemProvider.dispose();
 		if (vpcBuilderItemProvider != null)
 			vpcBuilderItemProvider.dispose();
 	}

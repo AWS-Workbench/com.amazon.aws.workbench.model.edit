@@ -1,11 +1,9 @@
 /**
  */
-package com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.services.ec2.provider;
+package com.amazon.aws.workbench.model.awsworkbench.provider;
 
-import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.datatypes.java.lang.provider.AwsworkbenchEditPlugin;
-
-import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.services.ec2.Ec2Package;
-import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.services.ec2.VpcBuilder;
+import com.amazon.aws.workbench.model.awsworkbench.AwsworkbenchPackage;
+import com.amazon.aws.workbench.model.awsworkbench.VpcBuilder;
 
 import java.util.Collection;
 import java.util.List;
@@ -27,7 +25,7 @@ import org.eclipse.emf.edit.provider.ItemProviderAdapter;
 import org.eclipse.emf.edit.provider.ViewerNotification;
 
 /**
- * This is the item provider adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.services.ec2.VpcBuilder} object.
+ * This is the item provider adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.VpcBuilder} object.
  * <!-- begin-user-doc -->
  * <!-- end-user-doc -->
  * @generated
@@ -83,7 +81,7 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_VpcBuilder_cidr_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_VpcBuilder_cidr_feature",
 								"_UI_VpcBuilder_type"),
-						Ec2Package.Literals.VPC_BUILDER__CIDR, true, false, false,
+						AwsworkbenchPackage.Literals.VPC_BUILDER__CIDR, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -99,7 +97,7 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_VpcBuilder_enableDnsHostnames_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_VpcBuilder_enableDnsHostnames_feature",
 								"_UI_VpcBuilder_type"),
-						Ec2Package.Literals.VPC_BUILDER__ENABLE_DNS_HOSTNAMES, true, false, false,
+						AwsworkbenchPackage.Literals.VPC_BUILDER__ENABLE_DNS_HOSTNAMES, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -115,7 +113,7 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_VpcBuilder_enableDnsSupport_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_VpcBuilder_enableDnsSupport_feature",
 								"_UI_VpcBuilder_type"),
-						Ec2Package.Literals.VPC_BUILDER__ENABLE_DNS_SUPPORT, true, false, false,
+						AwsworkbenchPackage.Literals.VPC_BUILDER__ENABLE_DNS_SUPPORT, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -131,7 +129,7 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_VpcBuilder_maxAzs_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_VpcBuilder_maxAzs_feature",
 								"_UI_VpcBuilder_type"),
-						Ec2Package.Literals.VPC_BUILDER__MAX_AZS, true, false, false,
+						AwsworkbenchPackage.Literals.VPC_BUILDER__MAX_AZS, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -147,7 +145,7 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_VpcBuilder_natGateways_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_VpcBuilder_natGateways_feature",
 								"_UI_VpcBuilder_type"),
-						Ec2Package.Literals.VPC_BUILDER__NAT_GATEWAYS, true, false, false,
+						AwsworkbenchPackage.Literals.VPC_BUILDER__NAT_GATEWAYS, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -163,7 +161,7 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_VpcBuilder_vpnGateway_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_VpcBuilder_vpnGateway_feature",
 								"_UI_VpcBuilder_type"),
-						Ec2Package.Literals.VPC_BUILDER__VPN_GATEWAY, true, false, false,
+						AwsworkbenchPackage.Literals.VPC_BUILDER__VPN_GATEWAY, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -179,7 +177,7 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_VpcBuilder_vpnGatewayAsn_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_VpcBuilder_vpnGatewayAsn_feature",
 								"_UI_VpcBuilder_type"),
-						Ec2Package.Literals.VPC_BUILDER__VPN_GATEWAY_ASN, true, false, false,
+						AwsworkbenchPackage.Literals.VPC_BUILDER__VPN_GATEWAY_ASN, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -195,7 +193,7 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_VpcBuilder_generatedClassName_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_VpcBuilder_generatedClassName_feature",
 								"_UI_VpcBuilder_type"),
-						Ec2Package.Literals.VPC_BUILDER__GENERATED_CLASS_NAME, true, false, false,
+						AwsworkbenchPackage.Literals.VPC_BUILDER__GENERATED_CLASS_NAME, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -211,7 +209,7 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_VpcBuilder_varName_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_VpcBuilder_varName_feature",
 								"_UI_VpcBuilder_type"),
-						Ec2Package.Literals.VPC_BUILDER__VAR_NAME, true, false, false,
+						AwsworkbenchPackage.Literals.VPC_BUILDER__VAR_NAME, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -227,7 +225,7 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_VpcBuilder_identifier_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_VpcBuilder_identifier_feature",
 								"_UI_VpcBuilder_type"),
-						Ec2Package.Literals.VPC_BUILDER__IDENTIFIER, true, false, false,
+						AwsworkbenchPackage.Literals.VPC_BUILDER__IDENTIFIER, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -243,7 +241,7 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_VpcBuilder_additionalCode_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_VpcBuilder_additionalCode_feature",
 								"_UI_VpcBuilder_type"),
-						Ec2Package.Literals.VPC_BUILDER__ADDITIONAL_CODE, true, false, false,
+						AwsworkbenchPackage.Literals.VPC_BUILDER__ADDITIONAL_CODE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -254,13 +252,13 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	 * @generated
 	 */
 	protected void addDefaultInstanceTenancyPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_VpcBuilder_defaultInstanceTenancy_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_VpcBuilder_defaultInstanceTenancy_feature",
-								"_UI_VpcBuilder_type"),
-						Ec2Package.Literals.VPC_BUILDER__DEFAULT_INSTANCE_TENANCY, true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_VpcBuilder_defaultInstanceTenancy_feature"),
+				getString("_UI_PropertyDescriptor_description", "_UI_VpcBuilder_defaultInstanceTenancy_feature",
+						"_UI_VpcBuilder_type"),
+				AwsworkbenchPackage.Literals.VPC_BUILDER__DEFAULT_INSTANCE_TENANCY, true, false, false,
+				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -309,18 +307,18 @@ public class VpcBuilderItemProvider extends ItemProviderAdapter implements IEdit
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(VpcBuilder.class)) {
-		case Ec2Package.VPC_BUILDER__CIDR:
-		case Ec2Package.VPC_BUILDER__ENABLE_DNS_HOSTNAMES:
-		case Ec2Package.VPC_BUILDER__ENABLE_DNS_SUPPORT:
-		case Ec2Package.VPC_BUILDER__MAX_AZS:
-		case Ec2Package.VPC_BUILDER__NAT_GATEWAYS:
-		case Ec2Package.VPC_BUILDER__VPN_GATEWAY:
-		case Ec2Package.VPC_BUILDER__VPN_GATEWAY_ASN:
-		case Ec2Package.VPC_BUILDER__GENERATED_CLASS_NAME:
-		case Ec2Package.VPC_BUILDER__VAR_NAME:
-		case Ec2Package.VPC_BUILDER__IDENTIFIER:
-		case Ec2Package.VPC_BUILDER__ADDITIONAL_CODE:
-		case Ec2Package.VPC_BUILDER__DEFAULT_INSTANCE_TENANCY:
+		case AwsworkbenchPackage.VPC_BUILDER__CIDR:
+		case AwsworkbenchPackage.VPC_BUILDER__ENABLE_DNS_HOSTNAMES:
+		case AwsworkbenchPackage.VPC_BUILDER__ENABLE_DNS_SUPPORT:
+		case AwsworkbenchPackage.VPC_BUILDER__MAX_AZS:
+		case AwsworkbenchPackage.VPC_BUILDER__NAT_GATEWAYS:
+		case AwsworkbenchPackage.VPC_BUILDER__VPN_GATEWAY:
+		case AwsworkbenchPackage.VPC_BUILDER__VPN_GATEWAY_ASN:
+		case AwsworkbenchPackage.VPC_BUILDER__GENERATED_CLASS_NAME:
+		case AwsworkbenchPackage.VPC_BUILDER__VAR_NAME:
+		case AwsworkbenchPackage.VPC_BUILDER__IDENTIFIER:
+		case AwsworkbenchPackage.VPC_BUILDER__ADDITIONAL_CODE:
+		case AwsworkbenchPackage.VPC_BUILDER__DEFAULT_INSTANCE_TENANCY:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		}

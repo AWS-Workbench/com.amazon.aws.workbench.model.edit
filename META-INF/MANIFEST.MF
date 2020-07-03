@@ -5,13 +5,11 @@ Bundle-SymbolicName: com.amazon.aws.workbench.model.edit;singleton:=true
 Automatic-Module-Name: com.amazon.aws.workbench.model.edit
 Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: .
-Bundle-Activator: com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.datatypes.java.lang.provider.AwsworkbenchEditPlugin$Implementation
+Bundle-Activator: com.amazon.aws.workbench.model.awsworkbench.provider.AwsworkbenchEditPlugin$Implementation
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Export-Package: com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.provider,
- com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.datatypes.java.lang.provider,
- com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.services.ec2.provider
+Export-Package:  com.amazon.aws.workbench.model.awsworkbench.provider
 Require-Bundle: org.eclipse.core.runtime,
  com.amazon.aws.workbench.model;visibility:=reexport,
  org.eclipse.emf.edit;visibility:=reexport

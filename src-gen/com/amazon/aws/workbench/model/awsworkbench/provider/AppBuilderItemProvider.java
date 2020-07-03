@@ -1,12 +1,10 @@
 /**
  */
-package com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.provider;
+package com.amazon.aws.workbench.model.awsworkbench.provider;
 
-import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.AppBuilder;
-import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.CoreFactory;
-import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.CorePackage;
-
-import com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.datatypes.java.lang.provider.AwsworkbenchEditPlugin;
+import com.amazon.aws.workbench.model.awsworkbench.AppBuilder;
+import com.amazon.aws.workbench.model.awsworkbench.AwsworkbenchFactory;
+import com.amazon.aws.workbench.model.awsworkbench.AwsworkbenchPackage;
 
 import java.util.Collection;
 import java.util.List;
@@ -30,7 +28,7 @@ import org.eclipse.emf.edit.provider.ItemProviderAdapter;
 import org.eclipse.emf.edit.provider.ViewerNotification;
 
 /**
- * This is the item provider adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.core.AppBuilder} object.
+ * This is the item provider adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AppBuilder} object.
  * <!-- begin-user-doc -->
  * <!-- end-user-doc -->
  * @generated
@@ -83,7 +81,7 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_AppBuilder_autoSynth_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_autoSynth_feature",
 								"_UI_AppBuilder_type"),
-						CorePackage.Literals.APP_BUILDER__AUTO_SYNTH, true, false, false,
+						AwsworkbenchPackage.Literals.APP_BUILDER__AUTO_SYNTH, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -99,7 +97,7 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_AppBuilder_outdir_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_outdir_feature",
 								"_UI_AppBuilder_type"),
-						CorePackage.Literals.APP_BUILDER__OUTDIR, true, false, false,
+						AwsworkbenchPackage.Literals.APP_BUILDER__OUTDIR, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -115,7 +113,7 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_AppBuilder_runtimeInfo_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_runtimeInfo_feature",
 								"_UI_AppBuilder_type"),
-						CorePackage.Literals.APP_BUILDER__RUNTIME_INFO, true, false, false,
+						AwsworkbenchPackage.Literals.APP_BUILDER__RUNTIME_INFO, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -131,7 +129,7 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_AppBuilder_stackTraces_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_stackTraces_feature",
 								"_UI_AppBuilder_type"),
-						CorePackage.Literals.APP_BUILDER__STACK_TRACES, true, false, false,
+						AwsworkbenchPackage.Literals.APP_BUILDER__STACK_TRACES, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -147,7 +145,7 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_AppBuilder_treeMetadata_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_treeMetadata_feature",
 								"_UI_AppBuilder_type"),
-						CorePackage.Literals.APP_BUILDER__TREE_METADATA, true, false, false,
+						AwsworkbenchPackage.Literals.APP_BUILDER__TREE_METADATA, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -163,7 +161,7 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_AppBuilder_generatedClassName_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_generatedClassName_feature",
 								"_UI_AppBuilder_type"),
-						CorePackage.Literals.APP_BUILDER__GENERATED_CLASS_NAME, true, false, false,
+						AwsworkbenchPackage.Literals.APP_BUILDER__GENERATED_CLASS_NAME, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -179,7 +177,7 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_AppBuilder_varName_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_varName_feature",
 								"_UI_AppBuilder_type"),
-						CorePackage.Literals.APP_BUILDER__VAR_NAME, true, false, false,
+						AwsworkbenchPackage.Literals.APP_BUILDER__VAR_NAME, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -195,7 +193,7 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_AppBuilder_identifier_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_identifier_feature",
 								"_UI_AppBuilder_type"),
-						CorePackage.Literals.APP_BUILDER__IDENTIFIER, true, false, false,
+						AwsworkbenchPackage.Literals.APP_BUILDER__IDENTIFIER, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -211,7 +209,7 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 						getResourceLocator(), getString("_UI_AppBuilder_additionalCode_feature"),
 						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_additionalCode_feature",
 								"_UI_AppBuilder_type"),
-						CorePackage.Literals.APP_BUILDER__ADDITIONAL_CODE, true, false, false,
+						AwsworkbenchPackage.Literals.APP_BUILDER__ADDITIONAL_CODE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -227,7 +225,7 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures.add(CorePackage.Literals.APP_BUILDER__STACKBUILDER);
+			childrenFeatures.add(AwsworkbenchPackage.Literals.APP_BUILDER__STACKBUILDER);
 		}
 		return childrenFeatures;
 	}
@@ -291,18 +289,18 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(AppBuilder.class)) {
-		case CorePackage.APP_BUILDER__AUTO_SYNTH:
-		case CorePackage.APP_BUILDER__OUTDIR:
-		case CorePackage.APP_BUILDER__RUNTIME_INFO:
-		case CorePackage.APP_BUILDER__STACK_TRACES:
-		case CorePackage.APP_BUILDER__TREE_METADATA:
-		case CorePackage.APP_BUILDER__GENERATED_CLASS_NAME:
-		case CorePackage.APP_BUILDER__VAR_NAME:
-		case CorePackage.APP_BUILDER__IDENTIFIER:
-		case CorePackage.APP_BUILDER__ADDITIONAL_CODE:
+		case AwsworkbenchPackage.APP_BUILDER__AUTO_SYNTH:
+		case AwsworkbenchPackage.APP_BUILDER__OUTDIR:
+		case AwsworkbenchPackage.APP_BUILDER__RUNTIME_INFO:
+		case AwsworkbenchPackage.APP_BUILDER__STACK_TRACES:
+		case AwsworkbenchPackage.APP_BUILDER__TREE_METADATA:
+		case AwsworkbenchPackage.APP_BUILDER__GENERATED_CLASS_NAME:
+		case AwsworkbenchPackage.APP_BUILDER__VAR_NAME:
+		case AwsworkbenchPackage.APP_BUILDER__IDENTIFIER:
+		case AwsworkbenchPackage.APP_BUILDER__ADDITIONAL_CODE:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
-		case CorePackage.APP_BUILDER__STACKBUILDER:
+		case AwsworkbenchPackage.APP_BUILDER__STACKBUILDER:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
@@ -320,8 +318,8 @@ public class AppBuilderItemProvider extends ItemProviderAdapter implements IEdit
 	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(CorePackage.Literals.APP_BUILDER__STACKBUILDER,
-				CoreFactory.eINSTANCE.createStackBuilder()));
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.APP_BUILDER__STACKBUILDER,
+				AwsworkbenchFactory.eINSTANCE.createStackBuilder()));
 	}
 
 	/**

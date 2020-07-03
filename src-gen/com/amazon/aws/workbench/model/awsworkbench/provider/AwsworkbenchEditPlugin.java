@@ -1,6 +1,6 @@
 /**
  */
-package com.amazon.aws.workbench.model.awsworkbench.awsdiagrams.datatypes.java.lang.provider;
+package com.amazon.aws.workbench.model.awsworkbench.provider;
 
 import org.eclipse.emf.common.EMFPlugin;
 
