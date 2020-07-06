@@ -73,72 +73,72 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AppBuilder} instances.
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AppBuilder_core} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected AppBuilderItemProvider appBuilderItemProvider;
+	protected AppBuilder_coreItemProvider appBuilder_coreItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AppBuilder}.
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AppBuilder_core}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createAppBuilderAdapter() {
-		if (appBuilderItemProvider == null) {
-			appBuilderItemProvider = new AppBuilderItemProvider(this);
+	public Adapter createAppBuilder_coreAdapter() {
+		if (appBuilder_coreItemProvider == null) {
+			appBuilder_coreItemProvider = new AppBuilder_coreItemProvider(this);
 		}
 
-		return appBuilderItemProvider;
+		return appBuilder_coreItemProvider;
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.StackBuilder} instances.
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.StackBuilder_core} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected StackBuilderItemProvider stackBuilderItemProvider;
+	protected StackBuilder_coreItemProvider stackBuilder_coreItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.StackBuilder}.
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.StackBuilder_core}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createStackBuilderAdapter() {
-		if (stackBuilderItemProvider == null) {
-			stackBuilderItemProvider = new StackBuilderItemProvider(this);
+	public Adapter createStackBuilder_coreAdapter() {
+		if (stackBuilder_coreItemProvider == null) {
+			stackBuilder_coreItemProvider = new StackBuilder_coreItemProvider(this);
 		}
 
-		return stackBuilderItemProvider;
+		return stackBuilder_coreItemProvider;
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.VpcBuilder} instances.
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.VpcBuilder_ec2} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected VpcBuilderItemProvider vpcBuilderItemProvider;
+	protected VpcBuilder_ec2ItemProvider vpcBuilder_ec2ItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.VpcBuilder}.
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.VpcBuilder_ec2}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createVpcBuilderAdapter() {
-		if (vpcBuilderItemProvider == null) {
-			vpcBuilderItemProvider = new VpcBuilderItemProvider(this);
+	public Adapter createVpcBuilder_ec2Adapter() {
+		if (vpcBuilder_ec2ItemProvider == null) {
+			vpcBuilder_ec2ItemProvider = new VpcBuilder_ec2ItemProvider(this);
 		}
 
-		return vpcBuilderItemProvider;
+		return vpcBuilder_ec2ItemProvider;
 	}
 
 	/**
@@ -246,12 +246,12 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	 */
 	@Override
 	public void dispose() {
-		if (appBuilderItemProvider != null)
-			appBuilderItemProvider.dispose();
-		if (stackBuilderItemProvider != null)
-			stackBuilderItemProvider.dispose();
-		if (vpcBuilderItemProvider != null)
-			vpcBuilderItemProvider.dispose();
+		if (appBuilder_coreItemProvider != null)
+			appBuilder_coreItemProvider.dispose();
+		if (stackBuilder_coreItemProvider != null)
+			stackBuilder_coreItemProvider.dispose();
+		if (vpcBuilder_ec2ItemProvider != null)
+			vpcBuilder_ec2ItemProvider.dispose();
 	}
 
 }
