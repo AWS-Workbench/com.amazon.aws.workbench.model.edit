@@ -2,6 +2,7 @@
  */
 package com.amazon.aws.workbench.model.awsworkbench.provider;
 
+import com.amazon.aws.workbench.model.awsworkbench.AwsworkbenchFactory;
 import com.amazon.aws.workbench.model.awsworkbench.AwsworkbenchPackage;
 import com.amazon.aws.workbench.model.awsworkbench.VpcBuilder_ec2;
 
@@ -10,7 +11,7 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-
+import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
@@ -374,6 +375,39 @@ public class VpcBuilder_ec2ItemProvider extends ServiceResourcesItemProvider {
 	}
 
 	/**
+	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
+	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
+	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
+		if (childrenFeatures == null) {
+			super.getChildrenFeatures(object);
+			childrenFeatures.add(AwsworkbenchPackage.Literals.VPC_BUILDER_EC2__SUBNETBUILDER_EC2);
+			childrenFeatures.add(AwsworkbenchPackage.Literals.VPC_BUILDER_EC2__SECURITYGROUPBUILDER_EC2);
+			childrenFeatures.add(AwsworkbenchPackage.Literals.VPC_BUILDER_EC2__PRIVATESUBNETBUILDER_EC2);
+			childrenFeatures.add(AwsworkbenchPackage.Literals.VPC_BUILDER_EC2__PUBLICSUBNETBUILDER_EC2);
+		}
+		return childrenFeatures;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected EStructuralFeature getChildFeature(Object object, Object child) {
+		// Check the type of the specified child object and return the proper feature to use for
+		// adding (see {@link AddCommand}) it as a child.
+
+		return super.getChildFeature(object, child);
+	}
+
+	/**
 	 * This returns VpcBuilder_ec2.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -440,6 +474,12 @@ public class VpcBuilder_ec2ItemProvider extends ServiceResourcesItemProvider {
 		case AwsworkbenchPackage.VPC_BUILDER_EC2__ADDITIONAL_CODE:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
+		case AwsworkbenchPackage.VPC_BUILDER_EC2__SUBNETBUILDER_EC2:
+		case AwsworkbenchPackage.VPC_BUILDER_EC2__SECURITYGROUPBUILDER_EC2:
+		case AwsworkbenchPackage.VPC_BUILDER_EC2__PRIVATESUBNETBUILDER_EC2:
+		case AwsworkbenchPackage.VPC_BUILDER_EC2__PUBLICSUBNETBUILDER_EC2:
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
+			return;
 		}
 		super.notifyChanged(notification);
 	}
@@ -454,6 +494,21 @@ public class VpcBuilder_ec2ItemProvider extends ServiceResourcesItemProvider {
 	@Override
 	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.VPC_BUILDER_EC2__SUBNETBUILDER_EC2,
+				AwsworkbenchFactory.eINSTANCE.createSubnetBuilder_ec2()));
+
+		newChildDescriptors
+				.add(createChildParameter(AwsworkbenchPackage.Literals.VPC_BUILDER_EC2__SECURITYGROUPBUILDER_EC2,
+						AwsworkbenchFactory.eINSTANCE.createSecurityGroupBuilder_ec2()));
+
+		newChildDescriptors
+				.add(createChildParameter(AwsworkbenchPackage.Literals.VPC_BUILDER_EC2__PRIVATESUBNETBUILDER_EC2,
+						AwsworkbenchFactory.eINSTANCE.createPrivateSubnetBuilder_ec2()));
+
+		newChildDescriptors
+				.add(createChildParameter(AwsworkbenchPackage.Literals.VPC_BUILDER_EC2__PUBLICSUBNETBUILDER_EC2,
+						AwsworkbenchFactory.eINSTANCE.createPublicSubnetBuilder_ec2()));
 	}
 
 }

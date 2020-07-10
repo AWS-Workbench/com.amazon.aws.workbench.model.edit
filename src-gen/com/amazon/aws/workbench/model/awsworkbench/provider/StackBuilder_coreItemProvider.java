@@ -339,6 +339,24 @@ public class StackBuilder_coreItemProvider extends ItemProviderAdapter implement
 
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
 				AwsworkbenchFactory.eINSTANCE.createVpcBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSubnetBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createInstanceBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSecurityGroupBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createPortBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createPrivateSubnetBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createPublicSubnetBuilder_ec2()));
 	}
 
 	/**

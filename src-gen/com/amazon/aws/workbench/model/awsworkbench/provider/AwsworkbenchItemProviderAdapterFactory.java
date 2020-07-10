@@ -142,6 +142,144 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SubnetBuilder_ec2} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected SubnetBuilder_ec2ItemProvider subnetBuilder_ec2ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SubnetBuilder_ec2}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createSubnetBuilder_ec2Adapter() {
+		if (subnetBuilder_ec2ItemProvider == null) {
+			subnetBuilder_ec2ItemProvider = new SubnetBuilder_ec2ItemProvider(this);
+		}
+
+		return subnetBuilder_ec2ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.InstanceBuilder_ec2} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected InstanceBuilder_ec2ItemProvider instanceBuilder_ec2ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.InstanceBuilder_ec2}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createInstanceBuilder_ec2Adapter() {
+		if (instanceBuilder_ec2ItemProvider == null) {
+			instanceBuilder_ec2ItemProvider = new InstanceBuilder_ec2ItemProvider(this);
+		}
+
+		return instanceBuilder_ec2ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SecurityGroupBuilder_ec2} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected SecurityGroupBuilder_ec2ItemProvider securityGroupBuilder_ec2ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SecurityGroupBuilder_ec2}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createSecurityGroupBuilder_ec2Adapter() {
+		if (securityGroupBuilder_ec2ItemProvider == null) {
+			securityGroupBuilder_ec2ItemProvider = new SecurityGroupBuilder_ec2ItemProvider(this);
+		}
+
+		return securityGroupBuilder_ec2ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.PortBuilder_ec2} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PortBuilder_ec2ItemProvider portBuilder_ec2ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.PortBuilder_ec2}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPortBuilder_ec2Adapter() {
+		if (portBuilder_ec2ItemProvider == null) {
+			portBuilder_ec2ItemProvider = new PortBuilder_ec2ItemProvider(this);
+		}
+
+		return portBuilder_ec2ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.PrivateSubnetBuilder_ec2} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PrivateSubnetBuilder_ec2ItemProvider privateSubnetBuilder_ec2ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.PrivateSubnetBuilder_ec2}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPrivateSubnetBuilder_ec2Adapter() {
+		if (privateSubnetBuilder_ec2ItemProvider == null) {
+			privateSubnetBuilder_ec2ItemProvider = new PrivateSubnetBuilder_ec2ItemProvider(this);
+		}
+
+		return privateSubnetBuilder_ec2ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.PublicSubnetBuilder_ec2} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PublicSubnetBuilder_ec2ItemProvider publicSubnetBuilder_ec2ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.PublicSubnetBuilder_ec2}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPublicSubnetBuilder_ec2Adapter() {
+		if (publicSubnetBuilder_ec2ItemProvider == null) {
+			publicSubnetBuilder_ec2ItemProvider = new PublicSubnetBuilder_ec2ItemProvider(this);
+		}
+
+		return publicSubnetBuilder_ec2ItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -252,6 +390,18 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 			stackBuilder_coreItemProvider.dispose();
 		if (vpcBuilder_ec2ItemProvider != null)
 			vpcBuilder_ec2ItemProvider.dispose();
+		if (subnetBuilder_ec2ItemProvider != null)
+			subnetBuilder_ec2ItemProvider.dispose();
+		if (instanceBuilder_ec2ItemProvider != null)
+			instanceBuilder_ec2ItemProvider.dispose();
+		if (securityGroupBuilder_ec2ItemProvider != null)
+			securityGroupBuilder_ec2ItemProvider.dispose();
+		if (portBuilder_ec2ItemProvider != null)
+			portBuilder_ec2ItemProvider.dispose();
+		if (privateSubnetBuilder_ec2ItemProvider != null)
+			privateSubnetBuilder_ec2ItemProvider.dispose();
+		if (publicSubnetBuilder_ec2ItemProvider != null)
+			publicSubnetBuilder_ec2ItemProvider.dispose();
 	}
 
 }
