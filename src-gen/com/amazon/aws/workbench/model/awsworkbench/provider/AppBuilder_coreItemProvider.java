@@ -56,12 +56,12 @@ public class AppBuilder_coreItemProvider extends ItemProviderAdapter implements 
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
-			addAutoSynthPropertyDescriptor(object);
-			addContextAsMapPropertyDescriptor(object);
-			addOutdirPropertyDescriptor(object);
-			addRuntimeInfoPropertyDescriptor(object);
-			addStackTracesPropertyDescriptor(object);
-			addTreeMetadataPropertyDescriptor(object);
+			addAutoSynth_java_lang_Boolean_PropertyDescriptor(object);
+			addContext_java_lang_String__java_lang_String_AsMapPropertyDescriptor(object);
+			addOutdir_java_lang_String_PropertyDescriptor(object);
+			addRuntimeInfo_java_lang_Boolean_PropertyDescriptor(object);
+			addStackTraces_java_lang_Boolean_PropertyDescriptor(object);
+			addTreeMetadata_java_lang_Boolean_PropertyDescriptor(object);
 			addGeneratedClassNamePropertyDescriptor(object);
 			addVarNamePropertyDescriptor(object);
 			addIdentifierPropertyDescriptor(object);
@@ -71,98 +71,99 @@ public class AppBuilder_coreItemProvider extends ItemProviderAdapter implements 
 	}
 
 	/**
-	 * This adds a property descriptor for the Auto Synth feature.
+	 * This adds a property descriptor for the Auto Synth java lang Boolean  feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addAutoSynthPropertyDescriptor(Object object) {
+	protected void addAutoSynth_java_lang_Boolean_PropertyDescriptor(Object object) {
 		itemPropertyDescriptors
 				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_AppBuilder_core_autoSynth_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_core_autoSynth_feature",
-								"_UI_AppBuilder_core_type"),
-						AwsworkbenchPackage.Literals.APP_BUILDER_CORE__AUTO_SYNTH, true, false, false,
+						getResourceLocator(), getString("_UI_AppBuilder_core_autoSynth_java_lang_Boolean__feature"),
+						getString("_UI_PropertyDescriptor_description",
+								"_UI_AppBuilder_core_autoSynth_java_lang_Boolean__feature", "_UI_AppBuilder_core_type"),
+						AwsworkbenchPackage.Literals.APP_BUILDER_CORE__AUTO_SYNTH_JAVA_LANG_BOOLEAN_, true, false,
+						false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Context java lang String java lang String As Map feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addContext_java_lang_String__java_lang_String_AsMapPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_AppBuilder_core_context_java_lang_String__java_lang_String_AsMap_feature"),
+				getString("_UI_PropertyDescriptor_description",
+						"_UI_AppBuilder_core_context_java_lang_String__java_lang_String_AsMap_feature",
+						"_UI_AppBuilder_core_type"),
+				AwsworkbenchPackage.Literals.APP_BUILDER_CORE__CONTEXT_JAVA_LANG_STRING_JAVA_LANG_STRING_AS_MAP, true,
+				false, false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Outdir java lang String  feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addOutdir_java_lang_String_PropertyDescriptor(Object object) {
+		itemPropertyDescriptors
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_AppBuilder_core_outdir_java_lang_String__feature"),
+						getString("_UI_PropertyDescriptor_description",
+								"_UI_AppBuilder_core_outdir_java_lang_String__feature", "_UI_AppBuilder_core_type"),
+						AwsworkbenchPackage.Literals.APP_BUILDER_CORE__OUTDIR_JAVA_LANG_STRING_, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
-	 * This adds a property descriptor for the Context As Map feature.
+	 * This adds a property descriptor for the Runtime Info java lang Boolean  feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addContextAsMapPropertyDescriptor(Object object) {
+	protected void addRuntimeInfo_java_lang_Boolean_PropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add(createItemPropertyDescriptor(
 				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
-				getString("_UI_AppBuilder_core_contextAsMap_feature"),
-				getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_core_contextAsMap_feature",
-						"_UI_AppBuilder_core_type"),
-				AwsworkbenchPackage.Literals.APP_BUILDER_CORE__CONTEXT_AS_MAP, true, false, false,
+				getString("_UI_AppBuilder_core_runtimeInfo_java_lang_Boolean__feature"),
+				getString("_UI_PropertyDescriptor_description",
+						"_UI_AppBuilder_core_runtimeInfo_java_lang_Boolean__feature", "_UI_AppBuilder_core_type"),
+				AwsworkbenchPackage.Literals.APP_BUILDER_CORE__RUNTIME_INFO_JAVA_LANG_BOOLEAN_, true, false, false,
 				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
-	 * This adds a property descriptor for the Outdir feature.
+	 * This adds a property descriptor for the Stack Traces java lang Boolean  feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addOutdirPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_AppBuilder_core_outdir_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_core_outdir_feature",
-								"_UI_AppBuilder_core_type"),
-						AwsworkbenchPackage.Literals.APP_BUILDER_CORE__OUTDIR, true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Runtime Info feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addRuntimeInfoPropertyDescriptor(Object object) {
+	protected void addStackTraces_java_lang_Boolean_PropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add(createItemPropertyDescriptor(
 				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
-				getString("_UI_AppBuilder_core_runtimeInfo_feature"),
-				getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_core_runtimeInfo_feature",
-						"_UI_AppBuilder_core_type"),
-				AwsworkbenchPackage.Literals.APP_BUILDER_CORE__RUNTIME_INFO, true, false, false,
+				getString("_UI_AppBuilder_core_stackTraces_java_lang_Boolean__feature"),
+				getString("_UI_PropertyDescriptor_description",
+						"_UI_AppBuilder_core_stackTraces_java_lang_Boolean__feature", "_UI_AppBuilder_core_type"),
+				AwsworkbenchPackage.Literals.APP_BUILDER_CORE__STACK_TRACES_JAVA_LANG_BOOLEAN_, true, false, false,
 				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
-	 * This adds a property descriptor for the Stack Traces feature.
+	 * This adds a property descriptor for the Tree Metadata java lang Boolean  feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addStackTracesPropertyDescriptor(Object object) {
+	protected void addTreeMetadata_java_lang_Boolean_PropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add(createItemPropertyDescriptor(
 				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
-				getString("_UI_AppBuilder_core_stackTraces_feature"),
-				getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_core_stackTraces_feature",
-						"_UI_AppBuilder_core_type"),
-				AwsworkbenchPackage.Literals.APP_BUILDER_CORE__STACK_TRACES, true, false, false,
-				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Tree Metadata feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addTreeMetadataPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add(createItemPropertyDescriptor(
-				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
-				getString("_UI_AppBuilder_core_treeMetadata_feature"),
-				getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_core_treeMetadata_feature",
-						"_UI_AppBuilder_core_type"),
-				AwsworkbenchPackage.Literals.APP_BUILDER_CORE__TREE_METADATA, true, false, false,
+				getString("_UI_AppBuilder_core_treeMetadata_java_lang_Boolean__feature"),
+				getString("_UI_PropertyDescriptor_description",
+						"_UI_AppBuilder_core_treeMetadata_java_lang_Boolean__feature", "_UI_AppBuilder_core_type"),
+				AwsworkbenchPackage.Literals.APP_BUILDER_CORE__TREE_METADATA_JAVA_LANG_BOOLEAN_, true, false, false,
 				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -242,6 +243,8 @@ public class AppBuilder_coreItemProvider extends ItemProviderAdapter implements 
 	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
+			childrenFeatures.add(AwsworkbenchPackage.Literals.APP_BUILDER_CORE__ENVIRONMENTBUILDER_CORE);
+			childrenFeatures.add(AwsworkbenchPackage.Literals.APP_BUILDER_CORE__DEFAULTSTACKSYNTHESIZERBUILDER_CORE);
 			childrenFeatures.add(AwsworkbenchPackage.Literals.APP_BUILDER_CORE__STACKBUILDER_CORE);
 		}
 		return childrenFeatures;
@@ -306,18 +309,20 @@ public class AppBuilder_coreItemProvider extends ItemProviderAdapter implements 
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(AppBuilder_core.class)) {
-		case AwsworkbenchPackage.APP_BUILDER_CORE__AUTO_SYNTH:
-		case AwsworkbenchPackage.APP_BUILDER_CORE__CONTEXT_AS_MAP:
-		case AwsworkbenchPackage.APP_BUILDER_CORE__OUTDIR:
-		case AwsworkbenchPackage.APP_BUILDER_CORE__RUNTIME_INFO:
-		case AwsworkbenchPackage.APP_BUILDER_CORE__STACK_TRACES:
-		case AwsworkbenchPackage.APP_BUILDER_CORE__TREE_METADATA:
+		case AwsworkbenchPackage.APP_BUILDER_CORE__AUTO_SYNTH_JAVA_LANG_BOOLEAN_:
+		case AwsworkbenchPackage.APP_BUILDER_CORE__CONTEXT_JAVA_LANG_STRING_JAVA_LANG_STRING_AS_MAP:
+		case AwsworkbenchPackage.APP_BUILDER_CORE__OUTDIR_JAVA_LANG_STRING_:
+		case AwsworkbenchPackage.APP_BUILDER_CORE__RUNTIME_INFO_JAVA_LANG_BOOLEAN_:
+		case AwsworkbenchPackage.APP_BUILDER_CORE__STACK_TRACES_JAVA_LANG_BOOLEAN_:
+		case AwsworkbenchPackage.APP_BUILDER_CORE__TREE_METADATA_JAVA_LANG_BOOLEAN_:
 		case AwsworkbenchPackage.APP_BUILDER_CORE__GENERATED_CLASS_NAME:
 		case AwsworkbenchPackage.APP_BUILDER_CORE__VAR_NAME:
 		case AwsworkbenchPackage.APP_BUILDER_CORE__IDENTIFIER:
 		case AwsworkbenchPackage.APP_BUILDER_CORE__ADDITIONAL_CODE:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
+		case AwsworkbenchPackage.APP_BUILDER_CORE__ENVIRONMENTBUILDER_CORE:
+		case AwsworkbenchPackage.APP_BUILDER_CORE__DEFAULTSTACKSYNTHESIZERBUILDER_CORE:
 		case AwsworkbenchPackage.APP_BUILDER_CORE__STACKBUILDER_CORE:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
@@ -335,6 +340,14 @@ public class AppBuilder_coreItemProvider extends ItemProviderAdapter implements 
 	@Override
 	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
+
+		newChildDescriptors
+				.add(createChildParameter(AwsworkbenchPackage.Literals.APP_BUILDER_CORE__ENVIRONMENTBUILDER_CORE,
+						AwsworkbenchFactory.eINSTANCE.createEnvironmentBuilder_core()));
+
+		newChildDescriptors.add(
+				createChildParameter(AwsworkbenchPackage.Literals.APP_BUILDER_CORE__DEFAULTSTACKSYNTHESIZERBUILDER_CORE,
+						AwsworkbenchFactory.eINSTANCE.createDefaultStackSynthesizerBuilder_core()));
 
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.APP_BUILDER_CORE__STACKBUILDER_CORE,
 				AwsworkbenchFactory.eINSTANCE.createStackBuilder_core()));

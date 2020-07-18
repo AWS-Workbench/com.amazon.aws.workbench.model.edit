@@ -96,6 +96,75 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.DefaultStackSynthesizerBuilder_core} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DefaultStackSynthesizerBuilder_coreItemProvider defaultStackSynthesizerBuilder_coreItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.DefaultStackSynthesizerBuilder_core}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDefaultStackSynthesizerBuilder_coreAdapter() {
+		if (defaultStackSynthesizerBuilder_coreItemProvider == null) {
+			defaultStackSynthesizerBuilder_coreItemProvider = new DefaultStackSynthesizerBuilder_coreItemProvider(this);
+		}
+
+		return defaultStackSynthesizerBuilder_coreItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.EnvironmentBuilder_core} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected EnvironmentBuilder_coreItemProvider environmentBuilder_coreItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.EnvironmentBuilder_core}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createEnvironmentBuilder_coreAdapter() {
+		if (environmentBuilder_coreItemProvider == null) {
+			environmentBuilder_coreItemProvider = new EnvironmentBuilder_coreItemProvider(this);
+		}
+
+		return environmentBuilder_coreItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.FlowLogOptionsBuilder_ec2} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected FlowLogOptionsBuilder_ec2ItemProvider flowLogOptionsBuilder_ec2ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.FlowLogOptionsBuilder_ec2}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createFlowLogOptionsBuilder_ec2Adapter() {
+		if (flowLogOptionsBuilder_ec2ItemProvider == null) {
+			flowLogOptionsBuilder_ec2ItemProvider = new FlowLogOptionsBuilder_ec2ItemProvider(this);
+		}
+
+		return flowLogOptionsBuilder_ec2ItemProvider;
+	}
+
+	/**
 	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.StackBuilder_core} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -165,118 +234,95 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.InstanceBuilder_ec2} instances.
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SubnetSelectionBuilder_ec2} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected InstanceBuilder_ec2ItemProvider instanceBuilder_ec2ItemProvider;
+	protected SubnetSelectionBuilder_ec2ItemProvider subnetSelectionBuilder_ec2ItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.InstanceBuilder_ec2}.
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SubnetSelectionBuilder_ec2}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createInstanceBuilder_ec2Adapter() {
-		if (instanceBuilder_ec2ItemProvider == null) {
-			instanceBuilder_ec2ItemProvider = new InstanceBuilder_ec2ItemProvider(this);
+	public Adapter createSubnetSelectionBuilder_ec2Adapter() {
+		if (subnetSelectionBuilder_ec2ItemProvider == null) {
+			subnetSelectionBuilder_ec2ItemProvider = new SubnetSelectionBuilder_ec2ItemProvider(this);
 		}
 
-		return instanceBuilder_ec2ItemProvider;
+		return subnetSelectionBuilder_ec2ItemProvider;
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SecurityGroupBuilder_ec2} instances.
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SubnetConfigurationBuilder_ec2} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected SecurityGroupBuilder_ec2ItemProvider securityGroupBuilder_ec2ItemProvider;
+	protected SubnetConfigurationBuilder_ec2ItemProvider subnetConfigurationBuilder_ec2ItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SecurityGroupBuilder_ec2}.
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SubnetConfigurationBuilder_ec2}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createSecurityGroupBuilder_ec2Adapter() {
-		if (securityGroupBuilder_ec2ItemProvider == null) {
-			securityGroupBuilder_ec2ItemProvider = new SecurityGroupBuilder_ec2ItemProvider(this);
+	public Adapter createSubnetConfigurationBuilder_ec2Adapter() {
+		if (subnetConfigurationBuilder_ec2ItemProvider == null) {
+			subnetConfigurationBuilder_ec2ItemProvider = new SubnetConfigurationBuilder_ec2ItemProvider(this);
 		}
 
-		return securityGroupBuilder_ec2ItemProvider;
+		return subnetConfigurationBuilder_ec2ItemProvider;
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.PortBuilder_ec2} instances.
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.VpnConnectionOptionsBuilder_ec2} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected PortBuilder_ec2ItemProvider portBuilder_ec2ItemProvider;
+	protected VpnConnectionOptionsBuilder_ec2ItemProvider vpnConnectionOptionsBuilder_ec2ItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.PortBuilder_ec2}.
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.VpnConnectionOptionsBuilder_ec2}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createPortBuilder_ec2Adapter() {
-		if (portBuilder_ec2ItemProvider == null) {
-			portBuilder_ec2ItemProvider = new PortBuilder_ec2ItemProvider(this);
+	public Adapter createVpnConnectionOptionsBuilder_ec2Adapter() {
+		if (vpnConnectionOptionsBuilder_ec2ItemProvider == null) {
+			vpnConnectionOptionsBuilder_ec2ItemProvider = new VpnConnectionOptionsBuilder_ec2ItemProvider(this);
 		}
 
-		return portBuilder_ec2ItemProvider;
+		return vpnConnectionOptionsBuilder_ec2ItemProvider;
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.PrivateSubnetBuilder_ec2} instances.
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.VpnTunnelOptionBuilder_ec2} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected PrivateSubnetBuilder_ec2ItemProvider privateSubnetBuilder_ec2ItemProvider;
+	protected VpnTunnelOptionBuilder_ec2ItemProvider vpnTunnelOptionBuilder_ec2ItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.PrivateSubnetBuilder_ec2}.
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.VpnTunnelOptionBuilder_ec2}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createPrivateSubnetBuilder_ec2Adapter() {
-		if (privateSubnetBuilder_ec2ItemProvider == null) {
-			privateSubnetBuilder_ec2ItemProvider = new PrivateSubnetBuilder_ec2ItemProvider(this);
+	public Adapter createVpnTunnelOptionBuilder_ec2Adapter() {
+		if (vpnTunnelOptionBuilder_ec2ItemProvider == null) {
+			vpnTunnelOptionBuilder_ec2ItemProvider = new VpnTunnelOptionBuilder_ec2ItemProvider(this);
 		}
 
-		return privateSubnetBuilder_ec2ItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.PublicSubnetBuilder_ec2} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected PublicSubnetBuilder_ec2ItemProvider publicSubnetBuilder_ec2ItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.PublicSubnetBuilder_ec2}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createPublicSubnetBuilder_ec2Adapter() {
-		if (publicSubnetBuilder_ec2ItemProvider == null) {
-			publicSubnetBuilder_ec2ItemProvider = new PublicSubnetBuilder_ec2ItemProvider(this);
-		}
-
-		return publicSubnetBuilder_ec2ItemProvider;
+		return vpnTunnelOptionBuilder_ec2ItemProvider;
 	}
 
 	/**
@@ -386,22 +432,26 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	public void dispose() {
 		if (appBuilder_coreItemProvider != null)
 			appBuilder_coreItemProvider.dispose();
+		if (defaultStackSynthesizerBuilder_coreItemProvider != null)
+			defaultStackSynthesizerBuilder_coreItemProvider.dispose();
+		if (environmentBuilder_coreItemProvider != null)
+			environmentBuilder_coreItemProvider.dispose();
+		if (flowLogOptionsBuilder_ec2ItemProvider != null)
+			flowLogOptionsBuilder_ec2ItemProvider.dispose();
 		if (stackBuilder_coreItemProvider != null)
 			stackBuilder_coreItemProvider.dispose();
 		if (vpcBuilder_ec2ItemProvider != null)
 			vpcBuilder_ec2ItemProvider.dispose();
 		if (subnetBuilder_ec2ItemProvider != null)
 			subnetBuilder_ec2ItemProvider.dispose();
-		if (instanceBuilder_ec2ItemProvider != null)
-			instanceBuilder_ec2ItemProvider.dispose();
-		if (securityGroupBuilder_ec2ItemProvider != null)
-			securityGroupBuilder_ec2ItemProvider.dispose();
-		if (portBuilder_ec2ItemProvider != null)
-			portBuilder_ec2ItemProvider.dispose();
-		if (privateSubnetBuilder_ec2ItemProvider != null)
-			privateSubnetBuilder_ec2ItemProvider.dispose();
-		if (publicSubnetBuilder_ec2ItemProvider != null)
-			publicSubnetBuilder_ec2ItemProvider.dispose();
+		if (subnetSelectionBuilder_ec2ItemProvider != null)
+			subnetSelectionBuilder_ec2ItemProvider.dispose();
+		if (subnetConfigurationBuilder_ec2ItemProvider != null)
+			subnetConfigurationBuilder_ec2ItemProvider.dispose();
+		if (vpnConnectionOptionsBuilder_ec2ItemProvider != null)
+			vpnConnectionOptionsBuilder_ec2ItemProvider.dispose();
+		if (vpnTunnelOptionBuilder_ec2ItemProvider != null)
+			vpnTunnelOptionBuilder_ec2ItemProvider.dispose();
 	}
 
 }

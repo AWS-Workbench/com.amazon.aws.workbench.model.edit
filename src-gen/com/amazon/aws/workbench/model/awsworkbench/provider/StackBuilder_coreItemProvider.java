@@ -56,12 +56,13 @@ public class StackBuilder_coreItemProvider extends ItemProviderAdapter implement
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
-			addDescriptionPropertyDescriptor(object);
-			addEnvWithEnvironmentAsReferencePropertyDescriptor(object);
-			addStackNamePropertyDescriptor(object);
-			addSynthesizerWithIStackSynthesizerAsReferencePropertyDescriptor(object);
-			addTagsAsMapPropertyDescriptor(object);
-			addTerminationProtectionPropertyDescriptor(object);
+			addDescription_java_lang_String_PropertyDescriptor(object);
+			addEnvWithEnvironment_software_amazon_awscdk_core_Environment_AsReferencePropertyDescriptor(object);
+			addStackName_java_lang_String_PropertyDescriptor(object);
+			addSynthesizerWithIStackSynthesizer_software_amazon_awscdk_core_IStackSynthesizer_AsReferencePropertyDescriptor(
+					object);
+			addTags_java_lang_String__java_lang_String_AsMapPropertyDescriptor(object);
+			addTerminationProtection_java_lang_Boolean_PropertyDescriptor(object);
 			addGeneratedClassNamePropertyDescriptor(object);
 			addVarNamePropertyDescriptor(object);
 			addIdentifierPropertyDescriptor(object);
@@ -71,100 +72,107 @@ public class StackBuilder_coreItemProvider extends ItemProviderAdapter implement
 	}
 
 	/**
-	 * This adds a property descriptor for the Description feature.
+	 * This adds a property descriptor for the Description java lang String  feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addDescriptionPropertyDescriptor(Object object) {
+	protected void addDescription_java_lang_String_PropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add(createItemPropertyDescriptor(
 				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
-				getString("_UI_StackBuilder_core_description_feature"),
-				getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_core_description_feature",
-						"_UI_StackBuilder_core_type"),
-				AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__DESCRIPTION, true, false, false,
-				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Env With Environment As Reference feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addEnvWithEnvironmentAsReferencePropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add(createItemPropertyDescriptor(
-				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
-				getString("_UI_StackBuilder_core_envWithEnvironmentAsReference_feature"),
+				getString("_UI_StackBuilder_core_description_java_lang_String__feature"),
 				getString("_UI_PropertyDescriptor_description",
-						"_UI_StackBuilder_core_envWithEnvironmentAsReference_feature", "_UI_StackBuilder_core_type"),
-				AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__ENV_WITH_ENVIRONMENT_AS_REFERENCE, true, false, false,
+						"_UI_StackBuilder_core_description_java_lang_String__feature", "_UI_StackBuilder_core_type"),
+				AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__DESCRIPTION_JAVA_LANG_STRING_, true, false, false,
 				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
-	 * This adds a property descriptor for the Stack Name feature.
+	 * This adds a property descriptor for the Env With Environment software amazon awscdk core Environment As Reference feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addStackNamePropertyDescriptor(Object object) {
+	protected void addEnvWithEnvironment_software_amazon_awscdk_core_Environment_AsReferencePropertyDescriptor(
+			Object object) {
 		itemPropertyDescriptors.add(createItemPropertyDescriptor(
 				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
-				getString("_UI_StackBuilder_core_stackName_feature"),
-				getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_core_stackName_feature",
-						"_UI_StackBuilder_core_type"),
-				AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__STACK_NAME, true, false, false,
-				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Synthesizer With IStack Synthesizer As Reference feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addSynthesizerWithIStackSynthesizerAsReferencePropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add(createItemPropertyDescriptor(
-				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
-				getString("_UI_StackBuilder_core_synthesizerWithIStackSynthesizerAsReference_feature"),
+				getString(
+						"_UI_StackBuilder_core_envWithEnvironment_software_amazon_awscdk_core_Environment_AsReference_feature"),
 				getString("_UI_PropertyDescriptor_description",
-						"_UI_StackBuilder_core_synthesizerWithIStackSynthesizerAsReference_feature",
+						"_UI_StackBuilder_core_envWithEnvironment_software_amazon_awscdk_core_Environment_AsReference_feature",
 						"_UI_StackBuilder_core_type"),
-				AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SYNTHESIZER_WITH_ISTACK_SYNTHESIZER_AS_REFERENCE, true,
+				AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__ENV_WITH_ENVIRONMENT_SOFTWARE_AMAZON_AWSCDK_CORE_ENVIRONMENT_AS_REFERENCE,
+				true, false, false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Stack Name java lang String  feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addStackName_java_lang_String_PropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_StackBuilder_core_stackName_java_lang_String__feature"),
+				getString("_UI_PropertyDescriptor_description",
+						"_UI_StackBuilder_core_stackName_java_lang_String__feature", "_UI_StackBuilder_core_type"),
+				AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__STACK_NAME_JAVA_LANG_STRING_, true, false, false,
+				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Synthesizer With IStack Synthesizer software amazon awscdk core IStack Synthesizer As Reference feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addSynthesizerWithIStackSynthesizer_software_amazon_awscdk_core_IStackSynthesizer_AsReferencePropertyDescriptor(
+			Object object) {
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString(
+						"_UI_StackBuilder_core_synthesizerWithIStackSynthesizer_software_amazon_awscdk_core_IStackSynthesizer_AsReference_feature"),
+				getString("_UI_PropertyDescriptor_description",
+						"_UI_StackBuilder_core_synthesizerWithIStackSynthesizer_software_amazon_awscdk_core_IStackSynthesizer_AsReference_feature",
+						"_UI_StackBuilder_core_type"),
+				AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SYNTHESIZER_WITH_ISTACK_SYNTHESIZER_SOFTWARE_AMAZON_AWSCDK_CORE_ISTACK_SYNTHESIZER_AS_REFERENCE,
+				true, false, false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Tags java lang String java lang String As Map feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addTags_java_lang_String__java_lang_String_AsMapPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_StackBuilder_core_tags_java_lang_String__java_lang_String_AsMap_feature"),
+				getString("_UI_PropertyDescriptor_description",
+						"_UI_StackBuilder_core_tags_java_lang_String__java_lang_String_AsMap_feature",
+						"_UI_StackBuilder_core_type"),
+				AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__TAGS_JAVA_LANG_STRING_JAVA_LANG_STRING_AS_MAP, true,
 				false, false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
-	 * This adds a property descriptor for the Tags As Map feature.
+	 * This adds a property descriptor for the Termination Protection java lang Boolean  feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addTagsAsMapPropertyDescriptor(Object object) {
+	protected void addTerminationProtection_java_lang_Boolean_PropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add(createItemPropertyDescriptor(
 				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
-				getString("_UI_StackBuilder_core_tagsAsMap_feature"),
-				getString("_UI_PropertyDescriptor_description", "_UI_StackBuilder_core_tagsAsMap_feature",
+				getString("_UI_StackBuilder_core_terminationProtection_java_lang_Boolean__feature"),
+				getString("_UI_PropertyDescriptor_description",
+						"_UI_StackBuilder_core_terminationProtection_java_lang_Boolean__feature",
 						"_UI_StackBuilder_core_type"),
-				AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__TAGS_AS_MAP, true, false, false,
-				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Termination Protection feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addTerminationProtectionPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_StackBuilder_core_terminationProtection_feature"),
-						getString("_UI_PropertyDescriptor_description",
-								"_UI_StackBuilder_core_terminationProtection_feature", "_UI_StackBuilder_core_type"),
-						AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__TERMINATION_PROTECTION, true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+				AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__TERMINATION_PROTECTION_JAVA_LANG_BOOLEAN_, true, false,
+				false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -290,7 +298,7 @@ public class StackBuilder_coreItemProvider extends ItemProviderAdapter implement
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((StackBuilder_core) object).getStackName();
+		String label = ((StackBuilder_core) object).getGeneratedClassName();
 		return label == null || label.length() == 0 ? getString("_UI_StackBuilder_core_type")
 				: getString("_UI_StackBuilder_core_type") + " " + label;
 	}
@@ -307,12 +315,12 @@ public class StackBuilder_coreItemProvider extends ItemProviderAdapter implement
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(StackBuilder_core.class)) {
-		case AwsworkbenchPackage.STACK_BUILDER_CORE__DESCRIPTION:
-		case AwsworkbenchPackage.STACK_BUILDER_CORE__ENV_WITH_ENVIRONMENT_AS_REFERENCE:
-		case AwsworkbenchPackage.STACK_BUILDER_CORE__STACK_NAME:
-		case AwsworkbenchPackage.STACK_BUILDER_CORE__SYNTHESIZER_WITH_ISTACK_SYNTHESIZER_AS_REFERENCE:
-		case AwsworkbenchPackage.STACK_BUILDER_CORE__TAGS_AS_MAP:
-		case AwsworkbenchPackage.STACK_BUILDER_CORE__TERMINATION_PROTECTION:
+		case AwsworkbenchPackage.STACK_BUILDER_CORE__DESCRIPTION_JAVA_LANG_STRING_:
+		case AwsworkbenchPackage.STACK_BUILDER_CORE__ENV_WITH_ENVIRONMENT_SOFTWARE_AMAZON_AWSCDK_CORE_ENVIRONMENT_AS_REFERENCE:
+		case AwsworkbenchPackage.STACK_BUILDER_CORE__STACK_NAME_JAVA_LANG_STRING_:
+		case AwsworkbenchPackage.STACK_BUILDER_CORE__SYNTHESIZER_WITH_ISTACK_SYNTHESIZER_SOFTWARE_AMAZON_AWSCDK_CORE_ISTACK_SYNTHESIZER_AS_REFERENCE:
+		case AwsworkbenchPackage.STACK_BUILDER_CORE__TAGS_JAVA_LANG_STRING_JAVA_LANG_STRING_AS_MAP:
+		case AwsworkbenchPackage.STACK_BUILDER_CORE__TERMINATION_PROTECTION_JAVA_LANG_BOOLEAN_:
 		case AwsworkbenchPackage.STACK_BUILDER_CORE__GENERATED_CLASS_NAME:
 		case AwsworkbenchPackage.STACK_BUILDER_CORE__VAR_NAME:
 		case AwsworkbenchPackage.STACK_BUILDER_CORE__IDENTIFIER:
@@ -344,19 +352,16 @@ public class StackBuilder_coreItemProvider extends ItemProviderAdapter implement
 				AwsworkbenchFactory.eINSTANCE.createSubnetBuilder_ec2()));
 
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
-				AwsworkbenchFactory.eINSTANCE.createInstanceBuilder_ec2()));
+				AwsworkbenchFactory.eINSTANCE.createSubnetSelectionBuilder_ec2()));
 
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
-				AwsworkbenchFactory.eINSTANCE.createSecurityGroupBuilder_ec2()));
+				AwsworkbenchFactory.eINSTANCE.createSubnetConfigurationBuilder_ec2()));
 
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
-				AwsworkbenchFactory.eINSTANCE.createPortBuilder_ec2()));
+				AwsworkbenchFactory.eINSTANCE.createVpnConnectionOptionsBuilder_ec2()));
 
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
-				AwsworkbenchFactory.eINSTANCE.createPrivateSubnetBuilder_ec2()));
-
-		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
-				AwsworkbenchFactory.eINSTANCE.createPublicSubnetBuilder_ec2()));
+				AwsworkbenchFactory.eINSTANCE.createVpnTunnelOptionBuilder_ec2()));
 	}
 
 	/**

@@ -2,7 +2,6 @@
  */
 package com.amazon.aws.workbench.model.awsworkbench.provider;
 
-import com.amazon.aws.workbench.model.awsworkbench.AwsworkbenchFactory;
 import com.amazon.aws.workbench.model.awsworkbench.AwsworkbenchPackage;
 import com.amazon.aws.workbench.model.awsworkbench.SubnetBuilder_ec2;
 
@@ -11,8 +10,6 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-
-import org.eclipse.emf.ecore.EStructuralFeature;
 
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
@@ -47,10 +44,10 @@ public class SubnetBuilder_ec2ItemProvider extends ServiceResourcesItemProvider 
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
-			addAvailabilityZonePropertyDescriptor(object);
-			addCidrBlockPropertyDescriptor(object);
-			addVpcIdPropertyDescriptor(object);
-			addMapPublicIpOnLaunchPropertyDescriptor(object);
+			addAvailabilityZone_java_lang_String_PropertyDescriptor(object);
+			addCidrBlock_java_lang_String_PropertyDescriptor(object);
+			addVpcId_java_lang_String_PropertyDescriptor(object);
+			addMapPublicIpOnLaunch_java_lang_Boolean_PropertyDescriptor(object);
 			addGeneratedClassNamePropertyDescriptor(object);
 			addVarNamePropertyDescriptor(object);
 			addIdentifierPropertyDescriptor(object);
@@ -60,67 +57,69 @@ public class SubnetBuilder_ec2ItemProvider extends ServiceResourcesItemProvider 
 	}
 
 	/**
-	 * This adds a property descriptor for the Availability Zone feature.
+	 * This adds a property descriptor for the Availability Zone java lang String  feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addAvailabilityZonePropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_SubnetBuilder_ec2_availabilityZone_feature"),
-						getString("_UI_PropertyDescriptor_description",
-								"_UI_SubnetBuilder_ec2_availabilityZone_feature", "_UI_SubnetBuilder_ec2_type"),
-						AwsworkbenchPackage.Literals.SUBNET_BUILDER_EC2__AVAILABILITY_ZONE, true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+	protected void addAvailabilityZone_java_lang_String_PropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_SubnetBuilder_ec2_availabilityZone_java_lang_String__feature"),
+				getString("_UI_PropertyDescriptor_description",
+						"_UI_SubnetBuilder_ec2_availabilityZone_java_lang_String__feature",
+						"_UI_SubnetBuilder_ec2_type"),
+				AwsworkbenchPackage.Literals.SUBNET_BUILDER_EC2__AVAILABILITY_ZONE_JAVA_LANG_STRING_, true, false,
+				false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
-	 * This adds a property descriptor for the Cidr Block feature.
+	 * This adds a property descriptor for the Cidr Block java lang String  feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addCidrBlockPropertyDescriptor(Object object) {
+	protected void addCidrBlock_java_lang_String_PropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add(createItemPropertyDescriptor(
 				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
-				getString("_UI_SubnetBuilder_ec2_cidrBlock_feature"),
-				getString("_UI_PropertyDescriptor_description", "_UI_SubnetBuilder_ec2_cidrBlock_feature",
-						"_UI_SubnetBuilder_ec2_type"),
-				AwsworkbenchPackage.Literals.SUBNET_BUILDER_EC2__CIDR_BLOCK, true, false, false,
+				getString("_UI_SubnetBuilder_ec2_cidrBlock_java_lang_String__feature"),
+				getString("_UI_PropertyDescriptor_description",
+						"_UI_SubnetBuilder_ec2_cidrBlock_java_lang_String__feature", "_UI_SubnetBuilder_ec2_type"),
+				AwsworkbenchPackage.Literals.SUBNET_BUILDER_EC2__CIDR_BLOCK_JAVA_LANG_STRING_, true, false, false,
 				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
-	 * This adds a property descriptor for the Vpc Id feature.
+	 * This adds a property descriptor for the Vpc Id java lang String  feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addVpcIdPropertyDescriptor(Object object) {
+	protected void addVpcId_java_lang_String_PropertyDescriptor(Object object) {
 		itemPropertyDescriptors
 				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_SubnetBuilder_ec2_vpcId_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_SubnetBuilder_ec2_vpcId_feature",
-								"_UI_SubnetBuilder_ec2_type"),
-						AwsworkbenchPackage.Literals.SUBNET_BUILDER_EC2__VPC_ID, true, false, false,
+						getResourceLocator(), getString("_UI_SubnetBuilder_ec2_vpcId_java_lang_String__feature"),
+						getString("_UI_PropertyDescriptor_description",
+								"_UI_SubnetBuilder_ec2_vpcId_java_lang_String__feature", "_UI_SubnetBuilder_ec2_type"),
+						AwsworkbenchPackage.Literals.SUBNET_BUILDER_EC2__VPC_ID_JAVA_LANG_STRING_, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
-	 * This adds a property descriptor for the Map Public Ip On Launch feature.
+	 * This adds a property descriptor for the Map Public Ip On Launch java lang Boolean  feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addMapPublicIpOnLaunchPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_SubnetBuilder_ec2_mapPublicIpOnLaunch_feature"),
-						getString("_UI_PropertyDescriptor_description",
-								"_UI_SubnetBuilder_ec2_mapPublicIpOnLaunch_feature", "_UI_SubnetBuilder_ec2_type"),
-						AwsworkbenchPackage.Literals.SUBNET_BUILDER_EC2__MAP_PUBLIC_IP_ON_LAUNCH, true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+	protected void addMapPublicIpOnLaunch_java_lang_Boolean_PropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_SubnetBuilder_ec2_mapPublicIpOnLaunch_java_lang_Boolean__feature"),
+				getString("_UI_PropertyDescriptor_description",
+						"_UI_SubnetBuilder_ec2_mapPublicIpOnLaunch_java_lang_Boolean__feature",
+						"_UI_SubnetBuilder_ec2_type"),
+				AwsworkbenchPackage.Literals.SUBNET_BUILDER_EC2__MAP_PUBLIC_IP_ON_LAUNCH_JAVA_LANG_BOOLEAN_, true,
+				false, false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -188,36 +187,6 @@ public class SubnetBuilder_ec2ItemProvider extends ServiceResourcesItemProvider 
 	}
 
 	/**
-	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
-	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
-	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
-		if (childrenFeatures == null) {
-			super.getChildrenFeatures(object);
-			childrenFeatures.add(AwsworkbenchPackage.Literals.SUBNET_BUILDER_EC2__INSTANCEBUILDER_EC2);
-		}
-		return childrenFeatures;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EStructuralFeature getChildFeature(Object object, Object child) {
-		// Check the type of the specified child object and return the proper feature to use for
-		// adding (see {@link AddCommand}) it as a child.
-
-		return super.getChildFeature(object, child);
-	}
-
-	/**
 	 * This returns SubnetBuilder_ec2.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -263,18 +232,15 @@ public class SubnetBuilder_ec2ItemProvider extends ServiceResourcesItemProvider 
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(SubnetBuilder_ec2.class)) {
-		case AwsworkbenchPackage.SUBNET_BUILDER_EC2__AVAILABILITY_ZONE:
-		case AwsworkbenchPackage.SUBNET_BUILDER_EC2__CIDR_BLOCK:
-		case AwsworkbenchPackage.SUBNET_BUILDER_EC2__VPC_ID:
-		case AwsworkbenchPackage.SUBNET_BUILDER_EC2__MAP_PUBLIC_IP_ON_LAUNCH:
+		case AwsworkbenchPackage.SUBNET_BUILDER_EC2__AVAILABILITY_ZONE_JAVA_LANG_STRING_:
+		case AwsworkbenchPackage.SUBNET_BUILDER_EC2__CIDR_BLOCK_JAVA_LANG_STRING_:
+		case AwsworkbenchPackage.SUBNET_BUILDER_EC2__VPC_ID_JAVA_LANG_STRING_:
+		case AwsworkbenchPackage.SUBNET_BUILDER_EC2__MAP_PUBLIC_IP_ON_LAUNCH_JAVA_LANG_BOOLEAN_:
 		case AwsworkbenchPackage.SUBNET_BUILDER_EC2__GENERATED_CLASS_NAME:
 		case AwsworkbenchPackage.SUBNET_BUILDER_EC2__VAR_NAME:
 		case AwsworkbenchPackage.SUBNET_BUILDER_EC2__IDENTIFIER:
 		case AwsworkbenchPackage.SUBNET_BUILDER_EC2__ADDITIONAL_CODE:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
-			return;
-		case AwsworkbenchPackage.SUBNET_BUILDER_EC2__INSTANCEBUILDER_EC2:
-			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -290,10 +256,6 @@ public class SubnetBuilder_ec2ItemProvider extends ServiceResourcesItemProvider 
 	@Override
 	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
-
-		newChildDescriptors
-				.add(createChildParameter(AwsworkbenchPackage.Literals.SUBNET_BUILDER_EC2__INSTANCEBUILDER_EC2,
-						AwsworkbenchFactory.eINSTANCE.createInstanceBuilder_ec2()));
 	}
 
 }
