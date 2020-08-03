@@ -9,8 +9,13 @@ Bundle-Activator: com.amazon.aws.workbench.model.awsworkbench.provider.Awsworkbe
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Export-Package: com.amazon.aws.workbench.model.awsworkbench.provider,
- ec2.provider
+Export-Package: apigateway.provider,
+ certificatemanager.provider,
+ com.amazon.aws.workbench.model.awsworkbench.provider,
+ core.provider,
+ dynamodb.provider,
+ ec2.provider,
+ iam.provider
 Require-Bundle: org.eclipse.core.runtime,
  com.amazon.aws.workbench.model;visibility:=reexport,
  org.eclipse.emf.edit;visibility:=reexport,

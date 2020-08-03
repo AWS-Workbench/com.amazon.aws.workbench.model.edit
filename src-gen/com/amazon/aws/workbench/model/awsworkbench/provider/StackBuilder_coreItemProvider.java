@@ -347,21 +347,6 @@ public class StackBuilder_coreItemProvider extends ItemProviderAdapter implement
 
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
 				AwsworkbenchFactory.eINSTANCE.createVpcBuilder_ec2()));
-
-		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
-				AwsworkbenchFactory.eINSTANCE.createSubnetBuilder_ec2()));
-
-		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
-				AwsworkbenchFactory.eINSTANCE.createSubnetSelectionBuilder_ec2()));
-
-		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
-				AwsworkbenchFactory.eINSTANCE.createSubnetConfigurationBuilder_ec2()));
-
-		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
-				AwsworkbenchFactory.eINSTANCE.createVpnConnectionOptionsBuilder_ec2()));
-
-		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
-				AwsworkbenchFactory.eINSTANCE.createVpnTunnelOptionBuilder_ec2()));
 	}
 
 	/**

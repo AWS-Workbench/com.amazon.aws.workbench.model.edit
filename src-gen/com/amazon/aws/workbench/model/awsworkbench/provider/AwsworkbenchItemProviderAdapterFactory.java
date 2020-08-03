@@ -257,72 +257,1758 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SubnetConfigurationBuilder_ec2} instances.
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.GatewayVpcEndpointBuilder_ec2} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected SubnetConfigurationBuilder_ec2ItemProvider subnetConfigurationBuilder_ec2ItemProvider;
+	protected GatewayVpcEndpointBuilder_ec2ItemProvider gatewayVpcEndpointBuilder_ec2ItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SubnetConfigurationBuilder_ec2}.
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.GatewayVpcEndpointBuilder_ec2}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createSubnetConfigurationBuilder_ec2Adapter() {
-		if (subnetConfigurationBuilder_ec2ItemProvider == null) {
-			subnetConfigurationBuilder_ec2ItemProvider = new SubnetConfigurationBuilder_ec2ItemProvider(this);
+	public Adapter createGatewayVpcEndpointBuilder_ec2Adapter() {
+		if (gatewayVpcEndpointBuilder_ec2ItemProvider == null) {
+			gatewayVpcEndpointBuilder_ec2ItemProvider = new GatewayVpcEndpointBuilder_ec2ItemProvider(this);
 		}
 
-		return subnetConfigurationBuilder_ec2ItemProvider;
+		return gatewayVpcEndpointBuilder_ec2ItemProvider;
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.VpnConnectionOptionsBuilder_ec2} instances.
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.MethodDeploymentOptionsBuilder_apigateway} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected VpnConnectionOptionsBuilder_ec2ItemProvider vpnConnectionOptionsBuilder_ec2ItemProvider;
+	protected MethodDeploymentOptionsBuilder_apigatewayItemProvider methodDeploymentOptionsBuilder_apigatewayItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.VpnConnectionOptionsBuilder_ec2}.
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.MethodDeploymentOptionsBuilder_apigateway}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createVpnConnectionOptionsBuilder_ec2Adapter() {
-		if (vpnConnectionOptionsBuilder_ec2ItemProvider == null) {
-			vpnConnectionOptionsBuilder_ec2ItemProvider = new VpnConnectionOptionsBuilder_ec2ItemProvider(this);
+	public Adapter createMethodDeploymentOptionsBuilder_apigatewayAdapter() {
+		if (methodDeploymentOptionsBuilder_apigatewayItemProvider == null) {
+			methodDeploymentOptionsBuilder_apigatewayItemProvider = new MethodDeploymentOptionsBuilder_apigatewayItemProvider(
+					this);
 		}
 
-		return vpnConnectionOptionsBuilder_ec2ItemProvider;
+		return methodDeploymentOptionsBuilder_apigatewayItemProvider;
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.VpnTunnelOptionBuilder_ec2} instances.
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.EndpointConfigurationBuilder_apigateway} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected VpnTunnelOptionBuilder_ec2ItemProvider vpnTunnelOptionBuilder_ec2ItemProvider;
+	protected EndpointConfigurationBuilder_apigatewayItemProvider endpointConfigurationBuilder_apigatewayItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.VpnTunnelOptionBuilder_ec2}.
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.EndpointConfigurationBuilder_apigateway}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createVpnTunnelOptionBuilder_ec2Adapter() {
-		if (vpnTunnelOptionBuilder_ec2ItemProvider == null) {
-			vpnTunnelOptionBuilder_ec2ItemProvider = new VpnTunnelOptionBuilder_ec2ItemProvider(this);
+	public Adapter createEndpointConfigurationBuilder_apigatewayAdapter() {
+		if (endpointConfigurationBuilder_apigatewayItemProvider == null) {
+			endpointConfigurationBuilder_apigatewayItemProvider = new EndpointConfigurationBuilder_apigatewayItemProvider(
+					this);
 		}
 
-		return vpnTunnelOptionBuilder_ec2ItemProvider;
+		return endpointConfigurationBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.StageOptionsBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected StageOptionsBuilder_apigatewayItemProvider stageOptionsBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.StageOptionsBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createStageOptionsBuilder_apigatewayAdapter() {
+		if (stageOptionsBuilder_apigatewayItemProvider == null) {
+			stageOptionsBuilder_apigatewayItemProvider = new StageOptionsBuilder_apigatewayItemProvider(this);
+		}
+
+		return stageOptionsBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.HostedZoneBuilder_route53} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected HostedZoneBuilder_route53ItemProvider hostedZoneBuilder_route53ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.HostedZoneBuilder_route53}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createHostedZoneBuilder_route53Adapter() {
+		if (hostedZoneBuilder_route53ItemProvider == null) {
+			hostedZoneBuilder_route53ItemProvider = new HostedZoneBuilder_route53ItemProvider(this);
+		}
+
+		return hostedZoneBuilder_route53ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.DnsValidatedCertificateBuilder_certificatemanager} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DnsValidatedCertificateBuilder_certificatemanagerItemProvider dnsValidatedCertificateBuilder_certificatemanagerItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.DnsValidatedCertificateBuilder_certificatemanager}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDnsValidatedCertificateBuilder_certificatemanagerAdapter() {
+		if (dnsValidatedCertificateBuilder_certificatemanagerItemProvider == null) {
+			dnsValidatedCertificateBuilder_certificatemanagerItemProvider = new DnsValidatedCertificateBuilder_certificatemanagerItemProvider(
+					this);
+		}
+
+		return dnsValidatedCertificateBuilder_certificatemanagerItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.IntegrationResponseBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected IntegrationResponseBuilder_apigatewayItemProvider integrationResponseBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.IntegrationResponseBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createIntegrationResponseBuilder_apigatewayAdapter() {
+		if (integrationResponseBuilder_apigatewayItemProvider == null) {
+			integrationResponseBuilder_apigatewayItemProvider = new IntegrationResponseBuilder_apigatewayItemProvider(
+					this);
+		}
+
+		return integrationResponseBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.CertificateBuilder_certificatemanager} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CertificateBuilder_certificatemanagerItemProvider certificateBuilder_certificatemanagerItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.CertificateBuilder_certificatemanager}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCertificateBuilder_certificatemanagerAdapter() {
+		if (certificateBuilder_certificatemanagerItemProvider == null) {
+			certificateBuilder_certificatemanagerItemProvider = new CertificateBuilder_certificatemanagerItemProvider(
+					this);
+		}
+
+		return certificateBuilder_certificatemanagerItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.DomainNameOptionsBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DomainNameOptionsBuilder_apigatewayItemProvider domainNameOptionsBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.DomainNameOptionsBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDomainNameOptionsBuilder_apigatewayAdapter() {
+		if (domainNameOptionsBuilder_apigatewayItemProvider == null) {
+			domainNameOptionsBuilder_apigatewayItemProvider = new DomainNameOptionsBuilder_apigatewayItemProvider(this);
+		}
+
+		return domainNameOptionsBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.NetworkLoadBalancerBuilder_elasticloadbalancingv2} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected NetworkLoadBalancerBuilder_elasticloadbalancingv2ItemProvider networkLoadBalancerBuilder_elasticloadbalancingv2ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.NetworkLoadBalancerBuilder_elasticloadbalancingv2}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createNetworkLoadBalancerBuilder_elasticloadbalancingv2Adapter() {
+		if (networkLoadBalancerBuilder_elasticloadbalancingv2ItemProvider == null) {
+			networkLoadBalancerBuilder_elasticloadbalancingv2ItemProvider = new NetworkLoadBalancerBuilder_elasticloadbalancingv2ItemProvider(
+					this);
+		}
+
+		return networkLoadBalancerBuilder_elasticloadbalancingv2ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.VpcLinkBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected VpcLinkBuilder_apigatewayItemProvider vpcLinkBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.VpcLinkBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createVpcLinkBuilder_apigatewayAdapter() {
+		if (vpcLinkBuilder_apigatewayItemProvider == null) {
+			vpcLinkBuilder_apigatewayItemProvider = new VpcLinkBuilder_apigatewayItemProvider(this);
+		}
+
+		return vpcLinkBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.IntegrationOptionsBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected IntegrationOptionsBuilder_apigatewayItemProvider integrationOptionsBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.IntegrationOptionsBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createIntegrationOptionsBuilder_apigatewayAdapter() {
+		if (integrationOptionsBuilder_apigatewayItemProvider == null) {
+			integrationOptionsBuilder_apigatewayItemProvider = new IntegrationOptionsBuilder_apigatewayItemProvider(
+					this);
+		}
+
+		return integrationOptionsBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.IntegrationBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected IntegrationBuilder_apigatewayItemProvider integrationBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.IntegrationBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createIntegrationBuilder_apigatewayAdapter() {
+		if (integrationBuilder_apigatewayItemProvider == null) {
+			integrationBuilder_apigatewayItemProvider = new IntegrationBuilder_apigatewayItemProvider(this);
+		}
+
+		return integrationBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.CorsOptionsBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CorsOptionsBuilder_apigatewayItemProvider corsOptionsBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.CorsOptionsBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCorsOptionsBuilder_apigatewayAdapter() {
+		if (corsOptionsBuilder_apigatewayItemProvider == null) {
+			corsOptionsBuilder_apigatewayItemProvider = new CorsOptionsBuilder_apigatewayItemProvider(this);
+		}
+
+		return corsOptionsBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.KeyBuilder_kms} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected KeyBuilder_kmsItemProvider keyBuilder_kmsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.KeyBuilder_kms}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createKeyBuilder_kmsAdapter() {
+		if (keyBuilder_kmsItemProvider == null) {
+			keyBuilder_kmsItemProvider = new KeyBuilder_kmsItemProvider(this);
+		}
+
+		return keyBuilder_kmsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.DeadLetterQueueBuilder_sqs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DeadLetterQueueBuilder_sqsItemProvider deadLetterQueueBuilder_sqsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.DeadLetterQueueBuilder_sqs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDeadLetterQueueBuilder_sqsAdapter() {
+		if (deadLetterQueueBuilder_sqsItemProvider == null) {
+			deadLetterQueueBuilder_sqsItemProvider = new DeadLetterQueueBuilder_sqsItemProvider(this);
+		}
+
+		return deadLetterQueueBuilder_sqsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.QueueBuilder_sqs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected QueueBuilder_sqsItemProvider queueBuilder_sqsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.QueueBuilder_sqs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createQueueBuilder_sqsAdapter() {
+		if (queueBuilder_sqsItemProvider == null) {
+			queueBuilder_sqsItemProvider = new QueueBuilder_sqsItemProvider(this);
+		}
+
+		return queueBuilder_sqsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.VersionOptionsBuilder_lambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected VersionOptionsBuilder_lambdaItemProvider versionOptionsBuilder_lambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.VersionOptionsBuilder_lambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createVersionOptionsBuilder_lambdaAdapter() {
+		if (versionOptionsBuilder_lambdaItemProvider == null) {
+			versionOptionsBuilder_lambdaItemProvider = new VersionOptionsBuilder_lambdaItemProvider(this);
+		}
+
+		return versionOptionsBuilder_lambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.LayerVersionBuilder_lambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected LayerVersionBuilder_lambdaItemProvider layerVersionBuilder_lambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.LayerVersionBuilder_lambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createLayerVersionBuilder_lambdaAdapter() {
+		if (layerVersionBuilder_lambdaItemProvider == null) {
+			layerVersionBuilder_lambdaItemProvider = new LayerVersionBuilder_lambdaItemProvider(this);
+		}
+
+		return layerVersionBuilder_lambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SecurityGroupBuilder_ec2} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected SecurityGroupBuilder_ec2ItemProvider securityGroupBuilder_ec2ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SecurityGroupBuilder_ec2}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createSecurityGroupBuilder_ec2Adapter() {
+		if (securityGroupBuilder_ec2ItemProvider == null) {
+			securityGroupBuilder_ec2ItemProvider = new SecurityGroupBuilder_ec2ItemProvider(this);
+		}
+
+		return securityGroupBuilder_ec2ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.FunctionBuilder_lambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected FunctionBuilder_lambdaItemProvider functionBuilder_lambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.FunctionBuilder_lambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createFunctionBuilder_lambdaAdapter() {
+		if (functionBuilder_lambdaItemProvider == null) {
+			functionBuilder_lambdaItemProvider = new FunctionBuilder_lambdaItemProvider(this);
+		}
+
+		return functionBuilder_lambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.RequestAuthorizerBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RequestAuthorizerBuilder_apigatewayItemProvider requestAuthorizerBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.RequestAuthorizerBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRequestAuthorizerBuilder_apigatewayAdapter() {
+		if (requestAuthorizerBuilder_apigatewayItemProvider == null) {
+			requestAuthorizerBuilder_apigatewayItemProvider = new RequestAuthorizerBuilder_apigatewayItemProvider(this);
+		}
+
+		return requestAuthorizerBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.TokenAuthorizerBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TokenAuthorizerBuilder_apigatewayItemProvider tokenAuthorizerBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.TokenAuthorizerBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createTokenAuthorizerBuilder_apigatewayAdapter() {
+		if (tokenAuthorizerBuilder_apigatewayItemProvider == null) {
+			tokenAuthorizerBuilder_apigatewayItemProvider = new TokenAuthorizerBuilder_apigatewayItemProvider(this);
+		}
+
+		return tokenAuthorizerBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.JsonSchemaBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected JsonSchemaBuilder_apigatewayItemProvider jsonSchemaBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.JsonSchemaBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createJsonSchemaBuilder_apigatewayAdapter() {
+		if (jsonSchemaBuilder_apigatewayItemProvider == null) {
+			jsonSchemaBuilder_apigatewayItemProvider = new JsonSchemaBuilder_apigatewayItemProvider(this);
+		}
+
+		return jsonSchemaBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ModelBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ModelBuilder_apigatewayItemProvider modelBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ModelBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createModelBuilder_apigatewayAdapter() {
+		if (modelBuilder_apigatewayItemProvider == null) {
+			modelBuilder_apigatewayItemProvider = new ModelBuilder_apigatewayItemProvider(this);
+		}
+
+		return modelBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.RequestValidatorOptionsBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RequestValidatorOptionsBuilder_apigatewayItemProvider requestValidatorOptionsBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.RequestValidatorOptionsBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRequestValidatorOptionsBuilder_apigatewayAdapter() {
+		if (requestValidatorOptionsBuilder_apigatewayItemProvider == null) {
+			requestValidatorOptionsBuilder_apigatewayItemProvider = new RequestValidatorOptionsBuilder_apigatewayItemProvider(
+					this);
+		}
+
+		return requestValidatorOptionsBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.RequestValidatorBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RequestValidatorBuilder_apigatewayItemProvider requestValidatorBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.RequestValidatorBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRequestValidatorBuilder_apigatewayAdapter() {
+		if (requestValidatorBuilder_apigatewayItemProvider == null) {
+			requestValidatorBuilder_apigatewayItemProvider = new RequestValidatorBuilder_apigatewayItemProvider(this);
+		}
+
+		return requestValidatorBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.MethodResponseBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected MethodResponseBuilder_apigatewayItemProvider methodResponseBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.MethodResponseBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createMethodResponseBuilder_apigatewayAdapter() {
+		if (methodResponseBuilder_apigatewayItemProvider == null) {
+			methodResponseBuilder_apigatewayItemProvider = new MethodResponseBuilder_apigatewayItemProvider(this);
+		}
+
+		return methodResponseBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.MethodOptionsBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected MethodOptionsBuilder_apigatewayItemProvider methodOptionsBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.MethodOptionsBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createMethodOptionsBuilder_apigatewayAdapter() {
+		if (methodOptionsBuilder_apigatewayItemProvider == null) {
+			methodOptionsBuilder_apigatewayItemProvider = new MethodOptionsBuilder_apigatewayItemProvider(this);
+		}
+
+		return methodOptionsBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.RestApiPropsBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RestApiPropsBuilder_apigatewayItemProvider restApiPropsBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.RestApiPropsBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRestApiPropsBuilder_apigatewayAdapter() {
+		if (restApiPropsBuilder_apigatewayItemProvider == null) {
+			restApiPropsBuilder_apigatewayItemProvider = new RestApiPropsBuilder_apigatewayItemProvider(this);
+		}
+
+		return restApiPropsBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApiGatewayToDynamoDBBuilder_apigatewaydynamodb} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ApiGatewayToDynamoDBBuilder_apigatewaydynamodbItemProvider apiGatewayToDynamoDBBuilder_apigatewaydynamodbItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ApiGatewayToDynamoDBBuilder_apigatewaydynamodb}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createApiGatewayToDynamoDBBuilder_apigatewaydynamodbAdapter() {
+		if (apiGatewayToDynamoDBBuilder_apigatewaydynamodbItemProvider == null) {
+			apiGatewayToDynamoDBBuilder_apigatewaydynamodbItemProvider = new ApiGatewayToDynamoDBBuilder_apigatewaydynamodbItemProvider(
+					this);
+		}
+
+		return apiGatewayToDynamoDBBuilder_apigatewaydynamodbItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApiGatewayToLambdaBuilder_apigatewaylambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ApiGatewayToLambdaBuilder_apigatewaylambdaItemProvider apiGatewayToLambdaBuilder_apigatewaylambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ApiGatewayToLambdaBuilder_apigatewaylambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createApiGatewayToLambdaBuilder_apigatewaylambdaAdapter() {
+		if (apiGatewayToLambdaBuilder_apigatewaylambdaItemProvider == null) {
+			apiGatewayToLambdaBuilder_apigatewaylambdaItemProvider = new ApiGatewayToLambdaBuilder_apigatewaylambdaItemProvider(
+					this);
+		}
+
+		return apiGatewayToLambdaBuilder_apigatewaylambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApiGatewayToSqsBuilder_apigatewaysqs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ApiGatewayToSqsBuilder_apigatewaysqsItemProvider apiGatewayToSqsBuilder_apigatewaysqsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ApiGatewayToSqsBuilder_apigatewaysqs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createApiGatewayToSqsBuilder_apigatewaysqsAdapter() {
+		if (apiGatewayToSqsBuilder_apigatewaysqsItemProvider == null) {
+			apiGatewayToSqsBuilder_apigatewaysqsItemProvider = new ApiGatewayToSqsBuilder_apigatewaysqsItemProvider(
+					this);
+		}
+
+		return apiGatewayToSqsBuilder_apigatewaysqsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.CloudFrontToApiGatewayBuilder_cloudfrontapigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CloudFrontToApiGatewayBuilder_cloudfrontapigatewayItemProvider cloudFrontToApiGatewayBuilder_cloudfrontapigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.CloudFrontToApiGatewayBuilder_cloudfrontapigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCloudFrontToApiGatewayBuilder_cloudfrontapigatewayAdapter() {
+		if (cloudFrontToApiGatewayBuilder_cloudfrontapigatewayItemProvider == null) {
+			cloudFrontToApiGatewayBuilder_cloudfrontapigatewayItemProvider = new CloudFrontToApiGatewayBuilder_cloudfrontapigatewayItemProvider(
+					this);
+		}
+
+		return cloudFrontToApiGatewayBuilder_cloudfrontapigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.CloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambdaItemProvider cloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.CloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambdaAdapter() {
+		if (cloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambdaItemProvider == null) {
+			cloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambdaItemProvider = new CloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambdaItemProvider(
+					this);
+		}
+
+		return cloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.CloudFrontToS3Builder_cloudfronts3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CloudFrontToS3Builder_cloudfronts3ItemProvider cloudFrontToS3Builder_cloudfronts3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.CloudFrontToS3Builder_cloudfronts3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCloudFrontToS3Builder_cloudfronts3Adapter() {
+		if (cloudFrontToS3Builder_cloudfronts3ItemProvider == null) {
+			cloudFrontToS3Builder_cloudfronts3ItemProvider = new CloudFrontToS3Builder_cloudfronts3ItemProvider(this);
+		}
+
+		return cloudFrontToS3Builder_cloudfronts3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.CognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambdaItemProvider cognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.CognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambdaAdapter() {
+		if (cognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambdaItemProvider == null) {
+			cognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambdaItemProvider = new CognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambdaItemProvider(
+					this);
+		}
+
+		return cognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BuildDeadLetterQueuePropsBuilder_core} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BuildDeadLetterQueuePropsBuilder_coreItemProvider buildDeadLetterQueuePropsBuilder_coreItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BuildDeadLetterQueuePropsBuilder_core}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBuildDeadLetterQueuePropsBuilder_coreAdapter() {
+		if (buildDeadLetterQueuePropsBuilder_coreItemProvider == null) {
+			buildDeadLetterQueuePropsBuilder_coreItemProvider = new BuildDeadLetterQueuePropsBuilder_coreItemProvider(
+					this);
+		}
+
+		return buildDeadLetterQueuePropsBuilder_coreItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BuildQueuePropsBuilder_core} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BuildQueuePropsBuilder_coreItemProvider buildQueuePropsBuilder_coreItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BuildQueuePropsBuilder_core}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBuildQueuePropsBuilder_coreAdapter() {
+		if (buildQueuePropsBuilder_coreItemProvider == null) {
+			buildQueuePropsBuilder_coreItemProvider = new BuildQueuePropsBuilder_coreItemProvider(this);
+		}
+
+		return buildQueuePropsBuilder_coreItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BuildS3BucketPropsBuilder_core} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BuildS3BucketPropsBuilder_coreItemProvider buildS3BucketPropsBuilder_coreItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BuildS3BucketPropsBuilder_core}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBuildS3BucketPropsBuilder_coreAdapter() {
+		if (buildS3BucketPropsBuilder_coreItemProvider == null) {
+			buildS3BucketPropsBuilder_coreItemProvider = new BuildS3BucketPropsBuilder_coreItemProvider(this);
+		}
+
+		return buildS3BucketPropsBuilder_coreItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BuildEncryptionKeyPropsBuilder_core} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BuildEncryptionKeyPropsBuilder_coreItemProvider buildEncryptionKeyPropsBuilder_coreItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BuildEncryptionKeyPropsBuilder_core}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBuildEncryptionKeyPropsBuilder_coreAdapter() {
+		if (buildEncryptionKeyPropsBuilder_coreItemProvider == null) {
+			buildEncryptionKeyPropsBuilder_coreItemProvider = new BuildEncryptionKeyPropsBuilder_coreItemProvider(this);
+		}
+
+		return buildEncryptionKeyPropsBuilder_coreItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.CognitoOptionsBuilder_core} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CognitoOptionsBuilder_coreItemProvider cognitoOptionsBuilder_coreItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.CognitoOptionsBuilder_core}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCognitoOptionsBuilder_coreAdapter() {
+		if (cognitoOptionsBuilder_coreItemProvider == null) {
+			cognitoOptionsBuilder_coreItemProvider = new CognitoOptionsBuilder_coreItemProvider(this);
+		}
+
+		return cognitoOptionsBuilder_coreItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BuildKinesisStreamPropsBuilder_core} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BuildKinesisStreamPropsBuilder_coreItemProvider buildKinesisStreamPropsBuilder_coreItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BuildKinesisStreamPropsBuilder_core}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBuildKinesisStreamPropsBuilder_coreAdapter() {
+		if (buildKinesisStreamPropsBuilder_coreItemProvider == null) {
+			buildKinesisStreamPropsBuilder_coreItemProvider = new BuildKinesisStreamPropsBuilder_coreItemProvider(this);
+		}
+
+		return buildKinesisStreamPropsBuilder_coreItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BuildKinesisAnalyticsAppPropsBuilder_core} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BuildKinesisAnalyticsAppPropsBuilder_coreItemProvider buildKinesisAnalyticsAppPropsBuilder_coreItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BuildKinesisAnalyticsAppPropsBuilder_core}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBuildKinesisAnalyticsAppPropsBuilder_coreAdapter() {
+		if (buildKinesisAnalyticsAppPropsBuilder_coreItemProvider == null) {
+			buildKinesisAnalyticsAppPropsBuilder_coreItemProvider = new BuildKinesisAnalyticsAppPropsBuilder_coreItemProvider(
+					this);
+		}
+
+		return buildKinesisAnalyticsAppPropsBuilder_coreItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BuildLambdaFunctionPropsBuilder_core} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BuildLambdaFunctionPropsBuilder_coreItemProvider buildLambdaFunctionPropsBuilder_coreItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BuildLambdaFunctionPropsBuilder_core}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBuildLambdaFunctionPropsBuilder_coreAdapter() {
+		if (buildLambdaFunctionPropsBuilder_coreItemProvider == null) {
+			buildLambdaFunctionPropsBuilder_coreItemProvider = new BuildLambdaFunctionPropsBuilder_coreItemProvider(
+					this);
+		}
+
+		return buildLambdaFunctionPropsBuilder_coreItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BuildDynamoDBTablePropsBuilder_core} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BuildDynamoDBTablePropsBuilder_coreItemProvider buildDynamoDBTablePropsBuilder_coreItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BuildDynamoDBTablePropsBuilder_core}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBuildDynamoDBTablePropsBuilder_coreAdapter() {
+		if (buildDynamoDBTablePropsBuilder_coreItemProvider == null) {
+			buildDynamoDBTablePropsBuilder_coreItemProvider = new BuildDynamoDBTablePropsBuilder_coreItemProvider(this);
+		}
+
+		return buildDynamoDBTablePropsBuilder_coreItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BuildTopicPropsBuilder_core} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BuildTopicPropsBuilder_coreItemProvider buildTopicPropsBuilder_coreItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BuildTopicPropsBuilder_core}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBuildTopicPropsBuilder_coreAdapter() {
+		if (buildTopicPropsBuilder_coreItemProvider == null) {
+			buildTopicPropsBuilder_coreItemProvider = new BuildTopicPropsBuilder_coreItemProvider(this);
+		}
+
+		return buildTopicPropsBuilder_coreItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.DynamoDBStreamToLambdaBuilder_dynamodbstreamlambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DynamoDBStreamToLambdaBuilder_dynamodbstreamlambdaItemProvider dynamoDBStreamToLambdaBuilder_dynamodbstreamlambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.DynamoDBStreamToLambdaBuilder_dynamodbstreamlambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDynamoDBStreamToLambdaBuilder_dynamodbstreamlambdaAdapter() {
+		if (dynamoDBStreamToLambdaBuilder_dynamodbstreamlambdaItemProvider == null) {
+			dynamoDBStreamToLambdaBuilder_dynamodbstreamlambdaItemProvider = new DynamoDBStreamToLambdaBuilder_dynamodbstreamlambdaItemProvider(
+					this);
+		}
+
+		return dynamoDBStreamToLambdaBuilder_dynamodbstreamlambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.DynamoDBStreamToLambdaToElasticSearchAndKibanaBuilder_dynamodbstreamlambdaelasticsearchkibana} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DynamoDBStreamToLambdaToElasticSearchAndKibanaBuilder_dynamodbstreamlambdaelasticsearchkibanaItemProvider dynamoDBStreamToLambdaToElasticSearchAndKibanaBuilder_dynamodbstreamlambdaelasticsearchkibanaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.DynamoDBStreamToLambdaToElasticSearchAndKibanaBuilder_dynamodbstreamlambdaelasticsearchkibana}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDynamoDBStreamToLambdaToElasticSearchAndKibanaBuilder_dynamodbstreamlambdaelasticsearchkibanaAdapter() {
+		if (dynamoDBStreamToLambdaToElasticSearchAndKibanaBuilder_dynamodbstreamlambdaelasticsearchkibanaItemProvider == null) {
+			dynamoDBStreamToLambdaToElasticSearchAndKibanaBuilder_dynamodbstreamlambdaelasticsearchkibanaItemProvider = new DynamoDBStreamToLambdaToElasticSearchAndKibanaBuilder_dynamodbstreamlambdaelasticsearchkibanaItemProvider(
+					this);
+		}
+
+		return dynamoDBStreamToLambdaToElasticSearchAndKibanaBuilder_dynamodbstreamlambdaelasticsearchkibanaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.EventsRuleToLambdaBuilder_eventsrulelambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected EventsRuleToLambdaBuilder_eventsrulelambdaItemProvider eventsRuleToLambdaBuilder_eventsrulelambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.EventsRuleToLambdaBuilder_eventsrulelambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createEventsRuleToLambdaBuilder_eventsrulelambdaAdapter() {
+		if (eventsRuleToLambdaBuilder_eventsrulelambdaItemProvider == null) {
+			eventsRuleToLambdaBuilder_eventsrulelambdaItemProvider = new EventsRuleToLambdaBuilder_eventsrulelambdaItemProvider(
+					this);
+		}
+
+		return eventsRuleToLambdaBuilder_eventsrulelambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.EventsRuleToStepFunctionBuilder_eventsrulestepfunction} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected EventsRuleToStepFunctionBuilder_eventsrulestepfunctionItemProvider eventsRuleToStepFunctionBuilder_eventsrulestepfunctionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.EventsRuleToStepFunctionBuilder_eventsrulestepfunction}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createEventsRuleToStepFunctionBuilder_eventsrulestepfunctionAdapter() {
+		if (eventsRuleToStepFunctionBuilder_eventsrulestepfunctionItemProvider == null) {
+			eventsRuleToStepFunctionBuilder_eventsrulestepfunctionItemProvider = new EventsRuleToStepFunctionBuilder_eventsrulestepfunctionItemProvider(
+					this);
+		}
+
+		return eventsRuleToStepFunctionBuilder_eventsrulestepfunctionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.IotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected IotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3ItemProvider iotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.IotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createIotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3Adapter() {
+		if (iotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3ItemProvider == null) {
+			iotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3ItemProvider = new IotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3ItemProvider(
+					this);
+		}
+
+		return iotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.IotToLambdaBuilder_iotlambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected IotToLambdaBuilder_iotlambdaItemProvider iotToLambdaBuilder_iotlambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.IotToLambdaBuilder_iotlambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createIotToLambdaBuilder_iotlambdaAdapter() {
+		if (iotToLambdaBuilder_iotlambdaItemProvider == null) {
+			iotToLambdaBuilder_iotlambdaItemProvider = new IotToLambdaBuilder_iotlambdaItemProvider(this);
+		}
+
+		return iotToLambdaBuilder_iotlambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.IotToLambdaToDynamoDBBuilder_iotlambdadynamodb} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected IotToLambdaToDynamoDBBuilder_iotlambdadynamodbItemProvider iotToLambdaToDynamoDBBuilder_iotlambdadynamodbItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.IotToLambdaToDynamoDBBuilder_iotlambdadynamodb}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createIotToLambdaToDynamoDBBuilder_iotlambdadynamodbAdapter() {
+		if (iotToLambdaToDynamoDBBuilder_iotlambdadynamodbItemProvider == null) {
+			iotToLambdaToDynamoDBBuilder_iotlambdadynamodbItemProvider = new IotToLambdaToDynamoDBBuilder_iotlambdadynamodbItemProvider(
+					this);
+		}
+
+		return iotToLambdaToDynamoDBBuilder_iotlambdadynamodbItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.KinesisFirehoseToS3Builder_kinesisfirehoses3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected KinesisFirehoseToS3Builder_kinesisfirehoses3ItemProvider kinesisFirehoseToS3Builder_kinesisfirehoses3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.KinesisFirehoseToS3Builder_kinesisfirehoses3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createKinesisFirehoseToS3Builder_kinesisfirehoses3Adapter() {
+		if (kinesisFirehoseToS3Builder_kinesisfirehoses3ItemProvider == null) {
+			kinesisFirehoseToS3Builder_kinesisfirehoses3ItemProvider = new KinesisFirehoseToS3Builder_kinesisfirehoses3ItemProvider(
+					this);
+		}
+
+		return kinesisFirehoseToS3Builder_kinesisfirehoses3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.KinesisFirehoseToAnalyticsAndS3Builder_kinesisfirehoses3kinesisanalytics} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected KinesisFirehoseToAnalyticsAndS3Builder_kinesisfirehoses3kinesisanalyticsItemProvider kinesisFirehoseToAnalyticsAndS3Builder_kinesisfirehoses3kinesisanalyticsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.KinesisFirehoseToAnalyticsAndS3Builder_kinesisfirehoses3kinesisanalytics}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createKinesisFirehoseToAnalyticsAndS3Builder_kinesisfirehoses3kinesisanalyticsAdapter() {
+		if (kinesisFirehoseToAnalyticsAndS3Builder_kinesisfirehoses3kinesisanalyticsItemProvider == null) {
+			kinesisFirehoseToAnalyticsAndS3Builder_kinesisfirehoses3kinesisanalyticsItemProvider = new KinesisFirehoseToAnalyticsAndS3Builder_kinesisfirehoses3kinesisanalyticsItemProvider(
+					this);
+		}
+
+		return kinesisFirehoseToAnalyticsAndS3Builder_kinesisfirehoses3kinesisanalyticsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.KinesisStreamsToLambdaBuilder_kinesisstreamslambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected KinesisStreamsToLambdaBuilder_kinesisstreamslambdaItemProvider kinesisStreamsToLambdaBuilder_kinesisstreamslambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.KinesisStreamsToLambdaBuilder_kinesisstreamslambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createKinesisStreamsToLambdaBuilder_kinesisstreamslambdaAdapter() {
+		if (kinesisStreamsToLambdaBuilder_kinesisstreamslambdaItemProvider == null) {
+			kinesisStreamsToLambdaBuilder_kinesisstreamslambdaItemProvider = new KinesisStreamsToLambdaBuilder_kinesisstreamslambdaItemProvider(
+					this);
+		}
+
+		return kinesisStreamsToLambdaBuilder_kinesisstreamslambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.LambdaToDynamoDBBuilder_lambdadynamodb} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected LambdaToDynamoDBBuilder_lambdadynamodbItemProvider lambdaToDynamoDBBuilder_lambdadynamodbItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.LambdaToDynamoDBBuilder_lambdadynamodb}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createLambdaToDynamoDBBuilder_lambdadynamodbAdapter() {
+		if (lambdaToDynamoDBBuilder_lambdadynamodbItemProvider == null) {
+			lambdaToDynamoDBBuilder_lambdadynamodbItemProvider = new LambdaToDynamoDBBuilder_lambdadynamodbItemProvider(
+					this);
+		}
+
+		return lambdaToDynamoDBBuilder_lambdadynamodbItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.LambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibana} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected LambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibanaItemProvider lambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibanaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.LambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibana}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createLambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibanaAdapter() {
+		if (lambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibanaItemProvider == null) {
+			lambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibanaItemProvider = new LambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibanaItemProvider(
+					this);
+		}
+
+		return lambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibanaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.LambdaToS3Builder_lambdas3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected LambdaToS3Builder_lambdas3ItemProvider lambdaToS3Builder_lambdas3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.LambdaToS3Builder_lambdas3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createLambdaToS3Builder_lambdas3Adapter() {
+		if (lambdaToS3Builder_lambdas3ItemProvider == null) {
+			lambdaToS3Builder_lambdas3ItemProvider = new LambdaToS3Builder_lambdas3ItemProvider(this);
+		}
+
+		return lambdaToS3Builder_lambdas3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.LambdaToSnsBuilder_lambdasns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected LambdaToSnsBuilder_lambdasnsItemProvider lambdaToSnsBuilder_lambdasnsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.LambdaToSnsBuilder_lambdasns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createLambdaToSnsBuilder_lambdasnsAdapter() {
+		if (lambdaToSnsBuilder_lambdasnsItemProvider == null) {
+			lambdaToSnsBuilder_lambdasnsItemProvider = new LambdaToSnsBuilder_lambdasnsItemProvider(this);
+		}
+
+		return lambdaToSnsBuilder_lambdasnsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.LambdaToSqsBuilder_lambdasqs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected LambdaToSqsBuilder_lambdasqsItemProvider lambdaToSqsBuilder_lambdasqsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.LambdaToSqsBuilder_lambdasqs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createLambdaToSqsBuilder_lambdasqsAdapter() {
+		if (lambdaToSqsBuilder_lambdasqsItemProvider == null) {
+			lambdaToSqsBuilder_lambdasqsItemProvider = new LambdaToSqsBuilder_lambdasqsItemProvider(this);
+		}
+
+		return lambdaToSqsBuilder_lambdasqsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.LambdaToStepFunctionBuilder_lambdastepfunction} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected LambdaToStepFunctionBuilder_lambdastepfunctionItemProvider lambdaToStepFunctionBuilder_lambdastepfunctionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.LambdaToStepFunctionBuilder_lambdastepfunction}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createLambdaToStepFunctionBuilder_lambdastepfunctionAdapter() {
+		if (lambdaToStepFunctionBuilder_lambdastepfunctionItemProvider == null) {
+			lambdaToStepFunctionBuilder_lambdastepfunctionItemProvider = new LambdaToStepFunctionBuilder_lambdastepfunctionItemProvider(
+					this);
+		}
+
+		return lambdaToStepFunctionBuilder_lambdastepfunctionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.S3ToLambdaBuilder_s3lambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected S3ToLambdaBuilder_s3lambdaItemProvider s3ToLambdaBuilder_s3lambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.S3ToLambdaBuilder_s3lambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createS3ToLambdaBuilder_s3lambdaAdapter() {
+		if (s3ToLambdaBuilder_s3lambdaItemProvider == null) {
+			s3ToLambdaBuilder_s3lambdaItemProvider = new S3ToLambdaBuilder_s3lambdaItemProvider(this);
+		}
+
+		return s3ToLambdaBuilder_s3lambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.S3ToStepFunctionBuilder_s3stepfunction} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected S3ToStepFunctionBuilder_s3stepfunctionItemProvider s3ToStepFunctionBuilder_s3stepfunctionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.S3ToStepFunctionBuilder_s3stepfunction}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createS3ToStepFunctionBuilder_s3stepfunctionAdapter() {
+		if (s3ToStepFunctionBuilder_s3stepfunctionItemProvider == null) {
+			s3ToStepFunctionBuilder_s3stepfunctionItemProvider = new S3ToStepFunctionBuilder_s3stepfunctionItemProvider(
+					this);
+		}
+
+		return s3ToStepFunctionBuilder_s3stepfunctionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SnsToLambdaBuilder_snslambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected SnsToLambdaBuilder_snslambdaItemProvider snsToLambdaBuilder_snslambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SnsToLambdaBuilder_snslambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createSnsToLambdaBuilder_snslambdaAdapter() {
+		if (snsToLambdaBuilder_snslambdaItemProvider == null) {
+			snsToLambdaBuilder_snslambdaItemProvider = new SnsToLambdaBuilder_snslambdaItemProvider(this);
+		}
+
+		return snsToLambdaBuilder_snslambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ManagedPolicyBuilder_iam} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ManagedPolicyBuilder_iamItemProvider managedPolicyBuilder_iamItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ManagedPolicyBuilder_iam}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createManagedPolicyBuilder_iamAdapter() {
+		if (managedPolicyBuilder_iamItemProvider == null) {
+			managedPolicyBuilder_iamItemProvider = new ManagedPolicyBuilder_iamItemProvider(this);
+		}
+
+		return managedPolicyBuilder_iamItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.UserBuilder_iam} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected UserBuilder_iamItemProvider userBuilder_iamItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.UserBuilder_iam}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createUserBuilder_iamAdapter() {
+		if (userBuilder_iamItemProvider == null) {
+			userBuilder_iamItemProvider = new UserBuilder_iamItemProvider(this);
+		}
+
+		return userBuilder_iamItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.GroupBuilder_iam} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected GroupBuilder_iamItemProvider groupBuilder_iamItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.GroupBuilder_iam}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createGroupBuilder_iamAdapter() {
+		if (groupBuilder_iamItemProvider == null) {
+			groupBuilder_iamItemProvider = new GroupBuilder_iamItemProvider(this);
+		}
+
+		return groupBuilder_iamItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.RoleBuilder_iam} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RoleBuilder_iamItemProvider roleBuilder_iamItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.RoleBuilder_iam}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRoleBuilder_iamAdapter() {
+		if (roleBuilder_iamItemProvider == null) {
+			roleBuilder_iamItemProvider = new RoleBuilder_iamItemProvider(this);
+		}
+
+		return roleBuilder_iamItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.PolicyStatementBuilder_iam} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PolicyStatementBuilder_iamItemProvider policyStatementBuilder_iamItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.PolicyStatementBuilder_iam}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPolicyStatementBuilder_iamAdapter() {
+		if (policyStatementBuilder_iamItemProvider == null) {
+			policyStatementBuilder_iamItemProvider = new PolicyStatementBuilder_iamItemProvider(this);
+		}
+
+		return policyStatementBuilder_iamItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.PolicyDocumentBuilder_iam} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PolicyDocumentBuilder_iamItemProvider policyDocumentBuilder_iamItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.PolicyDocumentBuilder_iam}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPolicyDocumentBuilder_iamAdapter() {
+		if (policyDocumentBuilder_iamItemProvider == null) {
+			policyDocumentBuilder_iamItemProvider = new PolicyDocumentBuilder_iamItemProvider(this);
+		}
+
+		return policyDocumentBuilder_iamItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SqsToLambdaBuilder_sqslambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected SqsToLambdaBuilder_sqslambdaItemProvider sqsToLambdaBuilder_sqslambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SqsToLambdaBuilder_sqslambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createSqsToLambdaBuilder_sqslambdaAdapter() {
+		if (sqsToLambdaBuilder_sqslambdaItemProvider == null) {
+			sqsToLambdaBuilder_sqslambdaItemProvider = new SqsToLambdaBuilder_sqslambdaItemProvider(this);
+		}
+
+		return sqsToLambdaBuilder_sqslambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AttributeBuilder_dynamodb} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AttributeBuilder_dynamodbItemProvider attributeBuilder_dynamodbItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AttributeBuilder_dynamodb}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAttributeBuilder_dynamodbAdapter() {
+		if (attributeBuilder_dynamodbItemProvider == null) {
+			attributeBuilder_dynamodbItemProvider = new AttributeBuilder_dynamodbItemProvider(this);
+		}
+
+		return attributeBuilder_dynamodbItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.TablePropsBuilder_dynamodb} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TablePropsBuilder_dynamodbItemProvider tablePropsBuilder_dynamodbItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.TablePropsBuilder_dynamodb}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createTablePropsBuilder_dynamodbAdapter() {
+		if (tablePropsBuilder_dynamodbItemProvider == null) {
+			tablePropsBuilder_dynamodbItemProvider = new TablePropsBuilder_dynamodbItemProvider(this);
+		}
+
+		return tablePropsBuilder_dynamodbItemProvider;
 	}
 
 	/**
@@ -446,12 +2132,157 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 			subnetBuilder_ec2ItemProvider.dispose();
 		if (subnetSelectionBuilder_ec2ItemProvider != null)
 			subnetSelectionBuilder_ec2ItemProvider.dispose();
-		if (subnetConfigurationBuilder_ec2ItemProvider != null)
-			subnetConfigurationBuilder_ec2ItemProvider.dispose();
-		if (vpnConnectionOptionsBuilder_ec2ItemProvider != null)
-			vpnConnectionOptionsBuilder_ec2ItemProvider.dispose();
-		if (vpnTunnelOptionBuilder_ec2ItemProvider != null)
-			vpnTunnelOptionBuilder_ec2ItemProvider.dispose();
+		if (gatewayVpcEndpointBuilder_ec2ItemProvider != null)
+			gatewayVpcEndpointBuilder_ec2ItemProvider.dispose();
+		if (methodDeploymentOptionsBuilder_apigatewayItemProvider != null)
+			methodDeploymentOptionsBuilder_apigatewayItemProvider.dispose();
+		if (endpointConfigurationBuilder_apigatewayItemProvider != null)
+			endpointConfigurationBuilder_apigatewayItemProvider.dispose();
+		if (stageOptionsBuilder_apigatewayItemProvider != null)
+			stageOptionsBuilder_apigatewayItemProvider.dispose();
+		if (hostedZoneBuilder_route53ItemProvider != null)
+			hostedZoneBuilder_route53ItemProvider.dispose();
+		if (dnsValidatedCertificateBuilder_certificatemanagerItemProvider != null)
+			dnsValidatedCertificateBuilder_certificatemanagerItemProvider.dispose();
+		if (integrationResponseBuilder_apigatewayItemProvider != null)
+			integrationResponseBuilder_apigatewayItemProvider.dispose();
+		if (certificateBuilder_certificatemanagerItemProvider != null)
+			certificateBuilder_certificatemanagerItemProvider.dispose();
+		if (domainNameOptionsBuilder_apigatewayItemProvider != null)
+			domainNameOptionsBuilder_apigatewayItemProvider.dispose();
+		if (networkLoadBalancerBuilder_elasticloadbalancingv2ItemProvider != null)
+			networkLoadBalancerBuilder_elasticloadbalancingv2ItemProvider.dispose();
+		if (vpcLinkBuilder_apigatewayItemProvider != null)
+			vpcLinkBuilder_apigatewayItemProvider.dispose();
+		if (integrationOptionsBuilder_apigatewayItemProvider != null)
+			integrationOptionsBuilder_apigatewayItemProvider.dispose();
+		if (integrationBuilder_apigatewayItemProvider != null)
+			integrationBuilder_apigatewayItemProvider.dispose();
+		if (corsOptionsBuilder_apigatewayItemProvider != null)
+			corsOptionsBuilder_apigatewayItemProvider.dispose();
+		if (keyBuilder_kmsItemProvider != null)
+			keyBuilder_kmsItemProvider.dispose();
+		if (deadLetterQueueBuilder_sqsItemProvider != null)
+			deadLetterQueueBuilder_sqsItemProvider.dispose();
+		if (queueBuilder_sqsItemProvider != null)
+			queueBuilder_sqsItemProvider.dispose();
+		if (versionOptionsBuilder_lambdaItemProvider != null)
+			versionOptionsBuilder_lambdaItemProvider.dispose();
+		if (layerVersionBuilder_lambdaItemProvider != null)
+			layerVersionBuilder_lambdaItemProvider.dispose();
+		if (securityGroupBuilder_ec2ItemProvider != null)
+			securityGroupBuilder_ec2ItemProvider.dispose();
+		if (functionBuilder_lambdaItemProvider != null)
+			functionBuilder_lambdaItemProvider.dispose();
+		if (requestAuthorizerBuilder_apigatewayItemProvider != null)
+			requestAuthorizerBuilder_apigatewayItemProvider.dispose();
+		if (tokenAuthorizerBuilder_apigatewayItemProvider != null)
+			tokenAuthorizerBuilder_apigatewayItemProvider.dispose();
+		if (jsonSchemaBuilder_apigatewayItemProvider != null)
+			jsonSchemaBuilder_apigatewayItemProvider.dispose();
+		if (modelBuilder_apigatewayItemProvider != null)
+			modelBuilder_apigatewayItemProvider.dispose();
+		if (requestValidatorOptionsBuilder_apigatewayItemProvider != null)
+			requestValidatorOptionsBuilder_apigatewayItemProvider.dispose();
+		if (requestValidatorBuilder_apigatewayItemProvider != null)
+			requestValidatorBuilder_apigatewayItemProvider.dispose();
+		if (methodResponseBuilder_apigatewayItemProvider != null)
+			methodResponseBuilder_apigatewayItemProvider.dispose();
+		if (methodOptionsBuilder_apigatewayItemProvider != null)
+			methodOptionsBuilder_apigatewayItemProvider.dispose();
+		if (restApiPropsBuilder_apigatewayItemProvider != null)
+			restApiPropsBuilder_apigatewayItemProvider.dispose();
+		if (apiGatewayToDynamoDBBuilder_apigatewaydynamodbItemProvider != null)
+			apiGatewayToDynamoDBBuilder_apigatewaydynamodbItemProvider.dispose();
+		if (apiGatewayToLambdaBuilder_apigatewaylambdaItemProvider != null)
+			apiGatewayToLambdaBuilder_apigatewaylambdaItemProvider.dispose();
+		if (apiGatewayToSqsBuilder_apigatewaysqsItemProvider != null)
+			apiGatewayToSqsBuilder_apigatewaysqsItemProvider.dispose();
+		if (cloudFrontToApiGatewayBuilder_cloudfrontapigatewayItemProvider != null)
+			cloudFrontToApiGatewayBuilder_cloudfrontapigatewayItemProvider.dispose();
+		if (cloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambdaItemProvider != null)
+			cloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambdaItemProvider.dispose();
+		if (cloudFrontToS3Builder_cloudfronts3ItemProvider != null)
+			cloudFrontToS3Builder_cloudfronts3ItemProvider.dispose();
+		if (cognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambdaItemProvider != null)
+			cognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambdaItemProvider.dispose();
+		if (buildDeadLetterQueuePropsBuilder_coreItemProvider != null)
+			buildDeadLetterQueuePropsBuilder_coreItemProvider.dispose();
+		if (buildQueuePropsBuilder_coreItemProvider != null)
+			buildQueuePropsBuilder_coreItemProvider.dispose();
+		if (buildS3BucketPropsBuilder_coreItemProvider != null)
+			buildS3BucketPropsBuilder_coreItemProvider.dispose();
+		if (buildEncryptionKeyPropsBuilder_coreItemProvider != null)
+			buildEncryptionKeyPropsBuilder_coreItemProvider.dispose();
+		if (cognitoOptionsBuilder_coreItemProvider != null)
+			cognitoOptionsBuilder_coreItemProvider.dispose();
+		if (buildKinesisStreamPropsBuilder_coreItemProvider != null)
+			buildKinesisStreamPropsBuilder_coreItemProvider.dispose();
+		if (buildKinesisAnalyticsAppPropsBuilder_coreItemProvider != null)
+			buildKinesisAnalyticsAppPropsBuilder_coreItemProvider.dispose();
+		if (buildLambdaFunctionPropsBuilder_coreItemProvider != null)
+			buildLambdaFunctionPropsBuilder_coreItemProvider.dispose();
+		if (buildDynamoDBTablePropsBuilder_coreItemProvider != null)
+			buildDynamoDBTablePropsBuilder_coreItemProvider.dispose();
+		if (buildTopicPropsBuilder_coreItemProvider != null)
+			buildTopicPropsBuilder_coreItemProvider.dispose();
+		if (dynamoDBStreamToLambdaBuilder_dynamodbstreamlambdaItemProvider != null)
+			dynamoDBStreamToLambdaBuilder_dynamodbstreamlambdaItemProvider.dispose();
+		if (dynamoDBStreamToLambdaToElasticSearchAndKibanaBuilder_dynamodbstreamlambdaelasticsearchkibanaItemProvider != null)
+			dynamoDBStreamToLambdaToElasticSearchAndKibanaBuilder_dynamodbstreamlambdaelasticsearchkibanaItemProvider
+					.dispose();
+		if (eventsRuleToLambdaBuilder_eventsrulelambdaItemProvider != null)
+			eventsRuleToLambdaBuilder_eventsrulelambdaItemProvider.dispose();
+		if (eventsRuleToStepFunctionBuilder_eventsrulestepfunctionItemProvider != null)
+			eventsRuleToStepFunctionBuilder_eventsrulestepfunctionItemProvider.dispose();
+		if (iotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3ItemProvider != null)
+			iotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3ItemProvider.dispose();
+		if (iotToLambdaBuilder_iotlambdaItemProvider != null)
+			iotToLambdaBuilder_iotlambdaItemProvider.dispose();
+		if (iotToLambdaToDynamoDBBuilder_iotlambdadynamodbItemProvider != null)
+			iotToLambdaToDynamoDBBuilder_iotlambdadynamodbItemProvider.dispose();
+		if (kinesisFirehoseToS3Builder_kinesisfirehoses3ItemProvider != null)
+			kinesisFirehoseToS3Builder_kinesisfirehoses3ItemProvider.dispose();
+		if (kinesisFirehoseToAnalyticsAndS3Builder_kinesisfirehoses3kinesisanalyticsItemProvider != null)
+			kinesisFirehoseToAnalyticsAndS3Builder_kinesisfirehoses3kinesisanalyticsItemProvider.dispose();
+		if (kinesisStreamsToLambdaBuilder_kinesisstreamslambdaItemProvider != null)
+			kinesisStreamsToLambdaBuilder_kinesisstreamslambdaItemProvider.dispose();
+		if (lambdaToDynamoDBBuilder_lambdadynamodbItemProvider != null)
+			lambdaToDynamoDBBuilder_lambdadynamodbItemProvider.dispose();
+		if (lambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibanaItemProvider != null)
+			lambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibanaItemProvider.dispose();
+		if (lambdaToS3Builder_lambdas3ItemProvider != null)
+			lambdaToS3Builder_lambdas3ItemProvider.dispose();
+		if (lambdaToSnsBuilder_lambdasnsItemProvider != null)
+			lambdaToSnsBuilder_lambdasnsItemProvider.dispose();
+		if (lambdaToSqsBuilder_lambdasqsItemProvider != null)
+			lambdaToSqsBuilder_lambdasqsItemProvider.dispose();
+		if (lambdaToStepFunctionBuilder_lambdastepfunctionItemProvider != null)
+			lambdaToStepFunctionBuilder_lambdastepfunctionItemProvider.dispose();
+		if (s3ToLambdaBuilder_s3lambdaItemProvider != null)
+			s3ToLambdaBuilder_s3lambdaItemProvider.dispose();
+		if (s3ToStepFunctionBuilder_s3stepfunctionItemProvider != null)
+			s3ToStepFunctionBuilder_s3stepfunctionItemProvider.dispose();
+		if (snsToLambdaBuilder_snslambdaItemProvider != null)
+			snsToLambdaBuilder_snslambdaItemProvider.dispose();
+		if (managedPolicyBuilder_iamItemProvider != null)
+			managedPolicyBuilder_iamItemProvider.dispose();
+		if (userBuilder_iamItemProvider != null)
+			userBuilder_iamItemProvider.dispose();
+		if (groupBuilder_iamItemProvider != null)
+			groupBuilder_iamItemProvider.dispose();
+		if (roleBuilder_iamItemProvider != null)
+			roleBuilder_iamItemProvider.dispose();
+		if (policyStatementBuilder_iamItemProvider != null)
+			policyStatementBuilder_iamItemProvider.dispose();
+		if (policyDocumentBuilder_iamItemProvider != null)
+			policyDocumentBuilder_iamItemProvider.dispose();
+		if (sqsToLambdaBuilder_sqslambdaItemProvider != null)
+			sqsToLambdaBuilder_sqslambdaItemProvider.dispose();
+		if (attributeBuilder_dynamodbItemProvider != null)
+			attributeBuilder_dynamodbItemProvider.dispose();
+		if (tablePropsBuilder_dynamodbItemProvider != null)
+			tablePropsBuilder_dynamodbItemProvider.dispose();
 	}
 
 }
