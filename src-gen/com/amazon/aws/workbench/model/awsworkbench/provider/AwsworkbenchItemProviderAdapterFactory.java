@@ -724,6 +724,29 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.FunctionPropsBuilder_lambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected FunctionPropsBuilder_lambdaItemProvider functionPropsBuilder_lambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.FunctionPropsBuilder_lambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createFunctionPropsBuilder_lambdaAdapter() {
+		if (functionPropsBuilder_lambdaItemProvider == null) {
+			functionPropsBuilder_lambdaItemProvider = new FunctionPropsBuilder_lambdaItemProvider(this);
+		}
+
+		return functionPropsBuilder_lambdaItemProvider;
+	}
+
+	/**
 	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.FunctionBuilder_lambda} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -979,6 +1002,53 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.LambdaRestApiPropsBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected LambdaRestApiPropsBuilder_apigatewayItemProvider lambdaRestApiPropsBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.LambdaRestApiPropsBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createLambdaRestApiPropsBuilder_apigatewayAdapter() {
+		if (lambdaRestApiPropsBuilder_apigatewayItemProvider == null) {
+			lambdaRestApiPropsBuilder_apigatewayItemProvider = new LambdaRestApiPropsBuilder_apigatewayItemProvider(
+					this);
+		}
+
+		return lambdaRestApiPropsBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.LambdaRestApiBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected LambdaRestApiBuilder_apigatewayItemProvider lambdaRestApiBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.LambdaRestApiBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createLambdaRestApiBuilder_apigatewayAdapter() {
+		if (lambdaRestApiBuilder_apigatewayItemProvider == null) {
+			lambdaRestApiBuilder_apigatewayItemProvider = new LambdaRestApiBuilder_apigatewayItemProvider(this);
+		}
+
+		return lambdaRestApiBuilder_apigatewayItemProvider;
+	}
+
+	/**
 	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApiGatewayToLambdaBuilder_apigatewaylambda} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1003,6 +1073,29 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.QueuePropsBuilder_sqs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected QueuePropsBuilder_sqsItemProvider queuePropsBuilder_sqsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.QueuePropsBuilder_sqs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createQueuePropsBuilder_sqsAdapter() {
+		if (queuePropsBuilder_sqsItemProvider == null) {
+			queuePropsBuilder_sqsItemProvider = new QueuePropsBuilder_sqsItemProvider(this);
+		}
+
+		return queuePropsBuilder_sqsItemProvider;
+	}
+
+	/**
 	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApiGatewayToSqsBuilder_apigatewaysqs} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1024,6 +1117,497 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 		}
 
 		return apiGatewayToSqsBuilder_apigatewaysqsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.VersionBuilder_lambda} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected VersionBuilder_lambdaItemProvider versionBuilder_lambdaItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.VersionBuilder_lambda}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createVersionBuilder_lambdaAdapter() {
+		if (versionBuilder_lambdaItemProvider == null) {
+			versionBuilder_lambdaItemProvider = new VersionBuilder_lambdaItemProvider(this);
+		}
+
+		return versionBuilder_lambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.LambdaFunctionAssociationBuilder_cloudfront} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected LambdaFunctionAssociationBuilder_cloudfrontItemProvider lambdaFunctionAssociationBuilder_cloudfrontItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.LambdaFunctionAssociationBuilder_cloudfront}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createLambdaFunctionAssociationBuilder_cloudfrontAdapter() {
+		if (lambdaFunctionAssociationBuilder_cloudfrontItemProvider == null) {
+			lambdaFunctionAssociationBuilder_cloudfrontItemProvider = new LambdaFunctionAssociationBuilder_cloudfrontItemProvider(
+					this);
+		}
+
+		return lambdaFunctionAssociationBuilder_cloudfrontItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BehaviorBuilder_cloudfront} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BehaviorBuilder_cloudfrontItemProvider behaviorBuilder_cloudfrontItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BehaviorBuilder_cloudfront}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBehaviorBuilder_cloudfrontAdapter() {
+		if (behaviorBuilder_cloudfrontItemProvider == null) {
+			behaviorBuilder_cloudfrontItemProvider = new BehaviorBuilder_cloudfrontItemProvider(this);
+		}
+
+		return behaviorBuilder_cloudfrontItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.CustomOriginConfigBuilder_cloudfront} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CustomOriginConfigBuilder_cloudfrontItemProvider customOriginConfigBuilder_cloudfrontItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.CustomOriginConfigBuilder_cloudfront}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCustomOriginConfigBuilder_cloudfrontAdapter() {
+		if (customOriginConfigBuilder_cloudfrontItemProvider == null) {
+			customOriginConfigBuilder_cloudfrontItemProvider = new CustomOriginConfigBuilder_cloudfrontItemProvider(
+					this);
+		}
+
+		return customOriginConfigBuilder_cloudfrontItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BlockPublicAccessBuilder_s3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BlockPublicAccessBuilder_s3ItemProvider blockPublicAccessBuilder_s3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BlockPublicAccessBuilder_s3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBlockPublicAccessBuilder_s3Adapter() {
+		if (blockPublicAccessBuilder_s3ItemProvider == null) {
+			blockPublicAccessBuilder_s3ItemProvider = new BlockPublicAccessBuilder_s3ItemProvider(this);
+		}
+
+		return blockPublicAccessBuilder_s3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.CorsRuleBuilder_s3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CorsRuleBuilder_s3ItemProvider corsRuleBuilder_s3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.CorsRuleBuilder_s3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCorsRuleBuilder_s3Adapter() {
+		if (corsRuleBuilder_s3ItemProvider == null) {
+			corsRuleBuilder_s3ItemProvider = new CorsRuleBuilder_s3ItemProvider(this);
+		}
+
+		return corsRuleBuilder_s3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.NoncurrentVersionTransitionBuilder_s3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected NoncurrentVersionTransitionBuilder_s3ItemProvider noncurrentVersionTransitionBuilder_s3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.NoncurrentVersionTransitionBuilder_s3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createNoncurrentVersionTransitionBuilder_s3Adapter() {
+		if (noncurrentVersionTransitionBuilder_s3ItemProvider == null) {
+			noncurrentVersionTransitionBuilder_s3ItemProvider = new NoncurrentVersionTransitionBuilder_s3ItemProvider(
+					this);
+		}
+
+		return noncurrentVersionTransitionBuilder_s3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.TransitionBuilder_s3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TransitionBuilder_s3ItemProvider transitionBuilder_s3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.TransitionBuilder_s3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createTransitionBuilder_s3Adapter() {
+		if (transitionBuilder_s3ItemProvider == null) {
+			transitionBuilder_s3ItemProvider = new TransitionBuilder_s3ItemProvider(this);
+		}
+
+		return transitionBuilder_s3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.LifecycleRuleBuilder_s3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected LifecycleRuleBuilder_s3ItemProvider lifecycleRuleBuilder_s3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.LifecycleRuleBuilder_s3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createLifecycleRuleBuilder_s3Adapter() {
+		if (lifecycleRuleBuilder_s3ItemProvider == null) {
+			lifecycleRuleBuilder_s3ItemProvider = new LifecycleRuleBuilder_s3ItemProvider(this);
+		}
+
+		return lifecycleRuleBuilder_s3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BucketMetricsBuilder_s3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BucketMetricsBuilder_s3ItemProvider bucketMetricsBuilder_s3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BucketMetricsBuilder_s3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBucketMetricsBuilder_s3Adapter() {
+		if (bucketMetricsBuilder_s3ItemProvider == null) {
+			bucketMetricsBuilder_s3ItemProvider = new BucketMetricsBuilder_s3ItemProvider(this);
+		}
+
+		return bucketMetricsBuilder_s3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.RedirectTargetBuilder_s3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RedirectTargetBuilder_s3ItemProvider redirectTargetBuilder_s3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.RedirectTargetBuilder_s3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRedirectTargetBuilder_s3Adapter() {
+		if (redirectTargetBuilder_s3ItemProvider == null) {
+			redirectTargetBuilder_s3ItemProvider = new RedirectTargetBuilder_s3ItemProvider(this);
+		}
+
+		return redirectTargetBuilder_s3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.RoutingRuleConditionBuilder_s3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RoutingRuleConditionBuilder_s3ItemProvider routingRuleConditionBuilder_s3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.RoutingRuleConditionBuilder_s3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRoutingRuleConditionBuilder_s3Adapter() {
+		if (routingRuleConditionBuilder_s3ItemProvider == null) {
+			routingRuleConditionBuilder_s3ItemProvider = new RoutingRuleConditionBuilder_s3ItemProvider(this);
+		}
+
+		return routingRuleConditionBuilder_s3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.RoutingRuleBuilder_s3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RoutingRuleBuilder_s3ItemProvider routingRuleBuilder_s3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.RoutingRuleBuilder_s3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRoutingRuleBuilder_s3Adapter() {
+		if (routingRuleBuilder_s3ItemProvider == null) {
+			routingRuleBuilder_s3ItemProvider = new RoutingRuleBuilder_s3ItemProvider(this);
+		}
+
+		return routingRuleBuilder_s3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BucketBuilder_s3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BucketBuilder_s3ItemProvider bucketBuilder_s3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BucketBuilder_s3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBucketBuilder_s3Adapter() {
+		if (bucketBuilder_s3ItemProvider == null) {
+			bucketBuilder_s3ItemProvider = new BucketBuilder_s3ItemProvider(this);
+		}
+
+		return bucketBuilder_s3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BucketPropsBuilder_s3} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BucketPropsBuilder_s3ItemProvider bucketPropsBuilder_s3ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BucketPropsBuilder_s3}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBucketPropsBuilder_s3Adapter() {
+		if (bucketPropsBuilder_s3ItemProvider == null) {
+			bucketPropsBuilder_s3ItemProvider = new BucketPropsBuilder_s3ItemProvider(this);
+		}
+
+		return bucketPropsBuilder_s3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.OriginAccessIdentityBuilder_cloudfront} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected OriginAccessIdentityBuilder_cloudfrontItemProvider originAccessIdentityBuilder_cloudfrontItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.OriginAccessIdentityBuilder_cloudfront}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createOriginAccessIdentityBuilder_cloudfrontAdapter() {
+		if (originAccessIdentityBuilder_cloudfrontItemProvider == null) {
+			originAccessIdentityBuilder_cloudfrontItemProvider = new OriginAccessIdentityBuilder_cloudfrontItemProvider(
+					this);
+		}
+
+		return originAccessIdentityBuilder_cloudfrontItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.S3OriginConfigBuilder_cloudfront} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected S3OriginConfigBuilder_cloudfrontItemProvider s3OriginConfigBuilder_cloudfrontItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.S3OriginConfigBuilder_cloudfront}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createS3OriginConfigBuilder_cloudfrontAdapter() {
+		if (s3OriginConfigBuilder_cloudfrontItemProvider == null) {
+			s3OriginConfigBuilder_cloudfrontItemProvider = new S3OriginConfigBuilder_cloudfrontItemProvider(this);
+		}
+
+		return s3OriginConfigBuilder_cloudfrontItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SourceConfigurationBuilder_cloudfront} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected SourceConfigurationBuilder_cloudfrontItemProvider sourceConfigurationBuilder_cloudfrontItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SourceConfigurationBuilder_cloudfront}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createSourceConfigurationBuilder_cloudfrontAdapter() {
+		if (sourceConfigurationBuilder_cloudfrontItemProvider == null) {
+			sourceConfigurationBuilder_cloudfrontItemProvider = new SourceConfigurationBuilder_cloudfrontItemProvider(
+					this);
+		}
+
+		return sourceConfigurationBuilder_cloudfrontItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AliasConfigurationBuilder_cloudfront} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AliasConfigurationBuilder_cloudfrontItemProvider aliasConfigurationBuilder_cloudfrontItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AliasConfigurationBuilder_cloudfront}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAliasConfigurationBuilder_cloudfrontAdapter() {
+		if (aliasConfigurationBuilder_cloudfrontItemProvider == null) {
+			aliasConfigurationBuilder_cloudfrontItemProvider = new AliasConfigurationBuilder_cloudfrontItemProvider(
+					this);
+		}
+
+		return aliasConfigurationBuilder_cloudfrontItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.LoggingConfigurationBuilder_cloudfront} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected LoggingConfigurationBuilder_cloudfrontItemProvider loggingConfigurationBuilder_cloudfrontItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.LoggingConfigurationBuilder_cloudfront}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createLoggingConfigurationBuilder_cloudfrontAdapter() {
+		if (loggingConfigurationBuilder_cloudfrontItemProvider == null) {
+			loggingConfigurationBuilder_cloudfrontItemProvider = new LoggingConfigurationBuilder_cloudfrontItemProvider(
+					this);
+		}
+
+		return loggingConfigurationBuilder_cloudfrontItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.CloudFrontWebDistributionPropsBuilder_cloudfront} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CloudFrontWebDistributionPropsBuilder_cloudfrontItemProvider cloudFrontWebDistributionPropsBuilder_cloudfrontItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.CloudFrontWebDistributionPropsBuilder_cloudfront}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCloudFrontWebDistributionPropsBuilder_cloudfrontAdapter() {
+		if (cloudFrontWebDistributionPropsBuilder_cloudfrontItemProvider == null) {
+			cloudFrontWebDistributionPropsBuilder_cloudfrontItemProvider = new CloudFrontWebDistributionPropsBuilder_cloudfrontItemProvider(
+					this);
+		}
+
+		return cloudFrontWebDistributionPropsBuilder_cloudfrontItemProvider;
 	}
 
 	/**
@@ -1095,6 +1679,352 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 		}
 
 		return cloudFrontToS3Builder_cloudfronts3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AutoVerifiedAttrsBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AutoVerifiedAttrsBuilder_cognitoItemProvider autoVerifiedAttrsBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AutoVerifiedAttrsBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAutoVerifiedAttrsBuilder_cognitoAdapter() {
+		if (autoVerifiedAttrsBuilder_cognitoItemProvider == null) {
+			autoVerifiedAttrsBuilder_cognitoItemProvider = new AutoVerifiedAttrsBuilder_cognitoItemProvider(this);
+		}
+
+		return autoVerifiedAttrsBuilder_cognitoItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.UserPoolTriggersBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected UserPoolTriggersBuilder_cognitoItemProvider userPoolTriggersBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.UserPoolTriggersBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createUserPoolTriggersBuilder_cognitoAdapter() {
+		if (userPoolTriggersBuilder_cognitoItemProvider == null) {
+			userPoolTriggersBuilder_cognitoItemProvider = new UserPoolTriggersBuilder_cognitoItemProvider(this);
+		}
+
+		return userPoolTriggersBuilder_cognitoItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.EmailSettingsBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected EmailSettingsBuilder_cognitoItemProvider emailSettingsBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.EmailSettingsBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createEmailSettingsBuilder_cognitoAdapter() {
+		if (emailSettingsBuilder_cognitoItemProvider == null) {
+			emailSettingsBuilder_cognitoItemProvider = new EmailSettingsBuilder_cognitoItemProvider(this);
+		}
+
+		return emailSettingsBuilder_cognitoItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.PasswordPolicyBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PasswordPolicyBuilder_cognitoItemProvider passwordPolicyBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.PasswordPolicyBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPasswordPolicyBuilder_cognitoAdapter() {
+		if (passwordPolicyBuilder_cognitoItemProvider == null) {
+			passwordPolicyBuilder_cognitoItemProvider = new PasswordPolicyBuilder_cognitoItemProvider(this);
+		}
+
+		return passwordPolicyBuilder_cognitoItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.MfaSecondFactorBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected MfaSecondFactorBuilder_cognitoItemProvider mfaSecondFactorBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.MfaSecondFactorBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createMfaSecondFactorBuilder_cognitoAdapter() {
+		if (mfaSecondFactorBuilder_cognitoItemProvider == null) {
+			mfaSecondFactorBuilder_cognitoItemProvider = new MfaSecondFactorBuilder_cognitoItemProvider(this);
+		}
+
+		return mfaSecondFactorBuilder_cognitoItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.RequiredAttributesBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RequiredAttributesBuilder_cognitoItemProvider requiredAttributesBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.RequiredAttributesBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRequiredAttributesBuilder_cognitoAdapter() {
+		if (requiredAttributesBuilder_cognitoItemProvider == null) {
+			requiredAttributesBuilder_cognitoItemProvider = new RequiredAttributesBuilder_cognitoItemProvider(this);
+		}
+
+		return requiredAttributesBuilder_cognitoItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SignInAliasesBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected SignInAliasesBuilder_cognitoItemProvider signInAliasesBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SignInAliasesBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createSignInAliasesBuilder_cognitoAdapter() {
+		if (signInAliasesBuilder_cognitoItemProvider == null) {
+			signInAliasesBuilder_cognitoItemProvider = new SignInAliasesBuilder_cognitoItemProvider(this);
+		}
+
+		return signInAliasesBuilder_cognitoItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.UserInvitationConfigBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected UserInvitationConfigBuilder_cognitoItemProvider userInvitationConfigBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.UserInvitationConfigBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createUserInvitationConfigBuilder_cognitoAdapter() {
+		if (userInvitationConfigBuilder_cognitoItemProvider == null) {
+			userInvitationConfigBuilder_cognitoItemProvider = new UserInvitationConfigBuilder_cognitoItemProvider(this);
+		}
+
+		return userInvitationConfigBuilder_cognitoItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.UserVerificationConfigBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected UserVerificationConfigBuilder_cognitoItemProvider userVerificationConfigBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.UserVerificationConfigBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createUserVerificationConfigBuilder_cognitoAdapter() {
+		if (userVerificationConfigBuilder_cognitoItemProvider == null) {
+			userVerificationConfigBuilder_cognitoItemProvider = new UserVerificationConfigBuilder_cognitoItemProvider(
+					this);
+		}
+
+		return userVerificationConfigBuilder_cognitoItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.UserPoolPropsBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected UserPoolPropsBuilder_cognitoItemProvider userPoolPropsBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.UserPoolPropsBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createUserPoolPropsBuilder_cognitoAdapter() {
+		if (userPoolPropsBuilder_cognitoItemProvider == null) {
+			userPoolPropsBuilder_cognitoItemProvider = new UserPoolPropsBuilder_cognitoItemProvider(this);
+		}
+
+		return userPoolPropsBuilder_cognitoItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.UserPoolBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected UserPoolBuilder_cognitoItemProvider userPoolBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.UserPoolBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createUserPoolBuilder_cognitoAdapter() {
+		if (userPoolBuilder_cognitoItemProvider == null) {
+			userPoolBuilder_cognitoItemProvider = new UserPoolBuilder_cognitoItemProvider(this);
+		}
+
+		return userPoolBuilder_cognitoItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AuthFlowBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AuthFlowBuilder_cognitoItemProvider authFlowBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AuthFlowBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAuthFlowBuilder_cognitoAdapter() {
+		if (authFlowBuilder_cognitoItemProvider == null) {
+			authFlowBuilder_cognitoItemProvider = new AuthFlowBuilder_cognitoItemProvider(this);
+		}
+
+		return authFlowBuilder_cognitoItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.OAuthFlowsBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected OAuthFlowsBuilder_cognitoItemProvider oAuthFlowsBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.OAuthFlowsBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createOAuthFlowsBuilder_cognitoAdapter() {
+		if (oAuthFlowsBuilder_cognitoItemProvider == null) {
+			oAuthFlowsBuilder_cognitoItemProvider = new OAuthFlowsBuilder_cognitoItemProvider(this);
+		}
+
+		return oAuthFlowsBuilder_cognitoItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.OAuthSettingsBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected OAuthSettingsBuilder_cognitoItemProvider oAuthSettingsBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.OAuthSettingsBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createOAuthSettingsBuilder_cognitoAdapter() {
+		if (oAuthSettingsBuilder_cognitoItemProvider == null) {
+			oAuthSettingsBuilder_cognitoItemProvider = new OAuthSettingsBuilder_cognitoItemProvider(this);
+		}
+
+		return oAuthSettingsBuilder_cognitoItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.UserPoolClientPropsBuilder_cognito} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected UserPoolClientPropsBuilder_cognitoItemProvider userPoolClientPropsBuilder_cognitoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.UserPoolClientPropsBuilder_cognito}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createUserPoolClientPropsBuilder_cognitoAdapter() {
+		if (userPoolClientPropsBuilder_cognitoItemProvider == null) {
+			userPoolClientPropsBuilder_cognitoItemProvider = new UserPoolClientPropsBuilder_cognitoItemProvider(this);
+		}
+
+		return userPoolClientPropsBuilder_cognitoItemProvider;
 	}
 
 	/**
@@ -2172,6 +3102,8 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 			layerVersionBuilder_lambdaItemProvider.dispose();
 		if (securityGroupBuilder_ec2ItemProvider != null)
 			securityGroupBuilder_ec2ItemProvider.dispose();
+		if (functionPropsBuilder_lambdaItemProvider != null)
+			functionPropsBuilder_lambdaItemProvider.dispose();
 		if (functionBuilder_lambdaItemProvider != null)
 			functionBuilder_lambdaItemProvider.dispose();
 		if (requestAuthorizerBuilder_apigatewayItemProvider != null)
@@ -2194,16 +3126,94 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 			restApiPropsBuilder_apigatewayItemProvider.dispose();
 		if (apiGatewayToDynamoDBBuilder_apigatewaydynamodbItemProvider != null)
 			apiGatewayToDynamoDBBuilder_apigatewaydynamodbItemProvider.dispose();
+		if (lambdaRestApiPropsBuilder_apigatewayItemProvider != null)
+			lambdaRestApiPropsBuilder_apigatewayItemProvider.dispose();
+		if (lambdaRestApiBuilder_apigatewayItemProvider != null)
+			lambdaRestApiBuilder_apigatewayItemProvider.dispose();
 		if (apiGatewayToLambdaBuilder_apigatewaylambdaItemProvider != null)
 			apiGatewayToLambdaBuilder_apigatewaylambdaItemProvider.dispose();
+		if (queuePropsBuilder_sqsItemProvider != null)
+			queuePropsBuilder_sqsItemProvider.dispose();
 		if (apiGatewayToSqsBuilder_apigatewaysqsItemProvider != null)
 			apiGatewayToSqsBuilder_apigatewaysqsItemProvider.dispose();
+		if (versionBuilder_lambdaItemProvider != null)
+			versionBuilder_lambdaItemProvider.dispose();
+		if (lambdaFunctionAssociationBuilder_cloudfrontItemProvider != null)
+			lambdaFunctionAssociationBuilder_cloudfrontItemProvider.dispose();
+		if (behaviorBuilder_cloudfrontItemProvider != null)
+			behaviorBuilder_cloudfrontItemProvider.dispose();
+		if (customOriginConfigBuilder_cloudfrontItemProvider != null)
+			customOriginConfigBuilder_cloudfrontItemProvider.dispose();
+		if (blockPublicAccessBuilder_s3ItemProvider != null)
+			blockPublicAccessBuilder_s3ItemProvider.dispose();
+		if (corsRuleBuilder_s3ItemProvider != null)
+			corsRuleBuilder_s3ItemProvider.dispose();
+		if (noncurrentVersionTransitionBuilder_s3ItemProvider != null)
+			noncurrentVersionTransitionBuilder_s3ItemProvider.dispose();
+		if (transitionBuilder_s3ItemProvider != null)
+			transitionBuilder_s3ItemProvider.dispose();
+		if (lifecycleRuleBuilder_s3ItemProvider != null)
+			lifecycleRuleBuilder_s3ItemProvider.dispose();
+		if (bucketMetricsBuilder_s3ItemProvider != null)
+			bucketMetricsBuilder_s3ItemProvider.dispose();
+		if (redirectTargetBuilder_s3ItemProvider != null)
+			redirectTargetBuilder_s3ItemProvider.dispose();
+		if (routingRuleConditionBuilder_s3ItemProvider != null)
+			routingRuleConditionBuilder_s3ItemProvider.dispose();
+		if (routingRuleBuilder_s3ItemProvider != null)
+			routingRuleBuilder_s3ItemProvider.dispose();
+		if (bucketBuilder_s3ItemProvider != null)
+			bucketBuilder_s3ItemProvider.dispose();
+		if (bucketPropsBuilder_s3ItemProvider != null)
+			bucketPropsBuilder_s3ItemProvider.dispose();
+		if (originAccessIdentityBuilder_cloudfrontItemProvider != null)
+			originAccessIdentityBuilder_cloudfrontItemProvider.dispose();
+		if (s3OriginConfigBuilder_cloudfrontItemProvider != null)
+			s3OriginConfigBuilder_cloudfrontItemProvider.dispose();
+		if (sourceConfigurationBuilder_cloudfrontItemProvider != null)
+			sourceConfigurationBuilder_cloudfrontItemProvider.dispose();
+		if (aliasConfigurationBuilder_cloudfrontItemProvider != null)
+			aliasConfigurationBuilder_cloudfrontItemProvider.dispose();
+		if (loggingConfigurationBuilder_cloudfrontItemProvider != null)
+			loggingConfigurationBuilder_cloudfrontItemProvider.dispose();
+		if (cloudFrontWebDistributionPropsBuilder_cloudfrontItemProvider != null)
+			cloudFrontWebDistributionPropsBuilder_cloudfrontItemProvider.dispose();
 		if (cloudFrontToApiGatewayBuilder_cloudfrontapigatewayItemProvider != null)
 			cloudFrontToApiGatewayBuilder_cloudfrontapigatewayItemProvider.dispose();
 		if (cloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambdaItemProvider != null)
 			cloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambdaItemProvider.dispose();
 		if (cloudFrontToS3Builder_cloudfronts3ItemProvider != null)
 			cloudFrontToS3Builder_cloudfronts3ItemProvider.dispose();
+		if (autoVerifiedAttrsBuilder_cognitoItemProvider != null)
+			autoVerifiedAttrsBuilder_cognitoItemProvider.dispose();
+		if (userPoolTriggersBuilder_cognitoItemProvider != null)
+			userPoolTriggersBuilder_cognitoItemProvider.dispose();
+		if (emailSettingsBuilder_cognitoItemProvider != null)
+			emailSettingsBuilder_cognitoItemProvider.dispose();
+		if (passwordPolicyBuilder_cognitoItemProvider != null)
+			passwordPolicyBuilder_cognitoItemProvider.dispose();
+		if (mfaSecondFactorBuilder_cognitoItemProvider != null)
+			mfaSecondFactorBuilder_cognitoItemProvider.dispose();
+		if (requiredAttributesBuilder_cognitoItemProvider != null)
+			requiredAttributesBuilder_cognitoItemProvider.dispose();
+		if (signInAliasesBuilder_cognitoItemProvider != null)
+			signInAliasesBuilder_cognitoItemProvider.dispose();
+		if (userInvitationConfigBuilder_cognitoItemProvider != null)
+			userInvitationConfigBuilder_cognitoItemProvider.dispose();
+		if (userVerificationConfigBuilder_cognitoItemProvider != null)
+			userVerificationConfigBuilder_cognitoItemProvider.dispose();
+		if (userPoolPropsBuilder_cognitoItemProvider != null)
+			userPoolPropsBuilder_cognitoItemProvider.dispose();
+		if (userPoolBuilder_cognitoItemProvider != null)
+			userPoolBuilder_cognitoItemProvider.dispose();
+		if (authFlowBuilder_cognitoItemProvider != null)
+			authFlowBuilder_cognitoItemProvider.dispose();
+		if (oAuthFlowsBuilder_cognitoItemProvider != null)
+			oAuthFlowsBuilder_cognitoItemProvider.dispose();
+		if (oAuthSettingsBuilder_cognitoItemProvider != null)
+			oAuthSettingsBuilder_cognitoItemProvider.dispose();
+		if (userPoolClientPropsBuilder_cognitoItemProvider != null)
+			userPoolClientPropsBuilder_cognitoItemProvider.dispose();
 		if (cognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambdaItemProvider != null)
 			cognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambdaItemProvider.dispose();
 		if (buildDeadLetterQueuePropsBuilder_coreItemProvider != null)
