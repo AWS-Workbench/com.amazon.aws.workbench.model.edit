@@ -2333,6 +2333,98 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.EventBusBuilder_events} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected EventBusBuilder_eventsItemProvider eventBusBuilder_eventsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.EventBusBuilder_events}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createEventBusBuilder_eventsAdapter() {
+		if (eventBusBuilder_eventsItemProvider == null) {
+			eventBusBuilder_eventsItemProvider = new EventBusBuilder_eventsItemProvider(this);
+		}
+
+		return eventBusBuilder_eventsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.EventPatternBuilder_events} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected EventPatternBuilder_eventsItemProvider eventPatternBuilder_eventsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.EventPatternBuilder_events}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createEventPatternBuilder_eventsAdapter() {
+		if (eventPatternBuilder_eventsItemProvider == null) {
+			eventPatternBuilder_eventsItemProvider = new EventPatternBuilder_eventsItemProvider(this);
+		}
+
+		return eventPatternBuilder_eventsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.RulePropsBuilder_events} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RulePropsBuilder_eventsItemProvider rulePropsBuilder_eventsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.RulePropsBuilder_events}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRulePropsBuilder_eventsAdapter() {
+		if (rulePropsBuilder_eventsItemProvider == null) {
+			rulePropsBuilder_eventsItemProvider = new RulePropsBuilder_eventsItemProvider(this);
+		}
+
+		return rulePropsBuilder_eventsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.CronOptionsBuilder_events} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CronOptionsBuilder_eventsItemProvider cronOptionsBuilder_eventsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.CronOptionsBuilder_events}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCronOptionsBuilder_eventsAdapter() {
+		if (cronOptionsBuilder_eventsItemProvider == null) {
+			cronOptionsBuilder_eventsItemProvider = new CronOptionsBuilder_eventsItemProvider(this);
+		}
+
+		return cronOptionsBuilder_eventsItemProvider;
+	}
+
+	/**
 	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.EventsRuleToLambdaBuilder_eventsrulelambda} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -2354,6 +2446,30 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 		}
 
 		return eventsRuleToLambdaBuilder_eventsrulelambdaItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.StateMachinePropsBuilder_stepfunctions} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected StateMachinePropsBuilder_stepfunctionsItemProvider stateMachinePropsBuilder_stepfunctionsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.StateMachinePropsBuilder_stepfunctions}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createStateMachinePropsBuilder_stepfunctionsAdapter() {
+		if (stateMachinePropsBuilder_stepfunctionsItemProvider == null) {
+			stateMachinePropsBuilder_stepfunctionsItemProvider = new StateMachinePropsBuilder_stepfunctionsItemProvider(
+					this);
+		}
+
+		return stateMachinePropsBuilder_stepfunctionsItemProvider;
 	}
 
 	/**
@@ -2524,6 +2640,29 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.TableBuilder_dynamodb} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TableBuilder_dynamodbItemProvider tableBuilder_dynamodbItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.TableBuilder_dynamodb}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createTableBuilder_dynamodbAdapter() {
+		if (tableBuilder_dynamodbItemProvider == null) {
+			tableBuilder_dynamodbItemProvider = new TableBuilder_dynamodbItemProvider(this);
+		}
+
+		return tableBuilder_dynamodbItemProvider;
+	}
+
+	/**
 	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.LambdaToDynamoDBBuilder_lambdadynamodb} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -2592,6 +2731,29 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 		}
 
 		return lambdaToS3Builder_lambdas3ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.TopicPropsBuilder_sns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TopicPropsBuilder_snsItemProvider topicPropsBuilder_snsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.TopicPropsBuilder_sns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createTopicPropsBuilder_snsAdapter() {
+		if (topicPropsBuilder_snsItemProvider == null) {
+			topicPropsBuilder_snsItemProvider = new TopicPropsBuilder_snsItemProvider(this);
+		}
+
+		return topicPropsBuilder_snsItemProvider;
 	}
 
 	/**
@@ -2942,6 +3104,1235 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.PrivateDnsNamespaceBuilder_servicediscovery} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PrivateDnsNamespaceBuilder_servicediscoveryItemProvider privateDnsNamespaceBuilder_servicediscoveryItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.PrivateDnsNamespaceBuilder_servicediscovery}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPrivateDnsNamespaceBuilder_servicediscoveryAdapter() {
+		if (privateDnsNamespaceBuilder_servicediscoveryItemProvider == null) {
+			privateDnsNamespaceBuilder_servicediscoveryItemProvider = new PrivateDnsNamespaceBuilder_servicediscoveryItemProvider(
+					this);
+		}
+
+		return privateDnsNamespaceBuilder_servicediscoveryItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.PublicDnsNamespaceBuilder_servicediscovery} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PublicDnsNamespaceBuilder_servicediscoveryItemProvider publicDnsNamespaceBuilder_servicediscoveryItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.PublicDnsNamespaceBuilder_servicediscovery}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPublicDnsNamespaceBuilder_servicediscoveryAdapter() {
+		if (publicDnsNamespaceBuilder_servicediscoveryItemProvider == null) {
+			publicDnsNamespaceBuilder_servicediscoveryItemProvider = new PublicDnsNamespaceBuilder_servicediscoveryItemProvider(
+					this);
+		}
+
+		return publicDnsNamespaceBuilder_servicediscoveryItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.HttpNamespaceBuilder_servicediscovery} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected HttpNamespaceBuilder_servicediscoveryItemProvider httpNamespaceBuilder_servicediscoveryItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.HttpNamespaceBuilder_servicediscovery}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createHttpNamespaceBuilder_servicediscoveryAdapter() {
+		if (httpNamespaceBuilder_servicediscoveryItemProvider == null) {
+			httpNamespaceBuilder_servicediscoveryItemProvider = new HttpNamespaceBuilder_servicediscoveryItemProvider(
+					this);
+		}
+
+		return httpNamespaceBuilder_servicediscoveryItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.CloudMapOptionsBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CloudMapOptionsBuilder_ecsItemProvider cloudMapOptionsBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.CloudMapOptionsBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCloudMapOptionsBuilder_ecsAdapter() {
+		if (cloudMapOptionsBuilder_ecsItemProvider == null) {
+			cloudMapOptionsBuilder_ecsItemProvider = new CloudMapOptionsBuilder_ecsItemProvider(this);
+		}
+
+		return cloudMapOptionsBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.BlockDeviceBuilder_autoscaling} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BlockDeviceBuilder_autoscalingItemProvider blockDeviceBuilder_autoscalingItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.BlockDeviceBuilder_autoscaling}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBlockDeviceBuilder_autoscalingAdapter() {
+		if (blockDeviceBuilder_autoscalingItemProvider == null) {
+			blockDeviceBuilder_autoscalingItemProvider = new BlockDeviceBuilder_autoscalingItemProvider(this);
+		}
+
+		return blockDeviceBuilder_autoscalingItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.HealthCheckBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected HealthCheckBuilder_ecsItemProvider healthCheckBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.HealthCheckBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createHealthCheckBuilder_ecsAdapter() {
+		if (healthCheckBuilder_ecsItemProvider == null) {
+			healthCheckBuilder_ecsItemProvider = new HealthCheckBuilder_ecsItemProvider(this);
+		}
+
+		return healthCheckBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AmazonLinuxImageBuilder_ec2} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AmazonLinuxImageBuilder_ec2ItemProvider amazonLinuxImageBuilder_ec2ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AmazonLinuxImageBuilder_ec2}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAmazonLinuxImageBuilder_ec2Adapter() {
+		if (amazonLinuxImageBuilder_ec2ItemProvider == null) {
+			amazonLinuxImageBuilder_ec2ItemProvider = new AmazonLinuxImageBuilder_ec2ItemProvider(this);
+		}
+
+		return amazonLinuxImageBuilder_ec2ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.RollingUpdateConfigurationBuilder_autoscaling} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RollingUpdateConfigurationBuilder_autoscalingItemProvider rollingUpdateConfigurationBuilder_autoscalingItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.RollingUpdateConfigurationBuilder_autoscaling}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRollingUpdateConfigurationBuilder_autoscalingAdapter() {
+		if (rollingUpdateConfigurationBuilder_autoscalingItemProvider == null) {
+			rollingUpdateConfigurationBuilder_autoscalingItemProvider = new RollingUpdateConfigurationBuilder_autoscalingItemProvider(
+					this);
+		}
+
+		return rollingUpdateConfigurationBuilder_autoscalingItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AddCapacityOptionsBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AddCapacityOptionsBuilder_ecsItemProvider addCapacityOptionsBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AddCapacityOptionsBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAddCapacityOptionsBuilder_ecsAdapter() {
+		if (addCapacityOptionsBuilder_ecsItemProvider == null) {
+			addCapacityOptionsBuilder_ecsItemProvider = new AddCapacityOptionsBuilder_ecsItemProvider(this);
+		}
+
+		return addCapacityOptionsBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.CloudMapNamespaceOptionsBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CloudMapNamespaceOptionsBuilder_ecsItemProvider cloudMapNamespaceOptionsBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.CloudMapNamespaceOptionsBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCloudMapNamespaceOptionsBuilder_ecsAdapter() {
+		if (cloudMapNamespaceOptionsBuilder_ecsItemProvider == null) {
+			cloudMapNamespaceOptionsBuilder_ecsItemProvider = new CloudMapNamespaceOptionsBuilder_ecsItemProvider(this);
+		}
+
+		return cloudMapNamespaceOptionsBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ClusterBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ClusterBuilder_ecsItemProvider clusterBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ClusterBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createClusterBuilder_ecsAdapter() {
+		if (clusterBuilder_ecsItemProvider == null) {
+			clusterBuilder_ecsItemProvider = new ClusterBuilder_ecsItemProvider(this);
+		}
+
+		return clusterBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationLoadBalancerBuilder_elasticloadbalancingv2} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ApplicationLoadBalancerBuilder_elasticloadbalancingv2ItemProvider applicationLoadBalancerBuilder_elasticloadbalancingv2ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationLoadBalancerBuilder_elasticloadbalancingv2}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createApplicationLoadBalancerBuilder_elasticloadbalancingv2Adapter() {
+		if (applicationLoadBalancerBuilder_elasticloadbalancingv2ItemProvider == null) {
+			applicationLoadBalancerBuilder_elasticloadbalancingv2ItemProvider = new ApplicationLoadBalancerBuilder_elasticloadbalancingv2ItemProvider(
+					this);
+		}
+
+		return applicationLoadBalancerBuilder_elasticloadbalancingv2ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.DockerImageAssetBuilder_assets} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DockerImageAssetBuilder_assetsItemProvider dockerImageAssetBuilder_assetsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.DockerImageAssetBuilder_assets}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDockerImageAssetBuilder_assetsAdapter() {
+		if (dockerImageAssetBuilder_assetsItemProvider == null) {
+			dockerImageAssetBuilder_assetsItemProvider = new DockerImageAssetBuilder_assetsItemProvider(this);
+		}
+
+		return dockerImageAssetBuilder_assetsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AssetImageBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AssetImageBuilder_ecsItemProvider assetImageBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AssetImageBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAssetImageBuilder_ecsAdapter() {
+		if (assetImageBuilder_ecsItemProvider == null) {
+			assetImageBuilder_ecsItemProvider = new AssetImageBuilder_ecsItemProvider(this);
+		}
+
+		return assetImageBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SecretStringGeneratorBuilder_secretsmanager} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected SecretStringGeneratorBuilder_secretsmanagerItemProvider secretStringGeneratorBuilder_secretsmanagerItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SecretStringGeneratorBuilder_secretsmanager}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createSecretStringGeneratorBuilder_secretsmanagerAdapter() {
+		if (secretStringGeneratorBuilder_secretsmanagerItemProvider == null) {
+			secretStringGeneratorBuilder_secretsmanagerItemProvider = new SecretStringGeneratorBuilder_secretsmanagerItemProvider(
+					this);
+		}
+
+		return secretStringGeneratorBuilder_secretsmanagerItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SecretBuilder_secretsmanager} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected SecretBuilder_secretsmanagerItemProvider secretBuilder_secretsmanagerItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SecretBuilder_secretsmanager}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createSecretBuilder_secretsmanagerAdapter() {
+		if (secretBuilder_secretsmanagerItemProvider == null) {
+			secretBuilder_secretsmanagerItemProvider = new SecretBuilder_secretsmanagerItemProvider(this);
+		}
+
+		return secretBuilder_secretsmanagerItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AwsLogDriverBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AwsLogDriverBuilder_ecsItemProvider awsLogDriverBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AwsLogDriverBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAwsLogDriverBuilder_ecsAdapter() {
+		if (awsLogDriverBuilder_ecsItemProvider == null) {
+			awsLogDriverBuilder_ecsItemProvider = new AwsLogDriverBuilder_ecsItemProvider(this);
+		}
+
+		return awsLogDriverBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.LogGroupBuilder_logs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected LogGroupBuilder_logsItemProvider logGroupBuilder_logsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.LogGroupBuilder_logs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createLogGroupBuilder_logsAdapter() {
+		if (logGroupBuilder_logsItemProvider == null) {
+			logGroupBuilder_logsItemProvider = new LogGroupBuilder_logsItemProvider(this);
+		}
+
+		return logGroupBuilder_logsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AwsLogDriverPropsBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AwsLogDriverPropsBuilder_ecsItemProvider awsLogDriverPropsBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AwsLogDriverPropsBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAwsLogDriverPropsBuilder_ecsAdapter() {
+		if (awsLogDriverPropsBuilder_ecsItemProvider == null) {
+			awsLogDriverPropsBuilder_ecsItemProvider = new AwsLogDriverPropsBuilder_ecsItemProvider(this);
+		}
+
+		return awsLogDriverPropsBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationLoadBalancedTaskImageOptionsBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ApplicationLoadBalancedTaskImageOptionsBuilder_patternsItemProvider applicationLoadBalancedTaskImageOptionsBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationLoadBalancedTaskImageOptionsBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createApplicationLoadBalancedTaskImageOptionsBuilder_patternsAdapter() {
+		if (applicationLoadBalancedTaskImageOptionsBuilder_patternsItemProvider == null) {
+			applicationLoadBalancedTaskImageOptionsBuilder_patternsItemProvider = new ApplicationLoadBalancedTaskImageOptionsBuilder_patternsItemProvider(
+					this);
+		}
+
+		return applicationLoadBalancedTaskImageOptionsBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AppMeshProxyConfigurationPropsBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AppMeshProxyConfigurationPropsBuilder_ecsItemProvider appMeshProxyConfigurationPropsBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AppMeshProxyConfigurationPropsBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAppMeshProxyConfigurationPropsBuilder_ecsAdapter() {
+		if (appMeshProxyConfigurationPropsBuilder_ecsItemProvider == null) {
+			appMeshProxyConfigurationPropsBuilder_ecsItemProvider = new AppMeshProxyConfigurationPropsBuilder_ecsItemProvider(
+					this);
+		}
+
+		return appMeshProxyConfigurationPropsBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AppMeshProxyConfigurationBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AppMeshProxyConfigurationBuilder_ecsItemProvider appMeshProxyConfigurationBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AppMeshProxyConfigurationBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAppMeshProxyConfigurationBuilder_ecsAdapter() {
+		if (appMeshProxyConfigurationBuilder_ecsItemProvider == null) {
+			appMeshProxyConfigurationBuilder_ecsItemProvider = new AppMeshProxyConfigurationBuilder_ecsItemProvider(
+					this);
+		}
+
+		return appMeshProxyConfigurationBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.HostBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected HostBuilder_ecsItemProvider hostBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.HostBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createHostBuilder_ecsAdapter() {
+		if (hostBuilder_ecsItemProvider == null) {
+			hostBuilder_ecsItemProvider = new HostBuilder_ecsItemProvider(this);
+		}
+
+		return hostBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.DockerVolumeConfigurationBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DockerVolumeConfigurationBuilder_ecsItemProvider dockerVolumeConfigurationBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.DockerVolumeConfigurationBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDockerVolumeConfigurationBuilder_ecsAdapter() {
+		if (dockerVolumeConfigurationBuilder_ecsItemProvider == null) {
+			dockerVolumeConfigurationBuilder_ecsItemProvider = new DockerVolumeConfigurationBuilder_ecsItemProvider(
+					this);
+		}
+
+		return dockerVolumeConfigurationBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.VolumeBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected VolumeBuilder_ecsItemProvider volumeBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.VolumeBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createVolumeBuilder_ecsAdapter() {
+		if (volumeBuilder_ecsItemProvider == null) {
+			volumeBuilder_ecsItemProvider = new VolumeBuilder_ecsItemProvider(this);
+		}
+
+		return volumeBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.Ec2TaskDefinitionBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected Ec2TaskDefinitionBuilder_ecsItemProvider ec2TaskDefinitionBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.Ec2TaskDefinitionBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createEc2TaskDefinitionBuilder_ecsAdapter() {
+		if (ec2TaskDefinitionBuilder_ecsItemProvider == null) {
+			ec2TaskDefinitionBuilder_ecsItemProvider = new Ec2TaskDefinitionBuilder_ecsItemProvider(this);
+		}
+
+		return ec2TaskDefinitionBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationLoadBalancedEc2ServiceBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ApplicationLoadBalancedEc2ServiceBuilder_patternsItemProvider applicationLoadBalancedEc2ServiceBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationLoadBalancedEc2ServiceBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createApplicationLoadBalancedEc2ServiceBuilder_patternsAdapter() {
+		if (applicationLoadBalancedEc2ServiceBuilder_patternsItemProvider == null) {
+			applicationLoadBalancedEc2ServiceBuilder_patternsItemProvider = new ApplicationLoadBalancedEc2ServiceBuilder_patternsItemProvider(
+					this);
+		}
+
+		return applicationLoadBalancedEc2ServiceBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.FargateTaskDefinitionBuilder_ecs} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected FargateTaskDefinitionBuilder_ecsItemProvider fargateTaskDefinitionBuilder_ecsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.FargateTaskDefinitionBuilder_ecs}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createFargateTaskDefinitionBuilder_ecsAdapter() {
+		if (fargateTaskDefinitionBuilder_ecsItemProvider == null) {
+			fargateTaskDefinitionBuilder_ecsItemProvider = new FargateTaskDefinitionBuilder_ecsItemProvider(this);
+		}
+
+		return fargateTaskDefinitionBuilder_ecsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationLoadBalancedFargateServiceBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ApplicationLoadBalancedFargateServiceBuilder_patternsItemProvider applicationLoadBalancedFargateServiceBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationLoadBalancedFargateServiceBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createApplicationLoadBalancedFargateServiceBuilder_patternsAdapter() {
+		if (applicationLoadBalancedFargateServiceBuilder_patternsItemProvider == null) {
+			applicationLoadBalancedFargateServiceBuilder_patternsItemProvider = new ApplicationLoadBalancedFargateServiceBuilder_patternsItemProvider(
+					this);
+		}
+
+		return applicationLoadBalancedFargateServiceBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationMultipleTargetGroupsFargateServiceBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ApplicationMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider applicationMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationMultipleTargetGroupsFargateServiceBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createApplicationMultipleTargetGroupsFargateServiceBuilder_patternsAdapter() {
+		if (applicationMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider == null) {
+			applicationMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider = new ApplicationMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider(
+					this);
+		}
+
+		return applicationMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationListenerPropsBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ApplicationListenerPropsBuilder_patternsItemProvider applicationListenerPropsBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationListenerPropsBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createApplicationListenerPropsBuilder_patternsAdapter() {
+		if (applicationListenerPropsBuilder_patternsItemProvider == null) {
+			applicationListenerPropsBuilder_patternsItemProvider = new ApplicationListenerPropsBuilder_patternsItemProvider(
+					this);
+		}
+
+		return applicationListenerPropsBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationLoadBalancerPropsBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ApplicationLoadBalancerPropsBuilder_patternsItemProvider applicationLoadBalancerPropsBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationLoadBalancerPropsBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createApplicationLoadBalancerPropsBuilder_patternsAdapter() {
+		if (applicationLoadBalancerPropsBuilder_patternsItemProvider == null) {
+			applicationLoadBalancerPropsBuilder_patternsItemProvider = new ApplicationLoadBalancerPropsBuilder_patternsItemProvider(
+					this);
+		}
+
+		return applicationLoadBalancerPropsBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationTargetPropsBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ApplicationTargetPropsBuilder_patternsItemProvider applicationTargetPropsBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationTargetPropsBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createApplicationTargetPropsBuilder_patternsAdapter() {
+		if (applicationTargetPropsBuilder_patternsItemProvider == null) {
+			applicationTargetPropsBuilder_patternsItemProvider = new ApplicationTargetPropsBuilder_patternsItemProvider(
+					this);
+		}
+
+		return applicationTargetPropsBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationLoadBalancedTaskImagePropsBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ApplicationLoadBalancedTaskImagePropsBuilder_patternsItemProvider applicationLoadBalancedTaskImagePropsBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationLoadBalancedTaskImagePropsBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createApplicationLoadBalancedTaskImagePropsBuilder_patternsAdapter() {
+		if (applicationLoadBalancedTaskImagePropsBuilder_patternsItemProvider == null) {
+			applicationLoadBalancedTaskImagePropsBuilder_patternsItemProvider = new ApplicationLoadBalancedTaskImagePropsBuilder_patternsItemProvider(
+					this);
+		}
+
+		return applicationLoadBalancedTaskImagePropsBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationMultipleTargetGroupsEc2ServiceBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ApplicationMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider applicationMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ApplicationMultipleTargetGroupsEc2ServiceBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createApplicationMultipleTargetGroupsEc2ServiceBuilder_patternsAdapter() {
+		if (applicationMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider == null) {
+			applicationMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider = new ApplicationMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider(
+					this);
+		}
+
+		return applicationMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.NetworkLoadBalancedTaskImageOptionsBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected NetworkLoadBalancedTaskImageOptionsBuilder_patternsItemProvider networkLoadBalancedTaskImageOptionsBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.NetworkLoadBalancedTaskImageOptionsBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createNetworkLoadBalancedTaskImageOptionsBuilder_patternsAdapter() {
+		if (networkLoadBalancedTaskImageOptionsBuilder_patternsItemProvider == null) {
+			networkLoadBalancedTaskImageOptionsBuilder_patternsItemProvider = new NetworkLoadBalancedTaskImageOptionsBuilder_patternsItemProvider(
+					this);
+		}
+
+		return networkLoadBalancedTaskImageOptionsBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.NetworkLoadBalancedFargateServiceBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected NetworkLoadBalancedFargateServiceBuilder_patternsItemProvider networkLoadBalancedFargateServiceBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.NetworkLoadBalancedFargateServiceBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createNetworkLoadBalancedFargateServiceBuilder_patternsAdapter() {
+		if (networkLoadBalancedFargateServiceBuilder_patternsItemProvider == null) {
+			networkLoadBalancedFargateServiceBuilder_patternsItemProvider = new NetworkLoadBalancedFargateServiceBuilder_patternsItemProvider(
+					this);
+		}
+
+		return networkLoadBalancedFargateServiceBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.NetworkLoadBalancedEc2ServiceBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected NetworkLoadBalancedEc2ServiceBuilder_patternsItemProvider networkLoadBalancedEc2ServiceBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.NetworkLoadBalancedEc2ServiceBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createNetworkLoadBalancedEc2ServiceBuilder_patternsAdapter() {
+		if (networkLoadBalancedEc2ServiceBuilder_patternsItemProvider == null) {
+			networkLoadBalancedEc2ServiceBuilder_patternsItemProvider = new NetworkLoadBalancedEc2ServiceBuilder_patternsItemProvider(
+					this);
+		}
+
+		return networkLoadBalancedEc2ServiceBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.NetworkMultipleTargetGroupsEc2ServiceBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected NetworkMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider networkMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.NetworkMultipleTargetGroupsEc2ServiceBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createNetworkMultipleTargetGroupsEc2ServiceBuilder_patternsAdapter() {
+		if (networkMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider == null) {
+			networkMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider = new NetworkMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider(
+					this);
+		}
+
+		return networkMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.NetworkTargetPropsBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected NetworkTargetPropsBuilder_patternsItemProvider networkTargetPropsBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.NetworkTargetPropsBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createNetworkTargetPropsBuilder_patternsAdapter() {
+		if (networkTargetPropsBuilder_patternsItemProvider == null) {
+			networkTargetPropsBuilder_patternsItemProvider = new NetworkTargetPropsBuilder_patternsItemProvider(this);
+		}
+
+		return networkTargetPropsBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.NetworkLoadBalancedTaskImagePropsBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected NetworkLoadBalancedTaskImagePropsBuilder_patternsItemProvider networkLoadBalancedTaskImagePropsBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.NetworkLoadBalancedTaskImagePropsBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createNetworkLoadBalancedTaskImagePropsBuilder_patternsAdapter() {
+		if (networkLoadBalancedTaskImagePropsBuilder_patternsItemProvider == null) {
+			networkLoadBalancedTaskImagePropsBuilder_patternsItemProvider = new NetworkLoadBalancedTaskImagePropsBuilder_patternsItemProvider(
+					this);
+		}
+
+		return networkLoadBalancedTaskImagePropsBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.NetworkMultipleTargetGroupsFargateServiceBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected NetworkMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider networkMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.NetworkMultipleTargetGroupsFargateServiceBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createNetworkMultipleTargetGroupsFargateServiceBuilder_patternsAdapter() {
+		if (networkMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider == null) {
+			networkMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider = new NetworkMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider(
+					this);
+		}
+
+		return networkMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ScalingIntervalBuilder_applicationautoscaling} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ScalingIntervalBuilder_applicationautoscalingItemProvider scalingIntervalBuilder_applicationautoscalingItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ScalingIntervalBuilder_applicationautoscaling}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createScalingIntervalBuilder_applicationautoscalingAdapter() {
+		if (scalingIntervalBuilder_applicationautoscalingItemProvider == null) {
+			scalingIntervalBuilder_applicationautoscalingItemProvider = new ScalingIntervalBuilder_applicationautoscalingItemProvider(
+					this);
+		}
+
+		return scalingIntervalBuilder_applicationautoscalingItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.QueueProcessingFargateServiceBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected QueueProcessingFargateServiceBuilder_patternsItemProvider queueProcessingFargateServiceBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.QueueProcessingFargateServiceBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createQueueProcessingFargateServiceBuilder_patternsAdapter() {
+		if (queueProcessingFargateServiceBuilder_patternsItemProvider == null) {
+			queueProcessingFargateServiceBuilder_patternsItemProvider = new QueueProcessingFargateServiceBuilder_patternsItemProvider(
+					this);
+		}
+
+		return queueProcessingFargateServiceBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.CronOptionsBuilder_applicationautoscaling} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CronOptionsBuilder_applicationautoscalingItemProvider cronOptionsBuilder_applicationautoscalingItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.CronOptionsBuilder_applicationautoscaling}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCronOptionsBuilder_applicationautoscalingAdapter() {
+		if (cronOptionsBuilder_applicationautoscalingItemProvider == null) {
+			cronOptionsBuilder_applicationautoscalingItemProvider = new CronOptionsBuilder_applicationautoscalingItemProvider(
+					this);
+		}
+
+		return cronOptionsBuilder_applicationautoscalingItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ScheduledEc2TaskDefinitionOptionsBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ScheduledEc2TaskDefinitionOptionsBuilder_patternsItemProvider scheduledEc2TaskDefinitionOptionsBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ScheduledEc2TaskDefinitionOptionsBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createScheduledEc2TaskDefinitionOptionsBuilder_patternsAdapter() {
+		if (scheduledEc2TaskDefinitionOptionsBuilder_patternsItemProvider == null) {
+			scheduledEc2TaskDefinitionOptionsBuilder_patternsItemProvider = new ScheduledEc2TaskDefinitionOptionsBuilder_patternsItemProvider(
+					this);
+		}
+
+		return scheduledEc2TaskDefinitionOptionsBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ScheduledEc2TaskImageOptionsBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ScheduledEc2TaskImageOptionsBuilder_patternsItemProvider scheduledEc2TaskImageOptionsBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ScheduledEc2TaskImageOptionsBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createScheduledEc2TaskImageOptionsBuilder_patternsAdapter() {
+		if (scheduledEc2TaskImageOptionsBuilder_patternsItemProvider == null) {
+			scheduledEc2TaskImageOptionsBuilder_patternsItemProvider = new ScheduledEc2TaskImageOptionsBuilder_patternsItemProvider(
+					this);
+		}
+
+		return scheduledEc2TaskImageOptionsBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ScheduledEc2TaskBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ScheduledEc2TaskBuilder_patternsItemProvider scheduledEc2TaskBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ScheduledEc2TaskBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createScheduledEc2TaskBuilder_patternsAdapter() {
+		if (scheduledEc2TaskBuilder_patternsItemProvider == null) {
+			scheduledEc2TaskBuilder_patternsItemProvider = new ScheduledEc2TaskBuilder_patternsItemProvider(this);
+		}
+
+		return scheduledEc2TaskBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.QueueProcessingEc2ServiceBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected QueueProcessingEc2ServiceBuilder_patternsItemProvider queueProcessingEc2ServiceBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.QueueProcessingEc2ServiceBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createQueueProcessingEc2ServiceBuilder_patternsAdapter() {
+		if (queueProcessingEc2ServiceBuilder_patternsItemProvider == null) {
+			queueProcessingEc2ServiceBuilder_patternsItemProvider = new QueueProcessingEc2ServiceBuilder_patternsItemProvider(
+					this);
+		}
+
+		return queueProcessingEc2ServiceBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ScheduledFargateTaskDefinitionOptionsBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ScheduledFargateTaskDefinitionOptionsBuilder_patternsItemProvider scheduledFargateTaskDefinitionOptionsBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ScheduledFargateTaskDefinitionOptionsBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createScheduledFargateTaskDefinitionOptionsBuilder_patternsAdapter() {
+		if (scheduledFargateTaskDefinitionOptionsBuilder_patternsItemProvider == null) {
+			scheduledFargateTaskDefinitionOptionsBuilder_patternsItemProvider = new ScheduledFargateTaskDefinitionOptionsBuilder_patternsItemProvider(
+					this);
+		}
+
+		return scheduledFargateTaskDefinitionOptionsBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ScheduledFargateTaskImageOptionsBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ScheduledFargateTaskImageOptionsBuilder_patternsItemProvider scheduledFargateTaskImageOptionsBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ScheduledFargateTaskImageOptionsBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createScheduledFargateTaskImageOptionsBuilder_patternsAdapter() {
+		if (scheduledFargateTaskImageOptionsBuilder_patternsItemProvider == null) {
+			scheduledFargateTaskImageOptionsBuilder_patternsItemProvider = new ScheduledFargateTaskImageOptionsBuilder_patternsItemProvider(
+					this);
+		}
+
+		return scheduledFargateTaskImageOptionsBuilder_patternsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ScheduledFargateTaskBuilder_patterns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ScheduledFargateTaskBuilder_patternsItemProvider scheduledFargateTaskBuilder_patternsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ScheduledFargateTaskBuilder_patterns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createScheduledFargateTaskBuilder_patternsAdapter() {
+		if (scheduledFargateTaskBuilder_patternsItemProvider == null) {
+			scheduledFargateTaskBuilder_patternsItemProvider = new ScheduledFargateTaskBuilder_patternsItemProvider(
+					this);
+		}
+
+		return scheduledFargateTaskBuilder_patternsItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -3241,8 +4632,18 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 		if (dynamoDBStreamToLambdaToElasticSearchAndKibanaBuilder_dynamodbstreamlambdaelasticsearchkibanaItemProvider != null)
 			dynamoDBStreamToLambdaToElasticSearchAndKibanaBuilder_dynamodbstreamlambdaelasticsearchkibanaItemProvider
 					.dispose();
+		if (eventBusBuilder_eventsItemProvider != null)
+			eventBusBuilder_eventsItemProvider.dispose();
+		if (eventPatternBuilder_eventsItemProvider != null)
+			eventPatternBuilder_eventsItemProvider.dispose();
+		if (rulePropsBuilder_eventsItemProvider != null)
+			rulePropsBuilder_eventsItemProvider.dispose();
+		if (cronOptionsBuilder_eventsItemProvider != null)
+			cronOptionsBuilder_eventsItemProvider.dispose();
 		if (eventsRuleToLambdaBuilder_eventsrulelambdaItemProvider != null)
 			eventsRuleToLambdaBuilder_eventsrulelambdaItemProvider.dispose();
+		if (stateMachinePropsBuilder_stepfunctionsItemProvider != null)
+			stateMachinePropsBuilder_stepfunctionsItemProvider.dispose();
 		if (eventsRuleToStepFunctionBuilder_eventsrulestepfunctionItemProvider != null)
 			eventsRuleToStepFunctionBuilder_eventsrulestepfunctionItemProvider.dispose();
 		if (iotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3ItemProvider != null)
@@ -3257,12 +4658,16 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 			kinesisFirehoseToAnalyticsAndS3Builder_kinesisfirehoses3kinesisanalyticsItemProvider.dispose();
 		if (kinesisStreamsToLambdaBuilder_kinesisstreamslambdaItemProvider != null)
 			kinesisStreamsToLambdaBuilder_kinesisstreamslambdaItemProvider.dispose();
+		if (tableBuilder_dynamodbItemProvider != null)
+			tableBuilder_dynamodbItemProvider.dispose();
 		if (lambdaToDynamoDBBuilder_lambdadynamodbItemProvider != null)
 			lambdaToDynamoDBBuilder_lambdadynamodbItemProvider.dispose();
 		if (lambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibanaItemProvider != null)
 			lambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibanaItemProvider.dispose();
 		if (lambdaToS3Builder_lambdas3ItemProvider != null)
 			lambdaToS3Builder_lambdas3ItemProvider.dispose();
+		if (topicPropsBuilder_snsItemProvider != null)
+			topicPropsBuilder_snsItemProvider.dispose();
 		if (lambdaToSnsBuilder_lambdasnsItemProvider != null)
 			lambdaToSnsBuilder_lambdasnsItemProvider.dispose();
 		if (lambdaToSqsBuilder_lambdasqsItemProvider != null)
@@ -3293,6 +4698,110 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 			attributeBuilder_dynamodbItemProvider.dispose();
 		if (tablePropsBuilder_dynamodbItemProvider != null)
 			tablePropsBuilder_dynamodbItemProvider.dispose();
+		if (privateDnsNamespaceBuilder_servicediscoveryItemProvider != null)
+			privateDnsNamespaceBuilder_servicediscoveryItemProvider.dispose();
+		if (publicDnsNamespaceBuilder_servicediscoveryItemProvider != null)
+			publicDnsNamespaceBuilder_servicediscoveryItemProvider.dispose();
+		if (httpNamespaceBuilder_servicediscoveryItemProvider != null)
+			httpNamespaceBuilder_servicediscoveryItemProvider.dispose();
+		if (cloudMapOptionsBuilder_ecsItemProvider != null)
+			cloudMapOptionsBuilder_ecsItemProvider.dispose();
+		if (blockDeviceBuilder_autoscalingItemProvider != null)
+			blockDeviceBuilder_autoscalingItemProvider.dispose();
+		if (healthCheckBuilder_ecsItemProvider != null)
+			healthCheckBuilder_ecsItemProvider.dispose();
+		if (amazonLinuxImageBuilder_ec2ItemProvider != null)
+			amazonLinuxImageBuilder_ec2ItemProvider.dispose();
+		if (rollingUpdateConfigurationBuilder_autoscalingItemProvider != null)
+			rollingUpdateConfigurationBuilder_autoscalingItemProvider.dispose();
+		if (addCapacityOptionsBuilder_ecsItemProvider != null)
+			addCapacityOptionsBuilder_ecsItemProvider.dispose();
+		if (cloudMapNamespaceOptionsBuilder_ecsItemProvider != null)
+			cloudMapNamespaceOptionsBuilder_ecsItemProvider.dispose();
+		if (clusterBuilder_ecsItemProvider != null)
+			clusterBuilder_ecsItemProvider.dispose();
+		if (applicationLoadBalancerBuilder_elasticloadbalancingv2ItemProvider != null)
+			applicationLoadBalancerBuilder_elasticloadbalancingv2ItemProvider.dispose();
+		if (dockerImageAssetBuilder_assetsItemProvider != null)
+			dockerImageAssetBuilder_assetsItemProvider.dispose();
+		if (assetImageBuilder_ecsItemProvider != null)
+			assetImageBuilder_ecsItemProvider.dispose();
+		if (secretStringGeneratorBuilder_secretsmanagerItemProvider != null)
+			secretStringGeneratorBuilder_secretsmanagerItemProvider.dispose();
+		if (secretBuilder_secretsmanagerItemProvider != null)
+			secretBuilder_secretsmanagerItemProvider.dispose();
+		if (awsLogDriverBuilder_ecsItemProvider != null)
+			awsLogDriverBuilder_ecsItemProvider.dispose();
+		if (logGroupBuilder_logsItemProvider != null)
+			logGroupBuilder_logsItemProvider.dispose();
+		if (awsLogDriverPropsBuilder_ecsItemProvider != null)
+			awsLogDriverPropsBuilder_ecsItemProvider.dispose();
+		if (applicationLoadBalancedTaskImageOptionsBuilder_patternsItemProvider != null)
+			applicationLoadBalancedTaskImageOptionsBuilder_patternsItemProvider.dispose();
+		if (appMeshProxyConfigurationPropsBuilder_ecsItemProvider != null)
+			appMeshProxyConfigurationPropsBuilder_ecsItemProvider.dispose();
+		if (appMeshProxyConfigurationBuilder_ecsItemProvider != null)
+			appMeshProxyConfigurationBuilder_ecsItemProvider.dispose();
+		if (hostBuilder_ecsItemProvider != null)
+			hostBuilder_ecsItemProvider.dispose();
+		if (dockerVolumeConfigurationBuilder_ecsItemProvider != null)
+			dockerVolumeConfigurationBuilder_ecsItemProvider.dispose();
+		if (volumeBuilder_ecsItemProvider != null)
+			volumeBuilder_ecsItemProvider.dispose();
+		if (ec2TaskDefinitionBuilder_ecsItemProvider != null)
+			ec2TaskDefinitionBuilder_ecsItemProvider.dispose();
+		if (applicationLoadBalancedEc2ServiceBuilder_patternsItemProvider != null)
+			applicationLoadBalancedEc2ServiceBuilder_patternsItemProvider.dispose();
+		if (fargateTaskDefinitionBuilder_ecsItemProvider != null)
+			fargateTaskDefinitionBuilder_ecsItemProvider.dispose();
+		if (applicationLoadBalancedFargateServiceBuilder_patternsItemProvider != null)
+			applicationLoadBalancedFargateServiceBuilder_patternsItemProvider.dispose();
+		if (applicationMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider != null)
+			applicationMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider.dispose();
+		if (applicationListenerPropsBuilder_patternsItemProvider != null)
+			applicationListenerPropsBuilder_patternsItemProvider.dispose();
+		if (applicationLoadBalancerPropsBuilder_patternsItemProvider != null)
+			applicationLoadBalancerPropsBuilder_patternsItemProvider.dispose();
+		if (applicationTargetPropsBuilder_patternsItemProvider != null)
+			applicationTargetPropsBuilder_patternsItemProvider.dispose();
+		if (applicationLoadBalancedTaskImagePropsBuilder_patternsItemProvider != null)
+			applicationLoadBalancedTaskImagePropsBuilder_patternsItemProvider.dispose();
+		if (applicationMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider != null)
+			applicationMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider.dispose();
+		if (networkLoadBalancedTaskImageOptionsBuilder_patternsItemProvider != null)
+			networkLoadBalancedTaskImageOptionsBuilder_patternsItemProvider.dispose();
+		if (networkLoadBalancedFargateServiceBuilder_patternsItemProvider != null)
+			networkLoadBalancedFargateServiceBuilder_patternsItemProvider.dispose();
+		if (networkLoadBalancedEc2ServiceBuilder_patternsItemProvider != null)
+			networkLoadBalancedEc2ServiceBuilder_patternsItemProvider.dispose();
+		if (networkMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider != null)
+			networkMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider.dispose();
+		if (networkTargetPropsBuilder_patternsItemProvider != null)
+			networkTargetPropsBuilder_patternsItemProvider.dispose();
+		if (networkLoadBalancedTaskImagePropsBuilder_patternsItemProvider != null)
+			networkLoadBalancedTaskImagePropsBuilder_patternsItemProvider.dispose();
+		if (networkMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider != null)
+			networkMultipleTargetGroupsFargateServiceBuilder_patternsItemProvider.dispose();
+		if (scalingIntervalBuilder_applicationautoscalingItemProvider != null)
+			scalingIntervalBuilder_applicationautoscalingItemProvider.dispose();
+		if (queueProcessingFargateServiceBuilder_patternsItemProvider != null)
+			queueProcessingFargateServiceBuilder_patternsItemProvider.dispose();
+		if (cronOptionsBuilder_applicationautoscalingItemProvider != null)
+			cronOptionsBuilder_applicationautoscalingItemProvider.dispose();
+		if (scheduledEc2TaskDefinitionOptionsBuilder_patternsItemProvider != null)
+			scheduledEc2TaskDefinitionOptionsBuilder_patternsItemProvider.dispose();
+		if (scheduledEc2TaskImageOptionsBuilder_patternsItemProvider != null)
+			scheduledEc2TaskImageOptionsBuilder_patternsItemProvider.dispose();
+		if (scheduledEc2TaskBuilder_patternsItemProvider != null)
+			scheduledEc2TaskBuilder_patternsItemProvider.dispose();
+		if (queueProcessingEc2ServiceBuilder_patternsItemProvider != null)
+			queueProcessingEc2ServiceBuilder_patternsItemProvider.dispose();
+		if (scheduledFargateTaskDefinitionOptionsBuilder_patternsItemProvider != null)
+			scheduledFargateTaskDefinitionOptionsBuilder_patternsItemProvider.dispose();
+		if (scheduledFargateTaskImageOptionsBuilder_patternsItemProvider != null)
+			scheduledFargateTaskImageOptionsBuilder_patternsItemProvider.dispose();
+		if (scheduledFargateTaskBuilder_patternsItemProvider != null)
+			scheduledFargateTaskBuilder_patternsItemProvider.dispose();
 	}
 
 }
