@@ -346,7 +346,541 @@ public class StackBuilder_coreItemProvider extends ItemProviderAdapter implement
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createFlowLogOptionsBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
 				AwsworkbenchFactory.eINSTANCE.createVpcBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSubnetBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSubnetSelectionBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createGatewayVpcEndpointBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createMethodDeploymentOptionsBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createEndpointConfigurationBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createStageOptionsBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createHostedZoneBuilder_route53()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createDnsValidatedCertificateBuilder_certificatemanager()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createIntegrationResponseBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createCertificateBuilder_certificatemanager()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createDomainNameOptionsBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createNetworkLoadBalancerBuilder_elasticloadbalancingv2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createVpcLinkBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createIntegrationOptionsBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createIntegrationBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createCorsOptionsBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createKeyBuilder_kms()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createDeadLetterQueueBuilder_sqs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createQueueBuilder_sqs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createVersionOptionsBuilder_lambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createLayerVersionBuilder_lambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSecurityGroupBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createFunctionPropsBuilder_lambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createFunctionBuilder_lambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createRequestAuthorizerBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createTokenAuthorizerBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createJsonSchemaBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createModelBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createRequestValidatorOptionsBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createRequestValidatorBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createMethodResponseBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createMethodOptionsBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createRestApiPropsBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createApiGatewayToDynamoDBBuilder_apigatewaydynamodb()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createLambdaRestApiPropsBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createLambdaRestApiBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createApiGatewayToLambdaBuilder_apigatewaylambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createQueuePropsBuilder_sqs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createApiGatewayToSqsBuilder_apigatewaysqs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createVersionBuilder_lambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createLambdaFunctionAssociationBuilder_cloudfront()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBehaviorBuilder_cloudfront()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createCustomOriginConfigBuilder_cloudfront()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBlockPublicAccessBuilder_s3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createCorsRuleBuilder_s3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createNoncurrentVersionTransitionBuilder_s3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createTransitionBuilder_s3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createLifecycleRuleBuilder_s3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBucketMetricsBuilder_s3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createRedirectTargetBuilder_s3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createRoutingRuleConditionBuilder_s3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createRoutingRuleBuilder_s3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBucketBuilder_s3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBucketPropsBuilder_s3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createOriginAccessIdentityBuilder_cloudfront()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createS3OriginConfigBuilder_cloudfront()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSourceConfigurationBuilder_cloudfront()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createAliasConfigurationBuilder_cloudfront()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createLoggingConfigurationBuilder_cloudfront()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createCloudFrontWebDistributionPropsBuilder_cloudfront()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createCloudFrontToApiGatewayBuilder_cloudfrontapigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE
+						.createCloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createCloudFrontToS3Builder_cloudfronts3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createAutoVerifiedAttrsBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createUserPoolTriggersBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createEmailSettingsBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createPasswordPolicyBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createMfaSecondFactorBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createRequiredAttributesBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSignInAliasesBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createUserInvitationConfigBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createUserVerificationConfigBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createUserPoolPropsBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createUserPoolBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createAuthFlowBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createOAuthFlowsBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createOAuthSettingsBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createUserPoolClientPropsBuilder_cognito()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createCognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBuildDeadLetterQueuePropsBuilder_core()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBuildQueuePropsBuilder_core()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBuildS3BucketPropsBuilder_core()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBuildEncryptionKeyPropsBuilder_core()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createCognitoOptionsBuilder_core()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBuildKinesisStreamPropsBuilder_core()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBuildKinesisAnalyticsAppPropsBuilder_core()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBuildLambdaFunctionPropsBuilder_core()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBuildDynamoDBTablePropsBuilder_core()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBuildTopicPropsBuilder_core()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createDynamoDBStreamToLambdaBuilder_dynamodbstreamlambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE
+						.createDynamoDBStreamToLambdaToElasticSearchAndKibanaBuilder_dynamodbstreamlambdaelasticsearchkibana()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createEventBusBuilder_events()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createEventPatternBuilder_events()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createRulePropsBuilder_events()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createCronOptionsBuilder_events()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createEventsRuleToLambdaBuilder_eventsrulelambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createStateMachinePropsBuilder_stepfunctions()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createEventsRuleToStepFunctionBuilder_eventsrulestepfunction()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createIotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createIotToLambdaBuilder_iotlambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createIotToLambdaToDynamoDBBuilder_iotlambdadynamodb()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createKinesisFirehoseToS3Builder_kinesisfirehoses3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE
+						.createKinesisFirehoseToAnalyticsAndS3Builder_kinesisfirehoses3kinesisanalytics()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createKinesisStreamsToLambdaBuilder_kinesisstreamslambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createTableBuilder_dynamodb()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createLambdaToDynamoDBBuilder_lambdadynamodb()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createLambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibana()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createLambdaToS3Builder_lambdas3()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createTopicPropsBuilder_sns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createLambdaToSnsBuilder_lambdasns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createLambdaToSqsBuilder_lambdasqs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createLambdaToStepFunctionBuilder_lambdastepfunction()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createS3ToLambdaBuilder_s3lambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createS3ToStepFunctionBuilder_s3stepfunction()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSnsToLambdaBuilder_snslambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createManagedPolicyBuilder_iam()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createUserBuilder_iam()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createGroupBuilder_iam()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createRoleBuilder_iam()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createPolicyStatementBuilder_iam()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createPolicyDocumentBuilder_iam()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSqsToLambdaBuilder_sqslambda()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createAttributeBuilder_dynamodb()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createTablePropsBuilder_dynamodb()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createPrivateDnsNamespaceBuilder_servicediscovery()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createPublicDnsNamespaceBuilder_servicediscovery()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createHttpNamespaceBuilder_servicediscovery()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createCloudMapOptionsBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createBlockDeviceBuilder_autoscaling()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createHealthCheckBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createAmazonLinuxImageBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createRollingUpdateConfigurationBuilder_autoscaling()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createAddCapacityOptionsBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createCloudMapNamespaceOptionsBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createClusterBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createApplicationLoadBalancerBuilder_elasticloadbalancingv2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createDockerImageAssetBuilder_assets()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createAssetImageBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSecretStringGeneratorBuilder_secretsmanager()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSecretBuilder_secretsmanager()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createAwsLogDriverBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createLogGroupBuilder_logs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createAwsLogDriverPropsBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createApplicationLoadBalancedTaskImageOptionsBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createAppMeshProxyConfigurationPropsBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createAppMeshProxyConfigurationBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createHostBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createDockerVolumeConfigurationBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createVolumeBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createEc2TaskDefinitionBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createApplicationLoadBalancedEc2ServiceBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createFargateTaskDefinitionBuilder_ecs()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createApplicationLoadBalancedFargateServiceBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createApplicationMultipleTargetGroupsFargateServiceBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createApplicationListenerPropsBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createApplicationLoadBalancerPropsBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createApplicationTargetPropsBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createApplicationLoadBalancedTaskImagePropsBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createApplicationMultipleTargetGroupsEc2ServiceBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createNetworkLoadBalancedTaskImageOptionsBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createNetworkLoadBalancedFargateServiceBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createNetworkLoadBalancedEc2ServiceBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createNetworkMultipleTargetGroupsEc2ServiceBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createNetworkTargetPropsBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createNetworkLoadBalancedTaskImagePropsBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createNetworkMultipleTargetGroupsFargateServiceBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createScalingIntervalBuilder_applicationautoscaling()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createQueueProcessingFargateServiceBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createCronOptionsBuilder_applicationautoscaling()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createScheduledEc2TaskDefinitionOptionsBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createScheduledEc2TaskImageOptionsBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createScheduledEc2TaskBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createQueueProcessingEc2ServiceBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createScheduledFargateTaskDefinitionOptionsBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createScheduledFargateTaskImageOptionsBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createScheduledFargateTaskBuilder_patterns()));
 	}
 
 	/**
