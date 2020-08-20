@@ -68,6 +68,7 @@ public class AppBuilder_coreItemProvider extends ItemProviderAdapter implements 
 			addAdditionalCodePropertyDescriptor(object);
 			addProjectNamePropertyDescriptor(object);
 			addPackageNamePropertyDescriptor(object);
+			addMainClassNamePropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -266,6 +267,22 @@ public class AppBuilder_coreItemProvider extends ItemProviderAdapter implements 
 	}
 
 	/**
+	 * This adds a property descriptor for the Main Class Name feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addMainClassNamePropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_AppBuilder_core_mainClassName_feature"),
+				getString("_UI_PropertyDescriptor_description", "_UI_AppBuilder_core_mainClassName_feature",
+						"_UI_AppBuilder_core_type"),
+				AwsworkbenchPackage.Literals.APP_BUILDER_CORE__MAIN_CLASS_NAME, true, false, false,
+				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+	}
+
+	/**
 	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
 	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
 	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
@@ -355,6 +372,7 @@ public class AppBuilder_coreItemProvider extends ItemProviderAdapter implements 
 		case AwsworkbenchPackage.APP_BUILDER_CORE__ADDITIONAL_CODE:
 		case AwsworkbenchPackage.APP_BUILDER_CORE__PROJECT_NAME:
 		case AwsworkbenchPackage.APP_BUILDER_CORE__PACKAGE_NAME:
+		case AwsworkbenchPackage.APP_BUILDER_CORE__MAIN_CLASS_NAME:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		case AwsworkbenchPackage.APP_BUILDER_CORE__ENVIRONMENTBUILDER_CORE:
