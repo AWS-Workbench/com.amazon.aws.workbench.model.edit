@@ -4333,6 +4333,29 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.Block} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BlockItemProvider blockItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.Block}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBlockAdapter() {
+		if (blockItemProvider == null) {
+			blockItemProvider = new BlockItemProvider(this);
+		}
+
+		return blockItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -4802,6 +4825,8 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 			scheduledFargateTaskImageOptionsBuilder_patternsItemProvider.dispose();
 		if (scheduledFargateTaskBuilder_patternsItemProvider != null)
 			scheduledFargateTaskBuilder_patternsItemProvider.dispose();
+		if (blockItemProvider != null)
+			blockItemProvider.dispose();
 	}
 
 }

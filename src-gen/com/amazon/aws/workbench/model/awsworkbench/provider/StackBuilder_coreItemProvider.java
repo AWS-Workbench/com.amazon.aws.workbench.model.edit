@@ -252,6 +252,7 @@ public class StackBuilder_coreItemProvider extends ItemProviderAdapter implement
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
 			childrenFeatures.add(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES);
+			childrenFeatures.add(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__STACKBLOCKS);
 		}
 		return childrenFeatures;
 	}
@@ -328,6 +329,7 @@ public class StackBuilder_coreItemProvider extends ItemProviderAdapter implement
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		case AwsworkbenchPackage.STACK_BUILDER_CORE__SERVICERESOURCES:
+		case AwsworkbenchPackage.STACK_BUILDER_CORE__STACKBLOCKS:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
@@ -881,6 +883,9 @@ public class StackBuilder_coreItemProvider extends ItemProviderAdapter implement
 
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__SERVICERESOURCES,
 				AwsworkbenchFactory.eINSTANCE.createScheduledFargateTaskBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.STACK_BUILDER_CORE__STACKBLOCKS,
+				AwsworkbenchFactory.eINSTANCE.createBlock()));
 	}
 
 	/**
