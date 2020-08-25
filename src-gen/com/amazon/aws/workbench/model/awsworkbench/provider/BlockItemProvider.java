@@ -59,7 +59,7 @@ public class BlockItemProvider extends ItemProviderAdapter implements IEditingDo
 			addLabelPropertyDescriptor(object);
 			addDescriptionPropertyDescriptor(object);
 			addNotesPropertyDescriptor(object);
-			addIsDraftPropertyDescriptor(object);
+			addCanDeployPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -111,17 +111,18 @@ public class BlockItemProvider extends ItemProviderAdapter implements IEditingDo
 	}
 
 	/**
-	 * This adds a property descriptor for the Is Draft feature.
+	 * This adds a property descriptor for the Can Deploy feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addIsDraftPropertyDescriptor(Object object) {
+	protected void addCanDeployPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
 				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_Block_isDraft_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_Block_isDraft_feature", "_UI_Block_type"),
-						AwsworkbenchPackage.Literals.BLOCK__IS_DRAFT, true, false, false,
+						getResourceLocator(), getString("_UI_Block_canDeploy_feature"),
+						getString("_UI_PropertyDescriptor_description", "_UI_Block_canDeploy_feature",
+								"_UI_Block_type"),
+						AwsworkbenchPackage.Literals.BLOCK__CAN_DEPLOY, true, false, false,
 						ItemPropertyDescriptor.BOOLEAN_VALUE_IMAGE, null, null));
 	}
 
@@ -205,7 +206,7 @@ public class BlockItemProvider extends ItemProviderAdapter implements IEditingDo
 		case AwsworkbenchPackage.BLOCK__LABEL:
 		case AwsworkbenchPackage.BLOCK__DESCRIPTION:
 		case AwsworkbenchPackage.BLOCK__NOTES:
-		case AwsworkbenchPackage.BLOCK__IS_DRAFT:
+		case AwsworkbenchPackage.BLOCK__CAN_DEPLOY:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		case AwsworkbenchPackage.BLOCK__BLOCKRESOURCES:
