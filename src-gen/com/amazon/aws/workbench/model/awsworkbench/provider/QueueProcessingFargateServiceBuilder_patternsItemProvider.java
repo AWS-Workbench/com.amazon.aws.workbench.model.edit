@@ -590,14 +590,13 @@ public class QueueProcessingFargateServiceBuilder_patternsItemProvider extends S
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((QueueProcessingFargateServiceBuilder_patterns) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_QueueProcessingFargateServiceBuilder_patterns_type")
-				: getString("_UI_QueueProcessingFargateServiceBuilder_patterns_type") + " " + label;
+		return  "QueueProcessingFargateService " + ((QueueProcessingFargateServiceBuilder_patterns) object).getVarName();
+		
+				
 	}
 
 	/**

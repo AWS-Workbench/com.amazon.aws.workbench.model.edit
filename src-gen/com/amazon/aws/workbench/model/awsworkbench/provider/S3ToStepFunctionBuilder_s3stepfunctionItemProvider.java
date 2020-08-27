@@ -247,13 +247,13 @@ public class S3ToStepFunctionBuilder_s3stepfunctionItemProvider extends ServiceR
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((S3ToStepFunctionBuilder_s3stepfunction) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_S3ToStepFunctionBuilder_s3stepfunction_type")
-				: getString("_UI_S3ToStepFunctionBuilder_s3stepfunction_type") + " " + label;
+		return  "S3ToStepFunction " + ((S3ToStepFunctionBuilder_s3stepfunction) object).getVarName();
+		
+				
 	}
 
 	/**

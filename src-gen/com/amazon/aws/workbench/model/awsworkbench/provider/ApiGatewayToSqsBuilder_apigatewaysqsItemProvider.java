@@ -289,13 +289,13 @@ public class ApiGatewayToSqsBuilder_apigatewaysqsItemProvider extends ServiceRes
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((ApiGatewayToSqsBuilder_apigatewaysqs) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_ApiGatewayToSqsBuilder_apigatewaysqs_type")
-				: getString("_UI_ApiGatewayToSqsBuilder_apigatewaysqs_type") + " " + label;
+		return  "ApiGatewayToSqs " + ((ApiGatewayToSqsBuilder_apigatewaysqs) object).getVarName();
+		
+				
 	}
 
 	/**

@@ -427,13 +427,13 @@ public class VpcBuilder_ec2ItemProvider extends ServiceResourcesItemProvider {
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((VpcBuilder_ec2) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_VpcBuilder_ec2_type")
-				: getString("_UI_VpcBuilder_ec2_type") + " " + label;
+		return  "Vpc " + ((VpcBuilder_ec2) object).getVarName();
+		
+				
 	}
 
 	/**

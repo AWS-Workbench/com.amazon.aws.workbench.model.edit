@@ -296,13 +296,13 @@ public class VersionOptionsBuilder_lambdaItemProvider extends ServiceResourcesIt
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((VersionOptionsBuilder_lambda) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_VersionOptionsBuilder_lambda_type")
-				: getString("_UI_VersionOptionsBuilder_lambda_type") + " " + label;
+		return  "VersionOptions " + ((VersionOptionsBuilder_lambda) object).getVarName();
+		
+				
 	}
 
 	/**

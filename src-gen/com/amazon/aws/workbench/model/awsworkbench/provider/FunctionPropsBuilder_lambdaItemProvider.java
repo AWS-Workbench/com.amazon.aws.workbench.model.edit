@@ -692,13 +692,13 @@ public class FunctionPropsBuilder_lambdaItemProvider extends ServiceResourcesIte
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((FunctionPropsBuilder_lambda) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_FunctionPropsBuilder_lambda_type")
-				: getString("_UI_FunctionPropsBuilder_lambda_type") + " " + label;
+		return  "FunctionProps " + ((FunctionPropsBuilder_lambda) object).getVarName();
+		
+				
 	}
 
 	/**

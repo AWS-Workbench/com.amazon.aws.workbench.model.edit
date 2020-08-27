@@ -250,14 +250,12 @@ public class CognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambdaItemProvi
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((CognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambda) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_CognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambda_type")
-				: getString("_UI_CognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambda_type") + " " + label;
+		return  "CognitoToApiGatewayToLambda " + ((CognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambda) object).getVarName();
+		
 	}
 
 	/**

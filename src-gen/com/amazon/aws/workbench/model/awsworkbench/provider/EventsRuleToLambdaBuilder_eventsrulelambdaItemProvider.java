@@ -209,13 +209,13 @@ public class EventsRuleToLambdaBuilder_eventsrulelambdaItemProvider extends Serv
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((EventsRuleToLambdaBuilder_eventsrulelambda) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_EventsRuleToLambdaBuilder_eventsrulelambda_type")
-				: getString("_UI_EventsRuleToLambdaBuilder_eventsrulelambda_type") + " " + label;
+		return  "EventsRuleToLambda " + ((EventsRuleToLambdaBuilder_eventsrulelambda) object).getVarName();
+		
+				
 	}
 
 	/**

@@ -343,13 +343,13 @@ public class MethodOptionsBuilder_apigatewayItemProvider extends ServiceResource
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((MethodOptionsBuilder_apigateway) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_MethodOptionsBuilder_apigateway_type")
-				: getString("_UI_MethodOptionsBuilder_apigateway_type") + " " + label;
+		return  "MethodOptions " + ((MethodOptionsBuilder_apigateway) object).getVarName();
+		
+				
 	}
 
 	/**

@@ -197,13 +197,13 @@ public class TopicPropsBuilder_snsItemProvider extends ServiceResourcesItemProvi
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((TopicPropsBuilder_sns) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_TopicPropsBuilder_sns_type")
-				: getString("_UI_TopicPropsBuilder_sns_type") + " " + label;
+		return  "TopicProps " + ((TopicPropsBuilder_sns) object).getVarName();
+		
+				
 	}
 
 	/**

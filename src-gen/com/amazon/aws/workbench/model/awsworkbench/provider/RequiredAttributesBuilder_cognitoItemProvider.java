@@ -450,13 +450,13 @@ public class RequiredAttributesBuilder_cognitoItemProvider extends ServiceResour
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((RequiredAttributesBuilder_cognito) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_RequiredAttributesBuilder_cognito_type")
-				: getString("_UI_RequiredAttributesBuilder_cognito_type") + " " + label;
+		return  "RequiredAttributes " + ((RequiredAttributesBuilder_cognito) object).getVarName();
+		
+				
 	}
 
 	/**

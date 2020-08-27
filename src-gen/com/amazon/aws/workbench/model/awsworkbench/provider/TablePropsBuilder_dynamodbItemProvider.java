@@ -408,13 +408,13 @@ public class TablePropsBuilder_dynamodbItemProvider extends ServiceResourcesItem
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((TablePropsBuilder_dynamodb) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_TablePropsBuilder_dynamodb_type")
-				: getString("_UI_TablePropsBuilder_dynamodb_type") + " " + label;
+		return  "TableProps " + ((TablePropsBuilder_dynamodb) object).getVarName();
+		
+				
 	}
 
 	/**

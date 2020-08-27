@@ -196,13 +196,13 @@ public class LogGroupBuilder_logsItemProvider extends ServiceResourcesItemProvid
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((LogGroupBuilder_logs) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_LogGroupBuilder_logs_type")
-				: getString("_UI_LogGroupBuilder_logs_type") + " " + label;
+		return  "LogGroup " + ((LogGroupBuilder_logs) object).getVarName();
+		
+				
 	}
 
 	/**

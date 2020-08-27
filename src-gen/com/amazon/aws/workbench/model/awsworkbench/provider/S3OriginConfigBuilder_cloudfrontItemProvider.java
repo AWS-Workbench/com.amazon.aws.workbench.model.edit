@@ -186,13 +186,13 @@ public class S3OriginConfigBuilder_cloudfrontItemProvider extends ServiceResourc
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((S3OriginConfigBuilder_cloudfront) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_S3OriginConfigBuilder_cloudfront_type")
-				: getString("_UI_S3OriginConfigBuilder_cloudfront_type") + " " + label;
+		return  "S3OriginConfig " + ((S3OriginConfigBuilder_cloudfront) object).getVarName();
+		
+				
 	}
 
 	/**

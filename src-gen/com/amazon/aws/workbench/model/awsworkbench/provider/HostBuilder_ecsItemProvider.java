@@ -158,13 +158,13 @@ public class HostBuilder_ecsItemProvider extends ServiceResourcesItemProvider {
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((HostBuilder_ecs) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_HostBuilder_ecs_type")
-				: getString("_UI_HostBuilder_ecs_type") + " " + label;
+		return  "Host " + ((HostBuilder_ecs) object).getVarName();
+		
+				
 	}
 
 	/**

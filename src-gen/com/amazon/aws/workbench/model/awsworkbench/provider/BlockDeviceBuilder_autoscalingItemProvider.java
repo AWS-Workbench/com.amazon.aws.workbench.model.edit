@@ -200,13 +200,13 @@ public class BlockDeviceBuilder_autoscalingItemProvider extends ServiceResources
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((BlockDeviceBuilder_autoscaling) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_BlockDeviceBuilder_autoscaling_type")
-				: getString("_UI_BlockDeviceBuilder_autoscaling_type") + " " + label;
+		return  "BlockDevice " + ((BlockDeviceBuilder_autoscaling) object).getVarName();
+		
+				
 	}
 
 	/**

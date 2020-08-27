@@ -220,13 +220,13 @@ public class SecretBuilder_secretsmanagerItemProvider extends ServiceResourcesIt
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((SecretBuilder_secretsmanager) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_SecretBuilder_secretsmanager_type")
-				: getString("_UI_SecretBuilder_secretsmanager_type") + " " + label;
+		return  "Secret " + ((SecretBuilder_secretsmanager) object).getVarName();
+		
+				
 	}
 
 	/**

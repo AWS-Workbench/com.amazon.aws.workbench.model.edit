@@ -206,13 +206,13 @@ public class IotToLambdaBuilder_iotlambdaItemProvider extends ServiceResourcesIt
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((IotToLambdaBuilder_iotlambda) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_IotToLambdaBuilder_iotlambda_type")
-				: getString("_UI_IotToLambdaBuilder_iotlambda_type") + " " + label;
+		return  "IotToLambda " + ((IotToLambdaBuilder_iotlambda) object).getVarName();
+		
+				
 	}
 
 	/**

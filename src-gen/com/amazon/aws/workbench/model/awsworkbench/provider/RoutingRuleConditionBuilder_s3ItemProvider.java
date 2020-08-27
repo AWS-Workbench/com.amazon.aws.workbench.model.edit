@@ -179,13 +179,13 @@ public class RoutingRuleConditionBuilder_s3ItemProvider extends ServiceResources
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((RoutingRuleConditionBuilder_s3) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_RoutingRuleConditionBuilder_s3_type")
-				: getString("_UI_RoutingRuleConditionBuilder_s3_type") + " " + label;
+		return  "RoutingRuleCondition " + ((RoutingRuleConditionBuilder_s3) object).getVarName();
+		
+				
 	}
 
 	/**

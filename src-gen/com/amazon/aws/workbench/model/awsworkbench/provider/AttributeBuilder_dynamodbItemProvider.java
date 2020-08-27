@@ -179,13 +179,13 @@ public class AttributeBuilder_dynamodbItemProvider extends ServiceResourcesItemP
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((AttributeBuilder_dynamodb) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_AttributeBuilder_dynamodb_type")
-				: getString("_UI_AttributeBuilder_dynamodb_type") + " " + label;
+		return  "Attribute " + ((AttributeBuilder_dynamodb) object).getVarName();
+		
+				
 	}
 
 	/**

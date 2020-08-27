@@ -204,13 +204,13 @@ public class GatewayVpcEndpointBuilder_ec2ItemProvider extends ServiceResourcesI
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((GatewayVpcEndpointBuilder_ec2) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_GatewayVpcEndpointBuilder_ec2_type")
-				: getString("_UI_GatewayVpcEndpointBuilder_ec2_type") + " " + label;
+		return  "GatewayVpcEndpoint " + ((GatewayVpcEndpointBuilder_ec2) object).getVarName();
+		
+				
 	}
 
 	/**

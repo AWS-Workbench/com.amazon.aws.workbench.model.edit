@@ -167,14 +167,13 @@ public class ScheduledEc2TaskDefinitionOptionsBuilder_patternsItemProvider exten
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((ScheduledEc2TaskDefinitionOptionsBuilder_patterns) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_ScheduledEc2TaskDefinitionOptionsBuilder_patterns_type")
-				: getString("_UI_ScheduledEc2TaskDefinitionOptionsBuilder_patterns_type") + " " + label;
+		return  "ScheduledEc2TaskDefinitionOptions " + ((ScheduledEc2TaskDefinitionOptionsBuilder_patterns) object).getVarName();
+		
+				
 	}
 
 	/**

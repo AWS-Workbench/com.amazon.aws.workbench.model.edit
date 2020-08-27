@@ -230,14 +230,13 @@ public class DynamoDBStreamToLambdaBuilder_dynamodbstreamlambdaItemProvider exte
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((DynamoDBStreamToLambdaBuilder_dynamodbstreamlambda) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_DynamoDBStreamToLambdaBuilder_dynamodbstreamlambda_type")
-				: getString("_UI_DynamoDBStreamToLambdaBuilder_dynamodbstreamlambda_type") + " " + label;
+		return  "DynamoDBStreamToLambda " + ((DynamoDBStreamToLambdaBuilder_dynamodbstreamlambda) object).getVarName();
+	
+				
 	}
 
 	/**

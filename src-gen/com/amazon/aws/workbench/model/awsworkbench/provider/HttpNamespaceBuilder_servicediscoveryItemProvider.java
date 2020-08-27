@@ -181,13 +181,13 @@ public class HttpNamespaceBuilder_servicediscoveryItemProvider extends ServiceRe
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((HttpNamespaceBuilder_servicediscovery) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_HttpNamespaceBuilder_servicediscovery_type")
-				: getString("_UI_HttpNamespaceBuilder_servicediscovery_type") + " " + label;
+		return  "HttpNamespace " + ((HttpNamespaceBuilder_servicediscovery) object).getVarName();
+		
+				
 	}
 
 	/**

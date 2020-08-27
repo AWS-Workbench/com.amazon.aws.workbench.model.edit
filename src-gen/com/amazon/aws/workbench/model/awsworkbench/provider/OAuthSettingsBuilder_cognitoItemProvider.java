@@ -202,13 +202,13 @@ public class OAuthSettingsBuilder_cognitoItemProvider extends ServiceResourcesIt
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((OAuthSettingsBuilder_cognito) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_OAuthSettingsBuilder_cognito_type")
-				: getString("_UI_OAuthSettingsBuilder_cognito_type") + " " + label;
+		return  "OAuthSettings " + ((OAuthSettingsBuilder_cognito) object).getVarName();
+		
+				
 	}
 
 	/**

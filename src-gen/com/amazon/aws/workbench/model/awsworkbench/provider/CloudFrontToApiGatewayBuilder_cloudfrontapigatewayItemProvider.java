@@ -205,14 +205,13 @@ public class CloudFrontToApiGatewayBuilder_cloudfrontapigatewayItemProvider exte
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((CloudFrontToApiGatewayBuilder_cloudfrontapigateway) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_CloudFrontToApiGatewayBuilder_cloudfrontapigateway_type")
-				: getString("_UI_CloudFrontToApiGatewayBuilder_cloudfrontapigateway_type") + " " + label;
+		return  "CloudFrontToApiGateway " + ((CloudFrontToApiGatewayBuilder_cloudfrontapigateway) object).getVarName();
+		
+				
 	}
 
 	/**

@@ -163,13 +163,13 @@ public class BuildEncryptionKeyPropsBuilder_coreItemProvider extends ServiceReso
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((BuildEncryptionKeyPropsBuilder_core) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_BuildEncryptionKeyPropsBuilder_core_type")
-				: getString("_UI_BuildEncryptionKeyPropsBuilder_core_type") + " " + label;
+		return  "BuildEncryptionKeyProps " + ((BuildEncryptionKeyPropsBuilder_core) object).getVarName();
+		
+				
 	}
 
 	/**

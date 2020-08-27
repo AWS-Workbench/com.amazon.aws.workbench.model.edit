@@ -293,13 +293,13 @@ public class ManagedPolicyBuilder_iamItemProvider extends ServiceResourcesItemPr
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((ManagedPolicyBuilder_iam) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_ManagedPolicyBuilder_iam_type")
-				: getString("_UI_ManagedPolicyBuilder_iam_type") + " " + label;
+		return  "ManagedPolicy " + ((ManagedPolicyBuilder_iam) object).getVarName();
+		
+				
 	}
 
 	/**

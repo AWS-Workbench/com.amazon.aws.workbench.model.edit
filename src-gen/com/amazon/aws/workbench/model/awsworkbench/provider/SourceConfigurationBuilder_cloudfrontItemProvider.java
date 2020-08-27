@@ -244,13 +244,13 @@ public class SourceConfigurationBuilder_cloudfrontItemProvider extends ServiceRe
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((SourceConfigurationBuilder_cloudfront) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_SourceConfigurationBuilder_cloudfront_type")
-				: getString("_UI_SourceConfigurationBuilder_cloudfront_type") + " " + label;
+		return  "SourceConfiguration " + ((SourceConfigurationBuilder_cloudfront) object).getVarName();
+		
+				
 	}
 
 	/**

@@ -593,13 +593,13 @@ public class LambdaRestApiBuilder_apigatewayItemProvider extends ServiceResource
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((LambdaRestApiBuilder_apigateway) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_LambdaRestApiBuilder_apigateway_type")
-				: getString("_UI_LambdaRestApiBuilder_apigateway_type") + " " + label;
+		return  "LambdaRestApi " + ((LambdaRestApiBuilder_apigateway) object).getVarName();
+		
+				
 	}
 
 	/**

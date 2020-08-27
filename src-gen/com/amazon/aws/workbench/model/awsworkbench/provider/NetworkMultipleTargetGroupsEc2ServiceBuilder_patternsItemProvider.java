@@ -445,14 +445,13 @@ public class NetworkMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider e
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((NetworkMultipleTargetGroupsEc2ServiceBuilder_patterns) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_NetworkMultipleTargetGroupsEc2ServiceBuilder_patterns_type")
-				: getString("_UI_NetworkMultipleTargetGroupsEc2ServiceBuilder_patterns_type") + " " + label;
+		return  "NetworkMultipleTargetGroupsEc2Service " + ((NetworkMultipleTargetGroupsEc2ServiceBuilder_patterns) object).getVarName();
+		
+				
 	}
 
 	/**

@@ -221,13 +221,13 @@ public class AliasConfigurationBuilder_cloudfrontItemProvider extends ServiceRes
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((AliasConfigurationBuilder_cloudfront) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_AliasConfigurationBuilder_cloudfront_type")
-				: getString("_UI_AliasConfigurationBuilder_cloudfront_type") + " " + label;
+		return  "AliasConfiguration " + ((AliasConfigurationBuilder_cloudfront) object).getVarName();
+		
+				
 	}
 
 	/**

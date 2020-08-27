@@ -186,13 +186,13 @@ public class EndpointConfigurationBuilder_apigatewayItemProvider extends Service
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((EndpointConfigurationBuilder_apigateway) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_EndpointConfigurationBuilder_apigateway_type")
-				: getString("_UI_EndpointConfigurationBuilder_apigateway_type") + " " + label;
+		return  "EndpointConfiguration " + ((EndpointConfigurationBuilder_apigateway) object).getVarName();
+		
+				
 	}
 
 	/**

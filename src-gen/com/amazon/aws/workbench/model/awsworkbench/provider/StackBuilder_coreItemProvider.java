@@ -298,9 +298,9 @@ public class StackBuilder_coreItemProvider extends ItemProviderAdapter implement
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((StackBuilder_core) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_StackBuilder_core_type")
-				: getString("_UI_StackBuilder_core_type") + " " + label;
+		return  "Stack " + ((StackBuilder_core) object).getVarName();
+		
+				
 	}
 
 	/**

@@ -180,13 +180,13 @@ public class PolicyDocumentBuilder_iamItemProvider extends ServiceResourcesItemP
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((PolicyDocumentBuilder_iam) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_PolicyDocumentBuilder_iam_type")
-				: getString("_UI_PolicyDocumentBuilder_iam_type") + " " + label;
+		return  "PolicyDocument " + ((PolicyDocumentBuilder_iam) object).getVarName();
+		
+				
 	}
 
 	/**

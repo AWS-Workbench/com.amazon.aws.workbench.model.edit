@@ -610,13 +610,13 @@ public class AddCapacityOptionsBuilder_ecsItemProvider extends ServiceResourcesI
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((AddCapacityOptionsBuilder_ecs) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_AddCapacityOptionsBuilder_ecs_type")
-				: getString("_UI_AddCapacityOptionsBuilder_ecs_type") + " " + label;
+		return  "AddCapacityOptions " + ((AddCapacityOptionsBuilder_ecs) object).getVarName();
+		
+				
 	}
 
 	/**

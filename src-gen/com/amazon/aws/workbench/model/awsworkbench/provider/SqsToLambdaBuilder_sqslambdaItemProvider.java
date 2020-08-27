@@ -284,13 +284,13 @@ public class SqsToLambdaBuilder_sqslambdaItemProvider extends ServiceResourcesIt
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((SqsToLambdaBuilder_sqslambda) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_SqsToLambdaBuilder_sqslambda_type")
-				: getString("_UI_SqsToLambdaBuilder_sqslambda_type") + " " + label;
+		return  "SqsToLambda " + ((SqsToLambdaBuilder_sqslambda) object).getVarName();
+		
+				
 	}
 
 	/**

@@ -199,13 +199,13 @@ public class BuildTopicPropsBuilder_coreItemProvider extends ServiceResourcesIte
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((BuildTopicPropsBuilder_core) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_BuildTopicPropsBuilder_core_type")
-				: getString("_UI_BuildTopicPropsBuilder_core_type") + " " + label;
+		return  "BuildTopicProps " + ((BuildTopicPropsBuilder_core) object).getVarName();
+		
+				
 	}
 
 	/**

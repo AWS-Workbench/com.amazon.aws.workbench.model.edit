@@ -186,13 +186,13 @@ public class NoncurrentVersionTransitionBuilder_s3ItemProvider extends ServiceRe
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((NoncurrentVersionTransitionBuilder_s3) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_NoncurrentVersionTransitionBuilder_s3_type")
-				: getString("_UI_NoncurrentVersionTransitionBuilder_s3_type") + " " + label;
+		return  "NoncurrentVersionTransition " + ((NoncurrentVersionTransitionBuilder_s3) object).getVarName();
+		
+				
 	}
 
 	/**

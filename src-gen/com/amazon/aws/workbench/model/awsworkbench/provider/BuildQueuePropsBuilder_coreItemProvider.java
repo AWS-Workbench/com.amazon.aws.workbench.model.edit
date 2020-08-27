@@ -206,13 +206,13 @@ public class BuildQueuePropsBuilder_coreItemProvider extends ServiceResourcesIte
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((BuildQueuePropsBuilder_core) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_BuildQueuePropsBuilder_core_type")
-				: getString("_UI_BuildQueuePropsBuilder_core_type") + " " + label;
+		return  "BuildQueueProps " + ((BuildQueuePropsBuilder_core) object).getVarName();
+		
+				
 	}
 
 	/**

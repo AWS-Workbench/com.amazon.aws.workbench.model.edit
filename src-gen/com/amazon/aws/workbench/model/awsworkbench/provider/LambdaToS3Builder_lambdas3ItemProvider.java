@@ -244,13 +244,13 @@ public class LambdaToS3Builder_lambdas3ItemProvider extends ServiceResourcesItem
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((LambdaToS3Builder_lambdas3) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_LambdaToS3Builder_lambdas3_type")
-				: getString("_UI_LambdaToS3Builder_lambdas3_type") + " " + label;
+		return  "LambdaToS3 " + ((LambdaToS3Builder_lambdas3) object).getVarName();
+		
+				
 	}
 
 	/**

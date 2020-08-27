@@ -222,13 +222,13 @@ public class CertificateBuilder_certificatemanagerItemProvider extends ServiceRe
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((CertificateBuilder_certificatemanager) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_CertificateBuilder_certificatemanager_type")
-				: getString("_UI_CertificateBuilder_certificatemanager_type") + " " + label;
+		return  "Certificate " + ((CertificateBuilder_certificatemanager) object).getVarName();
+		
+				
 	}
 
 	/**

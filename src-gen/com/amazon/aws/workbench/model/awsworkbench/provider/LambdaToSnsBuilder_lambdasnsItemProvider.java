@@ -238,13 +238,13 @@ public class LambdaToSnsBuilder_lambdasnsItemProvider extends ServiceResourcesIt
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((LambdaToSnsBuilder_lambdasns) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_LambdaToSnsBuilder_lambdasns_type")
-				: getString("_UI_LambdaToSnsBuilder_lambdasns_type") + " " + label;
+		return  "LambdaToSns " + ((LambdaToSnsBuilder_lambdasns) object).getVarName();
+		
+				
 	}
 
 	/**

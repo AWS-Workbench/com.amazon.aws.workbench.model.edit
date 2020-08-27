@@ -265,13 +265,13 @@ public class AssetImageBuilder_ecsItemProvider extends ServiceResourcesItemProvi
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((AssetImageBuilder_ecs) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_AssetImageBuilder_ecs_type")
-				: getString("_UI_AssetImageBuilder_ecs_type") + " " + label;
+		return  "AssetImage " + ((AssetImageBuilder_ecs) object).getVarName();
+		
+				
 	}
 
 	/**

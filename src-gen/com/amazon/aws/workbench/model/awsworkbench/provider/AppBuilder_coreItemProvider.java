@@ -339,13 +339,13 @@ public class AppBuilder_coreItemProvider extends ItemProviderAdapter implements 
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((AppBuilder_core) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_AppBuilder_core_type")
-				: getString("_UI_AppBuilder_core_type") + " " + label;
+		return  "App " + ((AppBuilder_core) object).getVarName();
+		
+				
 	}
 
 	/**

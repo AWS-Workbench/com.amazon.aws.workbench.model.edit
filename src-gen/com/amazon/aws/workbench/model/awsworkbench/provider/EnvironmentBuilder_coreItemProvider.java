@@ -186,13 +186,13 @@ public class EnvironmentBuilder_coreItemProvider extends ItemProviderAdapter imp
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((EnvironmentBuilder_core) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_EnvironmentBuilder_core_type")
-				: getString("_UI_EnvironmentBuilder_core_type") + " " + label;
+		return  "Environment " + ((EnvironmentBuilder_core) object).getVarName();
+		
+				
 	}
 
 	/**

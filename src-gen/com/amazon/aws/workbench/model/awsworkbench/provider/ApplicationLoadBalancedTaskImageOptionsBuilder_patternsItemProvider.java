@@ -343,14 +343,13 @@ public class ApplicationLoadBalancedTaskImageOptionsBuilder_patternsItemProvider
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((ApplicationLoadBalancedTaskImageOptionsBuilder_patterns) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_ApplicationLoadBalancedTaskImageOptionsBuilder_patterns_type")
-				: getString("_UI_ApplicationLoadBalancedTaskImageOptionsBuilder_patterns_type") + " " + label;
+		return  "ApplicationLoadBalancedTaskImageOptions " + ((ApplicationLoadBalancedTaskImageOptionsBuilder_patterns) object).getVarName();
+	
+				
 	}
 
 	/**

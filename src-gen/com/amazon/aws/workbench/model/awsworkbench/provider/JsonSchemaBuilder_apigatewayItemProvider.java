@@ -866,13 +866,13 @@ public class JsonSchemaBuilder_apigatewayItemProvider extends ServiceResourcesIt
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((JsonSchemaBuilder_apigateway) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_JsonSchemaBuilder_apigateway_type")
-				: getString("_UI_JsonSchemaBuilder_apigateway_type") + " " + label;
+		return  "JsonSchema " + ((JsonSchemaBuilder_apigateway) object).getVarName();
+		
+				
 	}
 
 	/**

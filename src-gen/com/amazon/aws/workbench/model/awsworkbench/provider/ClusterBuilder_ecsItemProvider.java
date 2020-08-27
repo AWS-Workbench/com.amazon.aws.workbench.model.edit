@@ -238,13 +238,13 @@ public class ClusterBuilder_ecsItemProvider extends ServiceResourcesItemProvider
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((ClusterBuilder_ecs) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_ClusterBuilder_ecs_type")
-				: getString("_UI_ClusterBuilder_ecs_type") + " " + label;
+		return  "Cluster " + ((ClusterBuilder_ecs) object).getVarName();
+		
+				
 	}
 
 	/**

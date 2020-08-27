@@ -468,14 +468,13 @@ public class ApplicationMultipleTargetGroupsFargateServiceBuilder_patternsItemPr
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((ApplicationMultipleTargetGroupsFargateServiceBuilder_patterns) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_ApplicationMultipleTargetGroupsFargateServiceBuilder_patterns_type")
-				: getString("_UI_ApplicationMultipleTargetGroupsFargateServiceBuilder_patterns_type") + " " + label;
+		return  "ApplicationMultipleTargetGroupsFargateService " + ((ApplicationMultipleTargetGroupsFargateServiceBuilder_patterns) object).getVarName();
+		
+				
 	}
 
 	/**

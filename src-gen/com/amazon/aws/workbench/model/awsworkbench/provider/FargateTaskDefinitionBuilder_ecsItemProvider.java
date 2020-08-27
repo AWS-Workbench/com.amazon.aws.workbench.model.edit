@@ -278,13 +278,13 @@ public class FargateTaskDefinitionBuilder_ecsItemProvider extends ServiceResourc
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((FargateTaskDefinitionBuilder_ecs) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_FargateTaskDefinitionBuilder_ecs_type")
-				: getString("_UI_FargateTaskDefinitionBuilder_ecs_type") + " " + label;
+		return  "FargateTaskDefinition " + ((FargateTaskDefinitionBuilder_ecs) object).getVarName();
+		
+				
 	}
 
 	/**

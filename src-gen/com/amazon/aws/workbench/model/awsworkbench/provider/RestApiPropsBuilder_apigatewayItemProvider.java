@@ -532,13 +532,13 @@ public class RestApiPropsBuilder_apigatewayItemProvider extends ServiceResources
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((RestApiPropsBuilder_apigateway) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_RestApiPropsBuilder_apigateway_type")
-				: getString("_UI_RestApiPropsBuilder_apigateway_type") + " " + label;
+		return  "RestApiProps " + ((RestApiPropsBuilder_apigateway) object).getVarName();
+		
+				
 	}
 
 	/**

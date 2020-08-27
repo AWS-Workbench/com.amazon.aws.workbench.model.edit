@@ -183,13 +183,13 @@ public class FlowLogOptionsBuilder_ec2ItemProvider extends ServiceResourcesItemP
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((FlowLogOptionsBuilder_ec2) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_FlowLogOptionsBuilder_ec2_type")
-				: getString("_UI_FlowLogOptionsBuilder_ec2_type") + " " + label;
+		return  "FlowLogOptions " + ((FlowLogOptionsBuilder_ec2) object).getVarName();
+		
+				
 	}
 
 	/**

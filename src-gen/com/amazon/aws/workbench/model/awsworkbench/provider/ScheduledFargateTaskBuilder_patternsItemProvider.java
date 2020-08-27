@@ -287,13 +287,13 @@ public class ScheduledFargateTaskBuilder_patternsItemProvider extends ServiceRes
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((ScheduledFargateTaskBuilder_patterns) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_ScheduledFargateTaskBuilder_patterns_type")
-				: getString("_UI_ScheduledFargateTaskBuilder_patterns_type") + " " + label;
+		return  "ScheduledFargateTask " + ((ScheduledFargateTaskBuilder_patterns) object).getVarName();
+		
+				
 	}
 
 	/**

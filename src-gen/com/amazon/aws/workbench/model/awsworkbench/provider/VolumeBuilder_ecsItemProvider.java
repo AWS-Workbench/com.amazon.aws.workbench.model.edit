@@ -199,13 +199,13 @@ public class VolumeBuilder_ecsItemProvider extends ServiceResourcesItemProvider 
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((VolumeBuilder_ecs) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_VolumeBuilder_ecs_type")
-				: getString("_UI_VolumeBuilder_ecs_type") + " " + label;
+		return  "Volume " + ((VolumeBuilder_ecs) object).getVarName();
+		
+				
 	}
 
 	/**

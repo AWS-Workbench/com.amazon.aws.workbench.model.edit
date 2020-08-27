@@ -461,13 +461,13 @@ public class UserPoolBuilder_cognitoItemProvider extends ServiceResourcesItemPro
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((UserPoolBuilder_cognito) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_UserPoolBuilder_cognito_type")
-				: getString("_UI_UserPoolBuilder_cognito_type") + " " + label;
+		return  "UserPool " + ((UserPoolBuilder_cognito) object).getVarName();
+		
+				
 	}
 
 	/**

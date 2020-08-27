@@ -266,13 +266,13 @@ public class KeyBuilder_kmsItemProvider extends ServiceResourcesItemProvider {
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((KeyBuilder_kms) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_KeyBuilder_kms_type")
-				: getString("_UI_KeyBuilder_kms_type") + " " + label;
+		return  "Key " + ((KeyBuilder_kms) object).getVarName();
+		
+				
 	}
 
 	/**

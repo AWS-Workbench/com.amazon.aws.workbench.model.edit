@@ -225,13 +225,13 @@ public class CloudFrontToS3Builder_cloudfronts3ItemProvider extends ServiceResou
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((CloudFrontToS3Builder_cloudfronts3) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_CloudFrontToS3Builder_cloudfronts3_type")
-				: getString("_UI_CloudFrontToS3Builder_cloudfronts3_type") + " " + label;
+		return  "CloudFrontToS3 " + ((CloudFrontToS3Builder_cloudfronts3) object).getVarName();
+		
+				
 	}
 
 	/**

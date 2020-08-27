@@ -214,13 +214,13 @@ public class HostedZoneBuilder_route53ItemProvider extends ServiceResourcesItemP
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((HostedZoneBuilder_route53) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_HostedZoneBuilder_route53_type")
-				: getString("_UI_HostedZoneBuilder_route53_type") + " " + label;
+		return  "HostedZone " + ((HostedZoneBuilder_route53) object).getVarName();
+		
+				
 	}
 
 	/**

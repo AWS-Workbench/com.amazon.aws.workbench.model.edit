@@ -535,14 +535,13 @@ public class NetworkLoadBalancedEc2ServiceBuilder_patternsItemProvider extends S
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((NetworkLoadBalancedEc2ServiceBuilder_patterns) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_NetworkLoadBalancedEc2ServiceBuilder_patterns_type")
-				: getString("_UI_NetworkLoadBalancedEc2ServiceBuilder_patterns_type") + " " + label;
+		return  "NetworkLoadBalancedEc2Service " + ((NetworkLoadBalancedEc2ServiceBuilder_patterns) object).getVarName();
+		
+				
 	}
 
 	/**

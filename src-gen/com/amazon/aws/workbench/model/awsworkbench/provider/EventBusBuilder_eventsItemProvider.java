@@ -177,13 +177,13 @@ public class EventBusBuilder_eventsItemProvider extends ServiceResourcesItemProv
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((EventBusBuilder_events) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_EventBusBuilder_events_type")
-				: getString("_UI_EventBusBuilder_events_type") + " " + label;
+		return  "EventBus " + ((EventBusBuilder_events) object).getVarName();
+		
+				
 	}
 
 	/**

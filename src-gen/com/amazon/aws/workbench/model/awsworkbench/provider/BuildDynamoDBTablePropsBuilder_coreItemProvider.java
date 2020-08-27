@@ -187,13 +187,13 @@ public class BuildDynamoDBTablePropsBuilder_coreItemProvider extends ServiceReso
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((BuildDynamoDBTablePropsBuilder_core) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_BuildDynamoDBTablePropsBuilder_core_type")
-				: getString("_UI_BuildDynamoDBTablePropsBuilder_core_type") + " " + label;
+		return  "BuildDynamoDBTableProps " + ((BuildDynamoDBTablePropsBuilder_core) object).getVarName();
+		
+				
 	}
 
 	/**

@@ -259,13 +259,13 @@ public class TokenAuthorizerBuilder_apigatewayItemProvider extends ServiceResour
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((TokenAuthorizerBuilder_apigateway) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_TokenAuthorizerBuilder_apigateway_type")
-				: getString("_UI_TokenAuthorizerBuilder_apigateway_type") + " " + label;
+		return  "TokenAuthorizer " + ((TokenAuthorizerBuilder_apigateway) object).getVarName();
+		
+				
 	}
 
 	/**

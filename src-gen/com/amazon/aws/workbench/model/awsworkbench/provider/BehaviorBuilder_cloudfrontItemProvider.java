@@ -358,13 +358,13 @@ public class BehaviorBuilder_cloudfrontItemProvider extends ServiceResourcesItem
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((BehaviorBuilder_cloudfront) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_BehaviorBuilder_cloudfront_type")
-				: getString("_UI_BehaviorBuilder_cloudfront_type") + " " + label;
+		return  "Behavior " + ((BehaviorBuilder_cloudfront) object).getVarName();
+		
+				
 	}
 
 	/**

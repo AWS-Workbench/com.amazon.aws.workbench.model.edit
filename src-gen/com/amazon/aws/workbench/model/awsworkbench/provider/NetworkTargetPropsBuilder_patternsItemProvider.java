@@ -181,13 +181,13 @@ public class NetworkTargetPropsBuilder_patternsItemProvider extends ServiceResou
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((NetworkTargetPropsBuilder_patterns) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_NetworkTargetPropsBuilder_patterns_type")
-				: getString("_UI_NetworkTargetPropsBuilder_patterns_type") + " " + label;
+		return  "NetworkTargetProps " + ((NetworkTargetPropsBuilder_patterns) object).getVarName();
+		
+				
 	}
 
 	/**

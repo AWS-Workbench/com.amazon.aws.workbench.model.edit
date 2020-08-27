@@ -224,14 +224,13 @@ public class KinesisStreamsToLambdaBuilder_kinesisstreamslambdaItemProvider exte
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((KinesisStreamsToLambdaBuilder_kinesisstreamslambda) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_KinesisStreamsToLambdaBuilder_kinesisstreamslambda_type")
-				: getString("_UI_KinesisStreamsToLambdaBuilder_kinesisstreamslambda_type") + " " + label;
+		return  "KinesisStreamsToLambda " + ((KinesisStreamsToLambdaBuilder_kinesisstreamslambda) object).getVarName();
+		
+				
 	}
 
 	/**

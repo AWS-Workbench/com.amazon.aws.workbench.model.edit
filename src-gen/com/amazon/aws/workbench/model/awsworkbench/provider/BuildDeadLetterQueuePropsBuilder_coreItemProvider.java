@@ -183,13 +183,13 @@ public class BuildDeadLetterQueuePropsBuilder_coreItemProvider extends ServiceRe
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((BuildDeadLetterQueuePropsBuilder_core) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_BuildDeadLetterQueuePropsBuilder_core_type")
-				: getString("_UI_BuildDeadLetterQueuePropsBuilder_core_type") + " " + label;
+		return  "BuildDeadLetterQueueProps " + ((BuildDeadLetterQueuePropsBuilder_core) object).getVarName();
+		
+				
 	}
 
 	/**

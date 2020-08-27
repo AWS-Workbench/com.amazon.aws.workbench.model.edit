@@ -373,13 +373,13 @@ public class QueueBuilder_sqsItemProvider extends ServiceResourcesItemProvider {
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((QueueBuilder_sqs) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_QueueBuilder_sqs_type")
-				: getString("_UI_QueueBuilder_sqs_type") + " " + label;
+		return  "Queue " + ((QueueBuilder_sqs) object).getVarName();
+		
+				
 	}
 
 	/**

@@ -237,13 +237,13 @@ public class ModelBuilder_apigatewayItemProvider extends ServiceResourcesItemPro
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((ModelBuilder_apigateway) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_ModelBuilder_apigateway_type")
-				: getString("_UI_ModelBuilder_apigateway_type") + " " + label;
+		return  "Model " + ((ModelBuilder_apigateway) object).getVarName();
+		
+				
 	}
 
 	/**

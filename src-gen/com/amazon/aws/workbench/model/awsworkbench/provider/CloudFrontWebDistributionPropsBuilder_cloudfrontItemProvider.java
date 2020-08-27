@@ -406,14 +406,13 @@ public class CloudFrontWebDistributionPropsBuilder_cloudfrontItemProvider extend
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((CloudFrontWebDistributionPropsBuilder_cloudfront) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_CloudFrontWebDistributionPropsBuilder_cloudfront_type")
-				: getString("_UI_CloudFrontWebDistributionPropsBuilder_cloudfront_type") + " " + label;
+		return  "CloudFrontWebDistributionProps " + ((CloudFrontWebDistributionPropsBuilder_cloudfront) object).getVarName();
+		
+				
 	}
 
 	/**

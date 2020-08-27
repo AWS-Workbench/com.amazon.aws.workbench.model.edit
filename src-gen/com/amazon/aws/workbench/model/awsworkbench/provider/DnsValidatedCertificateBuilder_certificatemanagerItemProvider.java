@@ -302,14 +302,13 @@ public class DnsValidatedCertificateBuilder_certificatemanagerItemProvider exten
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((DnsValidatedCertificateBuilder_certificatemanager) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_DnsValidatedCertificateBuilder_certificatemanager_type")
-				: getString("_UI_DnsValidatedCertificateBuilder_certificatemanager_type") + " " + label;
+		return  "DnsValidatedCertificate " + ((DnsValidatedCertificateBuilder_certificatemanager) object).getVarName();
+		
+				
 	}
 
 	/**

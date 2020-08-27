@@ -249,14 +249,13 @@ public class IotToLambdaToDynamoDBBuilder_iotlambdadynamodbItemProvider extends 
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((IotToLambdaToDynamoDBBuilder_iotlambdadynamodb) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_IotToLambdaToDynamoDBBuilder_iotlambdadynamodb_type")
-				: getString("_UI_IotToLambdaToDynamoDBBuilder_iotlambdadynamodb_type") + " " + label;
+		return  "IotToLambdaToDynamoDB " + ((IotToLambdaToDynamoDBBuilder_iotlambdadynamodb) object).getVarName();
+		
+				
 	}
 
 	/**

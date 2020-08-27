@@ -262,14 +262,13 @@ public class RollingUpdateConfigurationBuilder_autoscalingItemProvider extends S
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((RollingUpdateConfigurationBuilder_autoscaling) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_RollingUpdateConfigurationBuilder_autoscaling_type")
-				: getString("_UI_RollingUpdateConfigurationBuilder_autoscaling_type") + " " + label;
+		return  "RollingUpdateConfiguration " + ((RollingUpdateConfigurationBuilder_autoscaling) object).getVarName();
+		
+				
 	}
 
 	/**

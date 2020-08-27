@@ -333,13 +333,13 @@ public class SecretStringGeneratorBuilder_secretsmanagerItemProvider extends Ser
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((SecretStringGeneratorBuilder_secretsmanager) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_SecretStringGeneratorBuilder_secretsmanager_type")
-				: getString("_UI_SecretStringGeneratorBuilder_secretsmanager_type") + " " + label;
+		return  "SecretStringGenerator " + ((SecretStringGeneratorBuilder_secretsmanager) object).getVarName();
+		
+				
 	}
 
 	/**

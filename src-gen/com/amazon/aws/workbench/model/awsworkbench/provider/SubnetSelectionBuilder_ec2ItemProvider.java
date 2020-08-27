@@ -252,13 +252,13 @@ public class SubnetSelectionBuilder_ec2ItemProvider extends ServiceResourcesItem
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((SubnetSelectionBuilder_ec2) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_SubnetSelectionBuilder_ec2_type")
-				: getString("_UI_SubnetSelectionBuilder_ec2_type") + " " + label;
+		return  "SubnetSelection " + ((SubnetSelectionBuilder_ec2) object).getVarName();
+		
+				
 	}
 
 	/**

@@ -286,13 +286,13 @@ public class ScheduledEc2TaskBuilder_patternsItemProvider extends ServiceResourc
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((ScheduledEc2TaskBuilder_patterns) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_ScheduledEc2TaskBuilder_patterns_type")
-				: getString("_UI_ScheduledEc2TaskBuilder_patterns_type") + " " + label;
+		return  "ScheduledEc2Task " + ((ScheduledEc2TaskBuilder_patterns) object).getVarName();
+		
+				
 	}
 
 	/**

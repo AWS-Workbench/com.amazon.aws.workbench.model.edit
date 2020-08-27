@@ -179,13 +179,13 @@ public class EmailSettingsBuilder_cognitoItemProvider extends ServiceResourcesIt
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((EmailSettingsBuilder_cognito) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_EmailSettingsBuilder_cognito_type")
-				: getString("_UI_EmailSettingsBuilder_cognito_type") + " " + label;
+		return  "EmailSettings " + ((EmailSettingsBuilder_cognito) object).getVarName();
+		
+				
 	}
 
 	/**

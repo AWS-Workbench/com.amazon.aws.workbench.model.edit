@@ -241,13 +241,13 @@ public class AmazonLinuxImageBuilder_ec2ItemProvider extends ServiceResourcesIte
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((AmazonLinuxImageBuilder_ec2) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_AmazonLinuxImageBuilder_ec2_type")
-				: getString("_UI_AmazonLinuxImageBuilder_ec2_type") + " " + label;
+		return  "AmazonLinuxImage " + ((AmazonLinuxImageBuilder_ec2) object).getVarName();
+		
+				
 	}
 
 	/**

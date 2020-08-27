@@ -228,14 +228,13 @@ public class IotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3ItemProvider ex
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((IotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_IotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3_type")
-				: getString("_UI_IotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3_type") + " " + label;
+		return  "IotToKinesisFirehoseToS3 " + ((IotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3) object).getVarName();
+		
+				
 	}
 
 	/**

@@ -199,13 +199,13 @@ public class VpcLinkBuilder_apigatewayItemProvider extends ServiceResourcesItemP
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((VpcLinkBuilder_apigateway) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_VpcLinkBuilder_apigateway_type")
-				: getString("_UI_VpcLinkBuilder_apigateway_type") + " " + label;
+		return  "VpcLink " + ((VpcLinkBuilder_apigateway) object).getVarName();
+		
+				
 	}
 
 	/**

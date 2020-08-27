@@ -559,14 +559,13 @@ public class NetworkLoadBalancedFargateServiceBuilder_patternsItemProvider exten
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((NetworkLoadBalancedFargateServiceBuilder_patterns) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_NetworkLoadBalancedFargateServiceBuilder_patterns_type")
-				: getString("_UI_NetworkLoadBalancedFargateServiceBuilder_patterns_type") + " " + label;
+		return  "NetworkLoadBalancedFargateService " + ((NetworkLoadBalancedFargateServiceBuilder_patterns) object).getVarName();
+		
+				
 	}
 
 	/**

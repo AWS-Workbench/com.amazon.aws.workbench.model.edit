@@ -185,13 +185,13 @@ public class BuildS3BucketPropsBuilder_coreItemProvider extends ServiceResources
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((BuildS3BucketPropsBuilder_core) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_BuildS3BucketPropsBuilder_core_type")
-				: getString("_UI_BuildS3BucketPropsBuilder_core_type") + " " + label;
+		return  "BuildS3BucketProps " + ((BuildS3BucketPropsBuilder_core) object).getVarName();
+		
+				
 	}
 
 	/**

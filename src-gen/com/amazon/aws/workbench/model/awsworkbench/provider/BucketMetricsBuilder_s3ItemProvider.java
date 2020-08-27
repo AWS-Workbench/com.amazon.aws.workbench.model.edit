@@ -194,13 +194,13 @@ public class BucketMetricsBuilder_s3ItemProvider extends ServiceResourcesItemPro
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((BucketMetricsBuilder_s3) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_BucketMetricsBuilder_s3_type")
-				: getString("_UI_BucketMetricsBuilder_s3_type") + " " + label;
+		return  "BucketMetrics " + ((BucketMetricsBuilder_s3) object).getVarName();
+		
+				
 	}
 
 	/**

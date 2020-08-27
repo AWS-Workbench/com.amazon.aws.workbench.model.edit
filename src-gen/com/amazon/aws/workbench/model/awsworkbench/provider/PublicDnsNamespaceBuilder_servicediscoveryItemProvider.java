@@ -182,13 +182,13 @@ public class PublicDnsNamespaceBuilder_servicediscoveryItemProvider extends Serv
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((PublicDnsNamespaceBuilder_servicediscovery) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_PublicDnsNamespaceBuilder_servicediscovery_type")
-				: getString("_UI_PublicDnsNamespaceBuilder_servicediscovery_type") + " " + label;
+		return  "PublicDnsNamespace " + ((PublicDnsNamespaceBuilder_servicediscovery) object).getVarName();
+		
+				
 	}
 
 	/**

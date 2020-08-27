@@ -325,14 +325,12 @@ public class ApplicationLoadBalancerBuilder_elasticloadbalancingv2ItemProvider e
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((ApplicationLoadBalancerBuilder_elasticloadbalancingv2) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_ApplicationLoadBalancerBuilder_elasticloadbalancingv2_type")
-				: getString("_UI_ApplicationLoadBalancerBuilder_elasticloadbalancingv2_type") + " " + label;
+		return  "ApplicationLoadBalancer " + ((ApplicationLoadBalancerBuilder_elasticloadbalancingv2) object).getVarName();
+		
 	}
 
 	/**

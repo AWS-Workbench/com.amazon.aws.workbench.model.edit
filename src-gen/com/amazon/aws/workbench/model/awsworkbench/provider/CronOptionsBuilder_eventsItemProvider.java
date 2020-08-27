@@ -250,13 +250,13 @@ public class CronOptionsBuilder_eventsItemProvider extends ServiceResourcesItemP
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((CronOptionsBuilder_events) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_CronOptionsBuilder_events_type")
-				: getString("_UI_CronOptionsBuilder_events_type") + " " + label;
+		return  "CronOptions " + ((CronOptionsBuilder_events) object).getVarName();
+		
+				
 	}
 
 	/**

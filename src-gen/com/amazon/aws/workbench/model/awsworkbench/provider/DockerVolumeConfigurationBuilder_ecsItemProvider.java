@@ -237,13 +237,13 @@ public class DockerVolumeConfigurationBuilder_ecsItemProvider extends ServiceRes
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((DockerVolumeConfigurationBuilder_ecs) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_DockerVolumeConfigurationBuilder_ecs_type")
-				: getString("_UI_DockerVolumeConfigurationBuilder_ecs_type") + " " + label;
+		return  "DockerVolumeConfiguration " + ((DockerVolumeConfigurationBuilder_ecs) object).getVarName();
+		
+				
 	}
 
 	/**

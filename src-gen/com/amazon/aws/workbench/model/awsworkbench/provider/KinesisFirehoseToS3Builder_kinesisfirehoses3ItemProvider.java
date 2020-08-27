@@ -207,13 +207,13 @@ public class KinesisFirehoseToS3Builder_kinesisfirehoses3ItemProvider extends Se
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((KinesisFirehoseToS3Builder_kinesisfirehoses3) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_KinesisFirehoseToS3Builder_kinesisfirehoses3_type")
-				: getString("_UI_KinesisFirehoseToS3Builder_kinesisfirehoses3_type") + " " + label;
+		return  "KinesisFirehoseToS3 " + ((KinesisFirehoseToS3Builder_kinesisfirehoses3) object).getVarName();
+		
+				
 	}
 
 	/**

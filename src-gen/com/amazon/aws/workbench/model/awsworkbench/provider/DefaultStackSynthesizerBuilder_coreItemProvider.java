@@ -284,13 +284,13 @@ public class DefaultStackSynthesizerBuilder_coreItemProvider extends ItemProvide
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((DefaultStackSynthesizerBuilder_core) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_DefaultStackSynthesizerBuilder_core_type")
-				: getString("_UI_DefaultStackSynthesizerBuilder_core_type") + " " + label;
+		return  "DefaultStackSynthesizer " + ((DefaultStackSynthesizerBuilder_core) object).getVarName();
+		
+				
 	}
 
 	/**

@@ -330,13 +330,13 @@ public class RoleBuilder_iamItemProvider extends ServiceResourcesItemProvider {
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((RoleBuilder_iam) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_RoleBuilder_iam_type")
-				: getString("_UI_RoleBuilder_iam_type") + " " + label;
+		return  "Role " + ((RoleBuilder_iam) object).getVarName();
+		
+				
 	}
 
 	/**

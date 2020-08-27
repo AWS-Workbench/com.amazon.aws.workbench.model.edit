@@ -179,13 +179,13 @@ public class MfaSecondFactorBuilder_cognitoItemProvider extends ServiceResources
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((MfaSecondFactorBuilder_cognito) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_MfaSecondFactorBuilder_cognito_type")
-				: getString("_UI_MfaSecondFactorBuilder_cognito_type") + " " + label;
+		return  "MfaSecondFactor " + ((MfaSecondFactorBuilder_cognito) object).getVarName();
+		
+				
 	}
 
 	/**

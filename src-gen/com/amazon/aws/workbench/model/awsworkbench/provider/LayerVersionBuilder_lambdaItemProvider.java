@@ -236,13 +236,13 @@ public class LayerVersionBuilder_lambdaItemProvider extends ServiceResourcesItem
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((LayerVersionBuilder_lambda) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_LayerVersionBuilder_lambda_type")
-				: getString("_UI_LayerVersionBuilder_lambda_type") + " " + label;
+		return  "LayerVersion " + ((LayerVersionBuilder_lambda) object).getVarName();
+		
+				
 	}
 
 	/**

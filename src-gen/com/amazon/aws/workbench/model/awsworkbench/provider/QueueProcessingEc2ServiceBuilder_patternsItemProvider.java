@@ -584,13 +584,13 @@ public class QueueProcessingEc2ServiceBuilder_patternsItemProvider extends Servi
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((QueueProcessingEc2ServiceBuilder_patterns) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_QueueProcessingEc2ServiceBuilder_patterns_type")
-				: getString("_UI_QueueProcessingEc2ServiceBuilder_patterns_type") + " " + label;
+		return  "QueueProcessingEc2Service " + ((QueueProcessingEc2ServiceBuilder_patterns) object).getVarName();
+		
+				
 	}
 
 	/**

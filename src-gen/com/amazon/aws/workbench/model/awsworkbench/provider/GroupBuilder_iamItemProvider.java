@@ -195,13 +195,13 @@ public class GroupBuilder_iamItemProvider extends ServiceResourcesItemProvider {
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((GroupBuilder_iam) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_GroupBuilder_iam_type")
-				: getString("_UI_GroupBuilder_iam_type") + " " + label;
+		return  "Group " + ((GroupBuilder_iam) object).getVarName();
+		
+				
 	}
 
 	/**

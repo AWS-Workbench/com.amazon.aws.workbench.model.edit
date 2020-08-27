@@ -266,13 +266,13 @@ public class StateMachinePropsBuilder_stepfunctionsItemProvider extends ServiceR
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((StateMachinePropsBuilder_stepfunctions) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_StateMachinePropsBuilder_stepfunctions_type")
-				: getString("_UI_StateMachinePropsBuilder_stepfunctions_type") + " " + label;
+		return  "StateMachineProps " + ((StateMachinePropsBuilder_stepfunctions) object).getVarName();
+		
+				
 	}
 
 	/**

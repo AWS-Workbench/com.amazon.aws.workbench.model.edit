@@ -215,13 +215,13 @@ public class BlockPublicAccessBuilder_s3ItemProvider extends ServiceResourcesIte
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((BlockPublicAccessBuilder_s3) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_BlockPublicAccessBuilder_s3_type")
-				: getString("_UI_BlockPublicAccessBuilder_s3_type") + " " + label;
+		return  "BlockPublicAccess " + ((BlockPublicAccessBuilder_s3) object).getVarName();
+		
+				
 	}
 
 	/**

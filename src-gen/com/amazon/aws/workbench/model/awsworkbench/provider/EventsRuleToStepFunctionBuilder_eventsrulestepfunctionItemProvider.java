@@ -188,14 +188,13 @@ public class EventsRuleToStepFunctionBuilder_eventsrulestepfunctionItemProvider 
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((EventsRuleToStepFunctionBuilder_eventsrulestepfunction) object).getGeneratedClassName();
-		return label == null || label.length() == 0
-				? getString("_UI_EventsRuleToStepFunctionBuilder_eventsrulestepfunction_type")
-				: getString("_UI_EventsRuleToStepFunctionBuilder_eventsrulestepfunction_type") + " " + label;
+		return  "EventsRuleToStepFunction " + ((EventsRuleToStepFunctionBuilder_eventsrulestepfunction) object).getVarName();
+		
+				
 	}
 
 	/**

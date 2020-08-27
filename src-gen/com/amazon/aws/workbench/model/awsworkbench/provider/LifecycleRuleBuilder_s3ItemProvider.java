@@ -334,13 +334,13 @@ public class LifecycleRuleBuilder_s3ItemProvider extends ServiceResourcesItemPro
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((LifecycleRuleBuilder_s3) object).getGeneratedClassName();
-		return label == null || label.length() == 0 ? getString("_UI_LifecycleRuleBuilder_s3_type")
-				: getString("_UI_LifecycleRuleBuilder_s3_type") + " " + label;
+		return  "LifecycleRule " + ((LifecycleRuleBuilder_s3) object).getVarName();
+		
+				
 	}
 
 	/**
