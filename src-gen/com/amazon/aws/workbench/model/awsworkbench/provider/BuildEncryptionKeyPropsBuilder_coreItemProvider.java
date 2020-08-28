@@ -167,9 +167,8 @@ public class BuildEncryptionKeyPropsBuilder_coreItemProvider extends ServiceReso
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "BuildEncryptionKeyProps " + ((BuildEncryptionKeyPropsBuilder_core) object).getVarName();
-		
-				
+		return "BuildEncryptionKeyProps " + ((BuildEncryptionKeyPropsBuilder_core) object).getVarName();
+
 	}
 
 	/**

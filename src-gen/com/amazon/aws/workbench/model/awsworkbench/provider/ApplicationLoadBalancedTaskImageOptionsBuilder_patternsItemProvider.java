@@ -347,9 +347,9 @@ public class ApplicationLoadBalancedTaskImageOptionsBuilder_patternsItemProvider
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ApplicationLoadBalancedTaskImageOptions " + ((ApplicationLoadBalancedTaskImageOptionsBuilder_patterns) object).getVarName();
-	
-				
+		return "ApplicationLoadBalancedTaskImageOptions "
+				+ ((ApplicationLoadBalancedTaskImageOptionsBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

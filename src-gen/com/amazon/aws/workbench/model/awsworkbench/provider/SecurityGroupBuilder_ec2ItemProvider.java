@@ -219,9 +219,8 @@ public class SecurityGroupBuilder_ec2ItemProvider extends ServiceResourcesItemPr
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "SecurityGroup " + ((SecurityGroupBuilder_ec2) object).getVarName();
-		
-				
+		return "SecurityGroup " + ((SecurityGroupBuilder_ec2) object).getVarName();
+
 	}
 
 	/**

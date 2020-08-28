@@ -204,9 +204,8 @@ public class TransitionBuilder_s3ItemProvider extends ServiceResourcesItemProvid
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Transition " + ((TransitionBuilder_s3) object).getVarName();
-		
-				
+		return "Transition " + ((TransitionBuilder_s3) object).getVarName();
+
 	}
 
 	/**

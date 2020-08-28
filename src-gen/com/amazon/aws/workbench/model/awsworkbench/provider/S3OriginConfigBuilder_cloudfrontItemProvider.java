@@ -190,9 +190,8 @@ public class S3OriginConfigBuilder_cloudfrontItemProvider extends ServiceResourc
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "S3OriginConfig " + ((S3OriginConfigBuilder_cloudfront) object).getVarName();
-		
-				
+		return "S3OriginConfig " + ((S3OriginConfigBuilder_cloudfront) object).getVarName();
+
 	}
 
 	/**

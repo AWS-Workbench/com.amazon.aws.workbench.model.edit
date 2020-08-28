@@ -208,9 +208,8 @@ public class ApiGatewayToLambdaBuilder_apigatewaylambdaItemProvider extends Serv
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ApiGatewayToLambda " + ((ApiGatewayToLambdaBuilder_apigatewaylambda) object).getVarName();
-		
-				
+		return "ApiGatewayToLambda " + ((ApiGatewayToLambdaBuilder_apigatewaylambda) object).getVarName();
+
 	}
 
 	/**

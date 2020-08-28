@@ -293,9 +293,8 @@ public class CorsOptionsBuilder_apigatewayItemProvider extends ServiceResourcesI
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "CorsOptions " + ((CorsOptionsBuilder_apigateway) object).getVarName();
-		
-				
+		return "CorsOptions " + ((CorsOptionsBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

@@ -228,9 +228,8 @@ public class KinesisStreamsToLambdaBuilder_kinesisstreamslambdaItemProvider exte
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "KinesisStreamsToLambda " + ((KinesisStreamsToLambdaBuilder_kinesisstreamslambda) object).getVarName();
-		
-				
+		return "KinesisStreamsToLambda " + ((KinesisStreamsToLambdaBuilder_kinesisstreamslambda) object).getVarName();
+
 	}
 
 	/**

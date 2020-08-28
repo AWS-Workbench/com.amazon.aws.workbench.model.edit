@@ -267,9 +267,8 @@ public class NetworkLoadBalancerBuilder_elasticloadbalancingv2ItemProvider exten
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "NetworkLoadBalancer " + ((NetworkLoadBalancerBuilder_elasticloadbalancingv2) object).getVarName();
-		
-				
+		return "NetworkLoadBalancer " + ((NetworkLoadBalancerBuilder_elasticloadbalancingv2) object).getVarName();
+
 	}
 
 	/**

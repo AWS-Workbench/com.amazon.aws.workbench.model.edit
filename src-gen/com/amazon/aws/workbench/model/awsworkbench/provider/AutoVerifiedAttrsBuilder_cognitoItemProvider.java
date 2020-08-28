@@ -184,9 +184,8 @@ public class AutoVerifiedAttrsBuilder_cognitoItemProvider extends ServiceResourc
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "AutoVerifiedAttrs " + ((AutoVerifiedAttrsBuilder_cognito) object).getVarName();
-		
-				
+		return "AutoVerifiedAttrs " + ((AutoVerifiedAttrsBuilder_cognito) object).getVarName();
+
 	}
 
 	/**

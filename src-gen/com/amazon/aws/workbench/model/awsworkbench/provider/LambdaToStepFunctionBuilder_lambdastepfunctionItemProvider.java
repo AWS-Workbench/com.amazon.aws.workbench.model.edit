@@ -213,9 +213,8 @@ public class LambdaToStepFunctionBuilder_lambdastepfunctionItemProvider extends 
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "LambdaToStepFunction " + ((LambdaToStepFunctionBuilder_lambdastepfunction) object).getVarName();
-		
-				
+		return "LambdaToStepFunction " + ((LambdaToStepFunctionBuilder_lambdastepfunction) object).getVarName();
+
 	}
 
 	/**

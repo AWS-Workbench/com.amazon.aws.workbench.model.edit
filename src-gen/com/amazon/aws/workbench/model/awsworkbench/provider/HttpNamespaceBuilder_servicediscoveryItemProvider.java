@@ -185,9 +185,8 @@ public class HttpNamespaceBuilder_servicediscoveryItemProvider extends ServiceRe
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "HttpNamespace " + ((HttpNamespaceBuilder_servicediscovery) object).getVarName();
-		
-				
+		return "HttpNamespace " + ((HttpNamespaceBuilder_servicediscovery) object).getVarName();
+
 	}
 
 	/**

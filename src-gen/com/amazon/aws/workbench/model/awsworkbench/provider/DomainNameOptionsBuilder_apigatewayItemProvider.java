@@ -228,9 +228,8 @@ public class DomainNameOptionsBuilder_apigatewayItemProvider extends ServiceReso
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "DomainNameOptions " + ((DomainNameOptionsBuilder_apigateway) object).getVarName();
-		
-				
+		return "DomainNameOptions " + ((DomainNameOptionsBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

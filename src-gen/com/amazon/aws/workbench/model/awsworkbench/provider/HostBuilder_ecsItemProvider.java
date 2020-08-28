@@ -162,9 +162,8 @@ public class HostBuilder_ecsItemProvider extends ServiceResourcesItemProvider {
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Host " + ((HostBuilder_ecs) object).getVarName();
-		
-				
+		return "Host " + ((HostBuilder_ecs) object).getVarName();
+
 	}
 
 	/**

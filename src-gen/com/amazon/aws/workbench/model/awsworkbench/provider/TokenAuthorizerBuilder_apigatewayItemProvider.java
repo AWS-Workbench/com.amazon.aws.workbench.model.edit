@@ -263,9 +263,8 @@ public class TokenAuthorizerBuilder_apigatewayItemProvider extends ServiceResour
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "TokenAuthorizer " + ((TokenAuthorizerBuilder_apigateway) object).getVarName();
-		
-				
+		return "TokenAuthorizer " + ((TokenAuthorizerBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

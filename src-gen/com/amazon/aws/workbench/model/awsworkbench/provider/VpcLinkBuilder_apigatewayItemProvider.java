@@ -203,9 +203,8 @@ public class VpcLinkBuilder_apigatewayItemProvider extends ServiceResourcesItemP
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "VpcLink " + ((VpcLinkBuilder_apigateway) object).getVarName();
-		
-				
+		return "VpcLink " + ((VpcLinkBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

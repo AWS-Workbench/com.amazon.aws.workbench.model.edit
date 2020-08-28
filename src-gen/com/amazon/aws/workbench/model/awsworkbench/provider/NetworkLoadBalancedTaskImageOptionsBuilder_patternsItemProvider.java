@@ -346,9 +346,9 @@ public class NetworkLoadBalancedTaskImageOptionsBuilder_patternsItemProvider ext
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "NetworkLoadBalancedTaskImageOptions " + ((NetworkLoadBalancedTaskImageOptionsBuilder_patterns) object).getVarName();
-		
-				
+		return "NetworkLoadBalancedTaskImageOptions "
+				+ ((NetworkLoadBalancedTaskImageOptionsBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

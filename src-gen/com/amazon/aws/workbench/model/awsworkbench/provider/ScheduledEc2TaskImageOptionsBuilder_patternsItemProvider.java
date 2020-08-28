@@ -304,9 +304,8 @@ public class ScheduledEc2TaskImageOptionsBuilder_patternsItemProvider extends Se
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ScheduledEc2TaskImageOptions " + ((ScheduledEc2TaskImageOptionsBuilder_patterns) object).getVarName();
-		
-				
+		return "ScheduledEc2TaskImageOptions " + ((ScheduledEc2TaskImageOptionsBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

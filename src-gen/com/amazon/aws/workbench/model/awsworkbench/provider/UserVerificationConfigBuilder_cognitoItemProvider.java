@@ -223,9 +223,8 @@ public class UserVerificationConfigBuilder_cognitoItemProvider extends ServiceRe
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "UserVerificationConfig " + ((UserVerificationConfigBuilder_cognito) object).getVarName();
-		
-				
+		return "UserVerificationConfig " + ((UserVerificationConfigBuilder_cognito) object).getVarName();
+
 	}
 
 	/**

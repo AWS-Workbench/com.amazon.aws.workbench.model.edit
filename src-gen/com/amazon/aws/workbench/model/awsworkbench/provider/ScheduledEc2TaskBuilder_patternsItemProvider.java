@@ -290,9 +290,8 @@ public class ScheduledEc2TaskBuilder_patternsItemProvider extends ServiceResourc
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ScheduledEc2Task " + ((ScheduledEc2TaskBuilder_patterns) object).getVarName();
-		
-				
+		return "ScheduledEc2Task " + ((ScheduledEc2TaskBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

@@ -190,9 +190,8 @@ public class EndpointConfigurationBuilder_apigatewayItemProvider extends Service
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "EndpointConfiguration " + ((EndpointConfigurationBuilder_apigateway) object).getVarName();
-		
-				
+		return "EndpointConfiguration " + ((EndpointConfigurationBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

@@ -209,9 +209,8 @@ public class CloudFrontToApiGatewayBuilder_cloudfrontapigatewayItemProvider exte
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "CloudFrontToApiGateway " + ((CloudFrontToApiGatewayBuilder_cloudfrontapigateway) object).getVarName();
-		
-				
+		return "CloudFrontToApiGateway " + ((CloudFrontToApiGatewayBuilder_cloudfrontapigateway) object).getVarName();
+
 	}
 
 	/**

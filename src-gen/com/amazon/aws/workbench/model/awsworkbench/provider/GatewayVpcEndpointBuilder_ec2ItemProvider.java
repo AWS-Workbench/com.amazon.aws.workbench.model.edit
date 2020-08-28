@@ -208,9 +208,8 @@ public class GatewayVpcEndpointBuilder_ec2ItemProvider extends ServiceResourcesI
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "GatewayVpcEndpoint " + ((GatewayVpcEndpointBuilder_ec2) object).getVarName();
-		
-				
+		return "GatewayVpcEndpoint " + ((GatewayVpcEndpointBuilder_ec2) object).getVarName();
+
 	}
 
 	/**

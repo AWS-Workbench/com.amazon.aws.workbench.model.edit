@@ -267,9 +267,8 @@ public class UserPoolClientPropsBuilder_cognitoItemProvider extends ServiceResou
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "UserPoolClientProps " + ((UserPoolClientPropsBuilder_cognito) object).getVarName();
-		
-				
+		return "UserPoolClientProps " + ((UserPoolClientPropsBuilder_cognito) object).getVarName();
+
 	}
 
 	/**

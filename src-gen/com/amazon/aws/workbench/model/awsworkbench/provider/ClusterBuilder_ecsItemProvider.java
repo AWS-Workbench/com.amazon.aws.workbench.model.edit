@@ -242,9 +242,8 @@ public class ClusterBuilder_ecsItemProvider extends ServiceResourcesItemProvider
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Cluster " + ((ClusterBuilder_ecs) object).getVarName();
-		
-				
+		return "Cluster " + ((ClusterBuilder_ecs) object).getVarName();
+
 	}
 
 	/**

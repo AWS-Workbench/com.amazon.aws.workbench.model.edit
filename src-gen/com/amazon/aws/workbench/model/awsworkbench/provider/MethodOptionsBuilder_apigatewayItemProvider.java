@@ -347,9 +347,8 @@ public class MethodOptionsBuilder_apigatewayItemProvider extends ServiceResource
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "MethodOptions " + ((MethodOptionsBuilder_apigateway) object).getVarName();
-		
-				
+		return "MethodOptions " + ((MethodOptionsBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

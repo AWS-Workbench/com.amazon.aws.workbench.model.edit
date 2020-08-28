@@ -199,9 +199,8 @@ public class GroupBuilder_iamItemProvider extends ServiceResourcesItemProvider {
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Group " + ((GroupBuilder_iam) object).getVarName();
-		
-				
+		return "Group " + ((GroupBuilder_iam) object).getVarName();
+
 	}
 
 	/**

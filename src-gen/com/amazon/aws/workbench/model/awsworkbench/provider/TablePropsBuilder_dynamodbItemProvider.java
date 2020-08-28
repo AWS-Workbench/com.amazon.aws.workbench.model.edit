@@ -412,9 +412,8 @@ public class TablePropsBuilder_dynamodbItemProvider extends ServiceResourcesItem
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "TableProps " + ((TablePropsBuilder_dynamodb) object).getVarName();
-		
-				
+		return "TableProps " + ((TablePropsBuilder_dynamodb) object).getVarName();
+
 	}
 
 	/**

@@ -234,9 +234,8 @@ public class DynamoDBStreamToLambdaBuilder_dynamodbstreamlambdaItemProvider exte
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "DynamoDBStreamToLambda " + ((DynamoDBStreamToLambdaBuilder_dynamodbstreamlambda) object).getVarName();
-	
-				
+		return "DynamoDBStreamToLambda " + ((DynamoDBStreamToLambdaBuilder_dynamodbstreamlambda) object).getVarName();
+
 	}
 
 	/**

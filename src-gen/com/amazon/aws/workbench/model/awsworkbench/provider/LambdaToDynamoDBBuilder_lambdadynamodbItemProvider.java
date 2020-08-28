@@ -251,9 +251,8 @@ public class LambdaToDynamoDBBuilder_lambdadynamodbItemProvider extends ServiceR
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "LambdaToDynamoDB " + ((LambdaToDynamoDBBuilder_lambdadynamodb) object).getVarName();
-		
-				
+		return "LambdaToDynamoDB " + ((LambdaToDynamoDBBuilder_lambdadynamodb) object).getVarName();
+
 	}
 
 	/**

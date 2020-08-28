@@ -207,9 +207,8 @@ public class RequestValidatorOptionsBuilder_apigatewayItemProvider extends Servi
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "RequestValidatorOptions " + ((RequestValidatorOptionsBuilder_apigateway) object).getVarName();
-		
-				
+		return "RequestValidatorOptions " + ((RequestValidatorOptionsBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

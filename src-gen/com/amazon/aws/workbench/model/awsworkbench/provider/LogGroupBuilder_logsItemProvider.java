@@ -200,9 +200,8 @@ public class LogGroupBuilder_logsItemProvider extends ServiceResourcesItemProvid
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "LogGroup " + ((LogGroupBuilder_logs) object).getVarName();
-		
-				
+		return "LogGroup " + ((LogGroupBuilder_logs) object).getVarName();
+
 	}
 
 	/**

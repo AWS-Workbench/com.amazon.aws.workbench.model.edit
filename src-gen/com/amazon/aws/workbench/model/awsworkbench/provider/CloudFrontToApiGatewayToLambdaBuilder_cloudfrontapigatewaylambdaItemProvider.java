@@ -254,10 +254,9 @@ public class CloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambdaIte
 	 */
 	@Override
 	public String getText(Object object) {
-		return   "CloudFrontToApiGatewayToLambda "+  ((CloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambda) object)
-				.getVarName();
-		
-				
+		return "CloudFrontToApiGatewayToLambda "
+				+ ((CloudFrontToApiGatewayToLambdaBuilder_cloudfrontapigatewaylambda) object).getVarName();
+
 	}
 
 	/**

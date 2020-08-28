@@ -256,9 +256,8 @@ public class SubnetSelectionBuilder_ec2ItemProvider extends ServiceResourcesItem
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "SubnetSelection " + ((SubnetSelectionBuilder_ec2) object).getVarName();
-		
-				
+		return "SubnetSelection " + ((SubnetSelectionBuilder_ec2) object).getVarName();
+
 	}
 
 	/**

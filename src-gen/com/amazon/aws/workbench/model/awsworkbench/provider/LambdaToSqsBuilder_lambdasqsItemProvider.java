@@ -306,9 +306,8 @@ public class LambdaToSqsBuilder_lambdasqsItemProvider extends ServiceResourcesIt
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "LambdaToSqs " + ((LambdaToSqsBuilder_lambdasqs) object).getVarName();
-		
-				
+		return "LambdaToSqs " + ((LambdaToSqsBuilder_lambdasqs) object).getVarName();
+
 	}
 
 	/**

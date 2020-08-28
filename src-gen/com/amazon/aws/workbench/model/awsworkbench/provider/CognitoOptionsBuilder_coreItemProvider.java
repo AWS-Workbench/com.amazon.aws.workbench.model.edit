@@ -209,9 +209,8 @@ public class CognitoOptionsBuilder_coreItemProvider extends ServiceResourcesItem
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "CognitoOptions " + ((CognitoOptionsBuilder_core) object).getVarName();
-		
-				
+		return "CognitoOptions " + ((CognitoOptionsBuilder_core) object).getVarName();
+
 	}
 
 	/**

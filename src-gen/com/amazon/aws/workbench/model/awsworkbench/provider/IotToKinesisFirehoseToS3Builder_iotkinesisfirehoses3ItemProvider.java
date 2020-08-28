@@ -232,9 +232,9 @@ public class IotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3ItemProvider ex
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "IotToKinesisFirehoseToS3 " + ((IotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3) object).getVarName();
-		
-				
+		return "IotToKinesisFirehoseToS3 "
+				+ ((IotToKinesisFirehoseToS3Builder_iotkinesisfirehoses3) object).getVarName();
+
 	}
 
 	/**

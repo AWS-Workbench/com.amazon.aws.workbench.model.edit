@@ -242,9 +242,8 @@ public class RoutingRuleBuilder_s3ItemProvider extends ServiceResourcesItemProvi
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "RoutingRule " + ((RoutingRuleBuilder_s3) object).getVarName();
-		
-				
+		return "RoutingRule " + ((RoutingRuleBuilder_s3) object).getVarName();
+
 	}
 
 	/**

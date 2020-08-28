@@ -229,9 +229,8 @@ public class CloudFrontToS3Builder_cloudfronts3ItemProvider extends ServiceResou
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "CloudFrontToS3 " + ((CloudFrontToS3Builder_cloudfronts3) object).getVarName();
-		
-				
+		return "CloudFrontToS3 " + ((CloudFrontToS3Builder_cloudfronts3) object).getVarName();
+
 	}
 
 	/**

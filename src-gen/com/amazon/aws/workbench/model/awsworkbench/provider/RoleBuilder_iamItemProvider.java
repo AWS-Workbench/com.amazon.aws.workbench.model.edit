@@ -334,9 +334,8 @@ public class RoleBuilder_iamItemProvider extends ServiceResourcesItemProvider {
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Role " + ((RoleBuilder_iam) object).getVarName();
-		
-				
+		return "Role " + ((RoleBuilder_iam) object).getVarName();
+
 	}
 
 	/**

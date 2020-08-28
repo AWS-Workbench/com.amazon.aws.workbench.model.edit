@@ -431,9 +431,8 @@ public class VpcBuilder_ec2ItemProvider extends ServiceResourcesItemProvider {
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Vpc " + ((VpcBuilder_ec2) object).getVarName();
-		
-				
+		return "Vpc " + ((VpcBuilder_ec2) object).getVarName();
+
 	}
 
 	/**

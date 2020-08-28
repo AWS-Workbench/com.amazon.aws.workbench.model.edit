@@ -243,9 +243,8 @@ public class CloudMapOptionsBuilder_ecsItemProvider extends ServiceResourcesItem
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "CloudMapOptions " + ((CloudMapOptionsBuilder_ecs) object).getVarName();
-		
-				
+		return "CloudMapOptions " + ((CloudMapOptionsBuilder_ecs) object).getVarName();
+
 	}
 
 	/**

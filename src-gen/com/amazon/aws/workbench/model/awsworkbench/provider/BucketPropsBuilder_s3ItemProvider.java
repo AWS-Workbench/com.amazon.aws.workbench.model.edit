@@ -470,9 +470,8 @@ public class BucketPropsBuilder_s3ItemProvider extends ServiceResourcesItemProvi
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "BucketProps " + ((BucketPropsBuilder_s3) object).getVarName();
-		
-				
+		return "BucketProps " + ((BucketPropsBuilder_s3) object).getVarName();
+
 	}
 
 	/**

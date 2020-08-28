@@ -240,9 +240,8 @@ public class AwsLogDriverBuilder_ecsItemProvider extends ServiceResourcesItemPro
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "AwsLogDriver " + ((AwsLogDriverBuilder_ecs) object).getVarName();
-		
-				
+		return "AwsLogDriver " + ((AwsLogDriverBuilder_ecs) object).getVarName();
+
 	}
 
 	/**

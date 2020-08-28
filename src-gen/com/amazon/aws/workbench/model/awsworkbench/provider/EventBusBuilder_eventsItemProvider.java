@@ -181,9 +181,8 @@ public class EventBusBuilder_eventsItemProvider extends ServiceResourcesItemProv
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "EventBus " + ((EventBusBuilder_events) object).getVarName();
-		
-				
+		return "EventBus " + ((EventBusBuilder_events) object).getVarName();
+
 	}
 
 	/**

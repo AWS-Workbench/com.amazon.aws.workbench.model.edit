@@ -188,9 +188,8 @@ public class AppMeshProxyConfigurationBuilder_ecsItemProvider extends ServiceRes
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "AppMeshProxyConfiguration " + ((AppMeshProxyConfigurationBuilder_ecs) object).getVarName();
-		
-				
+		return "AppMeshProxyConfiguration " + ((AppMeshProxyConfigurationBuilder_ecs) object).getVarName();
+
 	}
 
 	/**

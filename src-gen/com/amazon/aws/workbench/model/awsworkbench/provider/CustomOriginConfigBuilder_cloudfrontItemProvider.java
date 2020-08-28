@@ -286,9 +286,8 @@ public class CustomOriginConfigBuilder_cloudfrontItemProvider extends ServiceRes
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "CustomOriginConfig " + ((CustomOriginConfigBuilder_cloudfront) object).getVarName();
-		
-				
+		return "CustomOriginConfig " + ((CustomOriginConfigBuilder_cloudfront) object).getVarName();
+
 	}
 
 	/**

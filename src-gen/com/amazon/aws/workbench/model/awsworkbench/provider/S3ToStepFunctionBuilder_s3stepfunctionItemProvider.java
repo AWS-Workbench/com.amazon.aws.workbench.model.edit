@@ -251,9 +251,8 @@ public class S3ToStepFunctionBuilder_s3stepfunctionItemProvider extends ServiceR
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "S3ToStepFunction " + ((S3ToStepFunctionBuilder_s3stepfunction) object).getVarName();
-		
-				
+		return "S3ToStepFunction " + ((S3ToStepFunctionBuilder_s3stepfunction) object).getVarName();
+
 	}
 
 	/**

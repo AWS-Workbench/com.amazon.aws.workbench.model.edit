@@ -235,9 +235,8 @@ public class AuthFlowBuilder_cognitoItemProvider extends ServiceResourcesItemPro
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "AuthFlow " + ((AuthFlowBuilder_cognito) object).getVarName();
-		
-				
+		return "AuthFlow " + ((AuthFlowBuilder_cognito) object).getVarName();
+
 	}
 
 	/**

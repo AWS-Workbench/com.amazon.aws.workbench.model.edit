@@ -171,9 +171,9 @@ public class ScheduledEc2TaskDefinitionOptionsBuilder_patternsItemProvider exten
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ScheduledEc2TaskDefinitionOptions " + ((ScheduledEc2TaskDefinitionOptionsBuilder_patterns) object).getVarName();
-		
-				
+		return "ScheduledEc2TaskDefinitionOptions "
+				+ ((ScheduledEc2TaskDefinitionOptionsBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

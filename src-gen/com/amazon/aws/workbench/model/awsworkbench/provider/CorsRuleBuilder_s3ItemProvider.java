@@ -253,9 +253,8 @@ public class CorsRuleBuilder_s3ItemProvider extends ServiceResourcesItemProvider
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "CorsRule " + ((CorsRuleBuilder_s3) object).getVarName();
-		
-				
+		return "CorsRule " + ((CorsRuleBuilder_s3) object).getVarName();
+
 	}
 
 	/**

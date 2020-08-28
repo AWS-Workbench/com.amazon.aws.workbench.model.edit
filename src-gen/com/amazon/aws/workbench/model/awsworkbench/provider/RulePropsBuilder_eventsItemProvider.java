@@ -282,9 +282,8 @@ public class RulePropsBuilder_eventsItemProvider extends ServiceResourcesItemPro
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "RuleProps " + ((RulePropsBuilder_events) object).getVarName();
-		
-				
+		return "RuleProps " + ((RulePropsBuilder_events) object).getVarName();
+
 	}
 
 	/**

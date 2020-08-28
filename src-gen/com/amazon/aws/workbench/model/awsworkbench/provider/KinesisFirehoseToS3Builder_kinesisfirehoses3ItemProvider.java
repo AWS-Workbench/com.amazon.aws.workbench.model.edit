@@ -211,9 +211,8 @@ public class KinesisFirehoseToS3Builder_kinesisfirehoses3ItemProvider extends Se
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "KinesisFirehoseToS3 " + ((KinesisFirehoseToS3Builder_kinesisfirehoses3) object).getVarName();
-		
-				
+		return "KinesisFirehoseToS3 " + ((KinesisFirehoseToS3Builder_kinesisfirehoses3) object).getVarName();
+
 	}
 
 	/**

@@ -225,9 +225,8 @@ public class AliasConfigurationBuilder_cloudfrontItemProvider extends ServiceRes
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "AliasConfiguration " + ((AliasConfigurationBuilder_cloudfront) object).getVarName();
-		
-				
+		return "AliasConfiguration " + ((AliasConfigurationBuilder_cloudfront) object).getVarName();
+
 	}
 
 	/**

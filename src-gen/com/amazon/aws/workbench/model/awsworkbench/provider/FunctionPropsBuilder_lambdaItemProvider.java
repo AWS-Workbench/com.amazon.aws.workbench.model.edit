@@ -696,9 +696,8 @@ public class FunctionPropsBuilder_lambdaItemProvider extends ServiceResourcesIte
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "FunctionProps " + ((FunctionPropsBuilder_lambda) object).getVarName();
-		
-				
+		return "FunctionProps " + ((FunctionPropsBuilder_lambda) object).getVarName();
+
 	}
 
 	/**

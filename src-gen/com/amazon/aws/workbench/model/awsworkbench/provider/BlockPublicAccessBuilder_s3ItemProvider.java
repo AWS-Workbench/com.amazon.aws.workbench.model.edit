@@ -219,9 +219,8 @@ public class BlockPublicAccessBuilder_s3ItemProvider extends ServiceResourcesIte
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "BlockPublicAccess " + ((BlockPublicAccessBuilder_s3) object).getVarName();
-		
-				
+		return "BlockPublicAccess " + ((BlockPublicAccessBuilder_s3) object).getVarName();
+
 	}
 
 	/**

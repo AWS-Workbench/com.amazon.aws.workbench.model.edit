@@ -346,9 +346,9 @@ public class ApplicationLoadBalancedTaskImagePropsBuilder_patternsItemProvider e
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ApplicationLoadBalancedTaskImageProps " + ((ApplicationLoadBalancedTaskImagePropsBuilder_patterns) object).getVarName();
-		
-				
+		return "ApplicationLoadBalancedTaskImageProps "
+				+ ((ApplicationLoadBalancedTaskImagePropsBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

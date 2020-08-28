@@ -234,10 +234,9 @@ public class LambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibanaItem
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "LambdaToElasticSearchAndKibana "+ ((LambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibana) object)
-				.getVarName();
-		
-				
+		return "LambdaToElasticSearchAndKibana "
+				+ ((LambdaToElasticSearchAndKibanaBuilder_lambdaelasticsearchkibana) object).getVarName();
+
 	}
 
 	/**

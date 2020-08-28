@@ -288,9 +288,8 @@ public class DefaultStackSynthesizerBuilder_coreItemProvider extends ItemProvide
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "DefaultStackSynthesizer " + ((DefaultStackSynthesizerBuilder_core) object).getVarName();
-		
-				
+		return "DefaultStackSynthesizer " + ((DefaultStackSynthesizerBuilder_core) object).getVarName();
+
 	}
 
 	/**

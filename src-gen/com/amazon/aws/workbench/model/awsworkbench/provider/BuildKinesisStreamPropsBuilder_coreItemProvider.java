@@ -167,9 +167,8 @@ public class BuildKinesisStreamPropsBuilder_coreItemProvider extends ServiceReso
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "BuildKinesisStreamProps " + ((BuildKinesisStreamPropsBuilder_core) object).getVarName();
-		
-				
+		return "BuildKinesisStreamProps " + ((BuildKinesisStreamPropsBuilder_core) object).getVarName();
+
 	}
 
 	/**

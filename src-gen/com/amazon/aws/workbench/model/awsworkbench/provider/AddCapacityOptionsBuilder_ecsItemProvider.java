@@ -614,9 +614,8 @@ public class AddCapacityOptionsBuilder_ecsItemProvider extends ServiceResourcesI
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "AddCapacityOptions " + ((AddCapacityOptionsBuilder_ecs) object).getVarName();
-		
-				
+		return "AddCapacityOptions " + ((AddCapacityOptionsBuilder_ecs) object).getVarName();
+
 	}
 
 	/**

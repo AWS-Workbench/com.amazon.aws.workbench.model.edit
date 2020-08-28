@@ -278,9 +278,8 @@ public class AppMeshProxyConfigurationPropsBuilder_ecsItemProvider extends Servi
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "AppMeshProxyConfigurationProps " + ((AppMeshProxyConfigurationPropsBuilder_ecs) object).getVarName();
-		
-				
+		return "AppMeshProxyConfigurationProps " + ((AppMeshProxyConfigurationPropsBuilder_ecs) object).getVarName();
+
 	}
 
 	/**

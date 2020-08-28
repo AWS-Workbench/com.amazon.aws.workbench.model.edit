@@ -224,9 +224,8 @@ public class IntegrationBuilder_apigatewayItemProvider extends ServiceResourcesI
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Integration " + ((IntegrationBuilder_apigateway) object).getVarName();
-		
-				
+		return "Integration " + ((IntegrationBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

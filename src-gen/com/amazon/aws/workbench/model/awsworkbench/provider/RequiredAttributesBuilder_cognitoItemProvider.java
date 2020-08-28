@@ -454,9 +454,8 @@ public class RequiredAttributesBuilder_cognitoItemProvider extends ServiceResour
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "RequiredAttributes " + ((RequiredAttributesBuilder_cognito) object).getVarName();
-		
-				
+		return "RequiredAttributes " + ((RequiredAttributesBuilder_cognito) object).getVarName();
+
 	}
 
 	/**

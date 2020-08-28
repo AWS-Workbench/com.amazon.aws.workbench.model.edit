@@ -190,9 +190,8 @@ public class EnvironmentBuilder_coreItemProvider extends ItemProviderAdapter imp
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Environment " + ((EnvironmentBuilder_core) object).getVarName();
-		
-				
+		return "Environment " + ((EnvironmentBuilder_core) object).getVarName();
+
 	}
 
 	/**

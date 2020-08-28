@@ -191,9 +191,8 @@ public class LambdaFunctionAssociationBuilder_cloudfrontItemProvider extends Ser
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "LambdaFunctionAssociation " + ((LambdaFunctionAssociationBuilder_cloudfront) object).getVarName();
-		
-				
+		return "LambdaFunctionAssociation " + ((LambdaFunctionAssociationBuilder_cloudfront) object).getVarName();
+
 	}
 
 	/**

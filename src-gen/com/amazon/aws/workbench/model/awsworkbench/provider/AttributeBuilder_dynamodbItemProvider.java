@@ -183,9 +183,8 @@ public class AttributeBuilder_dynamodbItemProvider extends ServiceResourcesItemP
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Attribute " + ((AttributeBuilder_dynamodb) object).getVarName();
-		
-				
+		return "Attribute " + ((AttributeBuilder_dynamodb) object).getVarName();
+
 	}
 
 	/**

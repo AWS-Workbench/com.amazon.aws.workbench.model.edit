@@ -365,9 +365,8 @@ public class IntegrationOptionsBuilder_apigatewayItemProvider extends ServiceRes
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "IntegrationOptions " + ((IntegrationOptionsBuilder_apigateway) object).getVarName();
-		
-				
+		return "IntegrationOptions " + ((IntegrationOptionsBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

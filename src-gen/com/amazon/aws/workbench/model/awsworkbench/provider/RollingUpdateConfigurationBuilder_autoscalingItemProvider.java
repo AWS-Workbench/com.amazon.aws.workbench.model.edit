@@ -266,9 +266,8 @@ public class RollingUpdateConfigurationBuilder_autoscalingItemProvider extends S
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "RollingUpdateConfiguration " + ((RollingUpdateConfigurationBuilder_autoscaling) object).getVarName();
-		
-				
+		return "RollingUpdateConfiguration " + ((RollingUpdateConfigurationBuilder_autoscaling) object).getVarName();
+
 	}
 
 	/**

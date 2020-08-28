@@ -201,9 +201,8 @@ public class TopicPropsBuilder_snsItemProvider extends ServiceResourcesItemProvi
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "TopicProps " + ((TopicPropsBuilder_sns) object).getVarName();
-		
-				
+		return "TopicProps " + ((TopicPropsBuilder_sns) object).getVarName();
+
 	}
 
 	/**

@@ -240,9 +240,8 @@ public class LayerVersionBuilder_lambdaItemProvider extends ServiceResourcesItem
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "LayerVersion " + ((LayerVersionBuilder_lambda) object).getVarName();
-		
-				
+		return "LayerVersion " + ((LayerVersionBuilder_lambda) object).getVarName();
+
 	}
 
 	/**

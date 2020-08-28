@@ -293,9 +293,8 @@ public class ApiGatewayToSqsBuilder_apigatewaysqsItemProvider extends ServiceRes
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ApiGatewayToSqs " + ((ApiGatewayToSqsBuilder_apigatewaysqs) object).getVarName();
-		
-				
+		return "ApiGatewayToSqs " + ((ApiGatewayToSqsBuilder_apigatewaysqs) object).getVarName();
+
 	}
 
 	/**

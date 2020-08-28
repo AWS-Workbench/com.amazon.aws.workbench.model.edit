@@ -269,9 +269,8 @@ public class AssetImageBuilder_ecsItemProvider extends ServiceResourcesItemProvi
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "AssetImage " + ((AssetImageBuilder_ecs) object).getVarName();
-		
-				
+		return "AssetImage " + ((AssetImageBuilder_ecs) object).getVarName();
+
 	}
 
 	/**

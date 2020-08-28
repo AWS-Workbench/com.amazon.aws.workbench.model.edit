@@ -171,9 +171,9 @@ public class ScheduledFargateTaskDefinitionOptionsBuilder_patternsItemProvider e
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ScheduledFargateTaskDefinitionOptions " + ((ScheduledFargateTaskDefinitionOptionsBuilder_patterns) object).getVarName();
-		
-				
+		return "ScheduledFargateTaskDefinitionOptions "
+				+ ((ScheduledFargateTaskDefinitionOptionsBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

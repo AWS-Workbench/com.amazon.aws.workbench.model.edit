@@ -606,9 +606,9 @@ public class ApplicationLoadBalancedFargateServiceBuilder_patternsItemProvider e
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ApplicationLoadBalancedFargateService " + ((ApplicationLoadBalancedFargateServiceBuilder_patterns) object).getVarName();
-		
-				
+		return "ApplicationLoadBalancedFargateService "
+				+ ((ApplicationLoadBalancedFargateServiceBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

@@ -449,9 +449,9 @@ public class NetworkMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvider e
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "NetworkMultipleTargetGroupsEc2Service " + ((NetworkMultipleTargetGroupsEc2ServiceBuilder_patterns) object).getVarName();
-		
-				
+		return "NetworkMultipleTargetGroupsEc2Service "
+				+ ((NetworkMultipleTargetGroupsEc2ServiceBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

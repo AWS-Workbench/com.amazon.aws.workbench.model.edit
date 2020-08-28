@@ -291,9 +291,8 @@ public class ScheduledFargateTaskBuilder_patternsItemProvider extends ServiceRes
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ScheduledFargateTask " + ((ScheduledFargateTaskBuilder_patterns) object).getVarName();
-		
-				
+		return "ScheduledFargateTask " + ((ScheduledFargateTaskBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

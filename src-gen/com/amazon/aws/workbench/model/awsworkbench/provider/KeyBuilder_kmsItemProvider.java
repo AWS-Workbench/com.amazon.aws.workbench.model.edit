@@ -270,9 +270,8 @@ public class KeyBuilder_kmsItemProvider extends ServiceResourcesItemProvider {
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Key " + ((KeyBuilder_kms) object).getVarName();
-		
-				
+		return "Key " + ((KeyBuilder_kms) object).getVarName();
+
 	}
 
 	/**

@@ -226,9 +226,8 @@ public class CertificateBuilder_certificatemanagerItemProvider extends ServiceRe
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Certificate " + ((CertificateBuilder_certificatemanager) object).getVarName();
-		
-				
+		return "Certificate " + ((CertificateBuilder_certificatemanager) object).getVarName();
+
 	}
 
 	/**

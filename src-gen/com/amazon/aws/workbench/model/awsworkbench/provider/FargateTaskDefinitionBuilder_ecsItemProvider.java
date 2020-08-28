@@ -282,9 +282,8 @@ public class FargateTaskDefinitionBuilder_ecsItemProvider extends ServiceResourc
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "FargateTaskDefinition " + ((FargateTaskDefinitionBuilder_ecs) object).getVarName();
-		
-				
+		return "FargateTaskDefinition " + ((FargateTaskDefinitionBuilder_ecs) object).getVarName();
+
 	}
 
 	/**

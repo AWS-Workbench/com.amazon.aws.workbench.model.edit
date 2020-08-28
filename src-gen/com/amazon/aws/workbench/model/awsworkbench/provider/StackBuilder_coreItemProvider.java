@@ -298,9 +298,8 @@ public class StackBuilder_coreItemProvider extends ItemProviderAdapter implement
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Stack " + ((StackBuilder_core) object).getVarName();
-		
-				
+		return "Stack " + ((StackBuilder_core) object).getVarName();
+
 	}
 
 	/**

@@ -306,9 +306,8 @@ public class DnsValidatedCertificateBuilder_certificatemanagerItemProvider exten
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "DnsValidatedCertificate " + ((DnsValidatedCertificateBuilder_certificatemanager) object).getVarName();
-		
-				
+		return "DnsValidatedCertificate " + ((DnsValidatedCertificateBuilder_certificatemanager) object).getVarName();
+
 	}
 
 	/**

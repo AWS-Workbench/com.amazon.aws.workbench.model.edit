@@ -287,10 +287,9 @@ public class ScheduledFargateTaskImageOptionsBuilder_patternsItemProvider extend
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ScheduledFargateTaskImageOptions " + ((ScheduledFargateTaskImageOptionsBuilder_patterns) object).getVarName();
-		
-				
-				
+		return "ScheduledFargateTaskImageOptions "
+				+ ((ScheduledFargateTaskImageOptionsBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

@@ -410,9 +410,8 @@ public class TableBuilder_dynamodbItemProvider extends ServiceResourcesItemProvi
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Table " + ((TableBuilder_dynamodb) object).getVarName();
-		
-				
+		return "Table " + ((TableBuilder_dynamodb) object).getVarName();
+
 	}
 
 	/**

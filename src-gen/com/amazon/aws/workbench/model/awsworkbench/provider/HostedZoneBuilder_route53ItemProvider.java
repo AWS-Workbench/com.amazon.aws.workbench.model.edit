@@ -218,9 +218,8 @@ public class HostedZoneBuilder_route53ItemProvider extends ServiceResourcesItemP
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "HostedZone " + ((HostedZoneBuilder_route53) object).getVarName();
-		
-				
+		return "HostedZone " + ((HostedZoneBuilder_route53) object).getVarName();
+
 	}
 
 	/**

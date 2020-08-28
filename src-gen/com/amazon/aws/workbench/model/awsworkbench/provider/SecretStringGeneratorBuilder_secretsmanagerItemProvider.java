@@ -337,9 +337,8 @@ public class SecretStringGeneratorBuilder_secretsmanagerItemProvider extends Ser
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "SecretStringGenerator " + ((SecretStringGeneratorBuilder_secretsmanager) object).getVarName();
-		
-				
+		return "SecretStringGenerator " + ((SecretStringGeneratorBuilder_secretsmanager) object).getVarName();
+
 	}
 
 	/**

@@ -204,9 +204,8 @@ public class BlockDeviceBuilder_autoscalingItemProvider extends ServiceResources
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "BlockDevice " + ((BlockDeviceBuilder_autoscaling) object).getVarName();
-		
-				
+		return "BlockDevice " + ((BlockDeviceBuilder_autoscaling) object).getVarName();
+
 	}
 
 	/**

@@ -343,9 +343,8 @@ public class AppBuilder_coreItemProvider extends ItemProviderAdapter implements 
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "App " + ((AppBuilder_core) object).getVarName();
-		
-				
+		return "App " + ((AppBuilder_core) object).getVarName();
+
 	}
 
 	/**

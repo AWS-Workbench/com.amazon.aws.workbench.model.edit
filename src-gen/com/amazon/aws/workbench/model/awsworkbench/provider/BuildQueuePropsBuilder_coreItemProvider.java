@@ -210,9 +210,8 @@ public class BuildQueuePropsBuilder_coreItemProvider extends ServiceResourcesIte
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "BuildQueueProps " + ((BuildQueuePropsBuilder_core) object).getVarName();
-		
-				
+		return "BuildQueueProps " + ((BuildQueuePropsBuilder_core) object).getVarName();
+
 	}
 
 	/**

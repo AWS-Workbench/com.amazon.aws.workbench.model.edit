@@ -598,9 +598,8 @@ public class LambdaRestApiPropsBuilder_apigatewayItemProvider extends ServiceRes
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "LambdaRestApiProps " + ((LambdaRestApiPropsBuilder_apigateway) object).getVarName();
-		
-				
+		return "LambdaRestApiProps " + ((LambdaRestApiPropsBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

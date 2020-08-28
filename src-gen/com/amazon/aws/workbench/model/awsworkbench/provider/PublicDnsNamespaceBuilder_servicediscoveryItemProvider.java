@@ -186,9 +186,8 @@ public class PublicDnsNamespaceBuilder_servicediscoveryItemProvider extends Serv
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "PublicDnsNamespace " + ((PublicDnsNamespaceBuilder_servicediscovery) object).getVarName();
-		
-				
+		return "PublicDnsNamespace " + ((PublicDnsNamespaceBuilder_servicediscovery) object).getVarName();
+
 	}
 
 	/**

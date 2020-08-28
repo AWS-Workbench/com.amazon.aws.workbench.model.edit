@@ -203,9 +203,8 @@ public class UserInvitationConfigBuilder_cognitoItemProvider extends ServiceReso
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "UserInvitationConfig " + ((UserInvitationConfigBuilder_cognito) object).getVarName();
-		
-				
+		return "UserInvitationConfig " + ((UserInvitationConfigBuilder_cognito) object).getVarName();
+
 	}
 
 	/**

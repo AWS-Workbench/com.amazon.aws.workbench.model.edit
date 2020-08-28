@@ -588,9 +588,8 @@ public class QueueProcessingEc2ServiceBuilder_patternsItemProvider extends Servi
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "QueueProcessingEc2Service " + ((QueueProcessingEc2ServiceBuilder_patterns) object).getVarName();
-		
-				
+		return "QueueProcessingEc2Service " + ((QueueProcessingEc2ServiceBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

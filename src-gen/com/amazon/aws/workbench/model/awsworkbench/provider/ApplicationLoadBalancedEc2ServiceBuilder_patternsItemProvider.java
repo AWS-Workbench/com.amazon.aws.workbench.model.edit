@@ -585,9 +585,9 @@ public class ApplicationLoadBalancedEc2ServiceBuilder_patternsItemProvider exten
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ApplicationLoadBalancedEc2Service " + ((ApplicationLoadBalancedEc2ServiceBuilder_patterns) object).getVarName();
-	
-				
+		return "ApplicationLoadBalancedEc2Service "
+				+ ((ApplicationLoadBalancedEc2ServiceBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

@@ -276,9 +276,8 @@ public class UserBuilder_iamItemProvider extends ServiceResourcesItemProvider {
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "User " + ((UserBuilder_iam) object).getVarName();
-		
-				
+		return "User " + ((UserBuilder_iam) object).getVarName();
+
 	}
 
 	/**

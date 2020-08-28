@@ -536,9 +536,8 @@ public class RestApiPropsBuilder_apigatewayItemProvider extends ServiceResources
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "RestApiProps " + ((RestApiPropsBuilder_apigateway) object).getVarName();
-		
-				
+		return "RestApiProps " + ((RestApiPropsBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

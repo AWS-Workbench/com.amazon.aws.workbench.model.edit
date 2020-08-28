@@ -198,9 +198,8 @@ public class BucketMetricsBuilder_s3ItemProvider extends ServiceResourcesItemPro
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "BucketMetrics " + ((BucketMetricsBuilder_s3) object).getVarName();
-		
-				
+		return "BucketMetrics " + ((BucketMetricsBuilder_s3) object).getVarName();
+
 	}
 
 	/**

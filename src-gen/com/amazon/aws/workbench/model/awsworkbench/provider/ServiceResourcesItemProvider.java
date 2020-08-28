@@ -57,6 +57,7 @@ public class ServiceResourcesItemProvider extends ItemProviderAdapter implements
 			super.getPropertyDescriptors(object);
 
 			addExportResourcePropertyDescriptor(object);
+			addImportExistingResourcePropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -75,6 +76,22 @@ public class ServiceResourcesItemProvider extends ItemProviderAdapter implements
 						"_UI_ServiceResources_type"),
 				AwsworkbenchPackage.Literals.SERVICE_RESOURCES__EXPORT_RESOURCE, true, false, false,
 				ItemPropertyDescriptor.BOOLEAN_VALUE_IMAGE, null, null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Import Existing Resource feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addImportExistingResourcePropertyDescriptor(Object object) {
+		itemPropertyDescriptors
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_ServiceResources_importExistingResource_feature"),
+						getString("_UI_PropertyDescriptor_description",
+								"_UI_ServiceResources_importExistingResource_feature", "_UI_ServiceResources_type"),
+						AwsworkbenchPackage.Literals.SERVICE_RESOURCES__IMPORT_EXISTING_RESOURCE, true, false, false,
+						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -153,6 +170,7 @@ public class ServiceResourcesItemProvider extends ItemProviderAdapter implements
 
 		switch (notification.getFeatureID(ServiceResources.class)) {
 		case AwsworkbenchPackage.SERVICE_RESOURCES__EXPORT_RESOURCE:
+		case AwsworkbenchPackage.SERVICE_RESOURCES__IMPORT_EXISTING_RESOURCE:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		case AwsworkbenchPackage.SERVICE_RESOURCES__DEPENDS_ON:

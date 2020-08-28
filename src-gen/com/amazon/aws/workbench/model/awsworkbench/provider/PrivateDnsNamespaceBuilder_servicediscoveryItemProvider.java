@@ -206,9 +206,8 @@ public class PrivateDnsNamespaceBuilder_servicediscoveryItemProvider extends Ser
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "PrivateDnsNamespace " + ((PrivateDnsNamespaceBuilder_servicediscovery) object).getVarName();
-		
-				
+		return "PrivateDnsNamespace " + ((PrivateDnsNamespaceBuilder_servicediscovery) object).getVarName();
+
 	}
 
 	/**

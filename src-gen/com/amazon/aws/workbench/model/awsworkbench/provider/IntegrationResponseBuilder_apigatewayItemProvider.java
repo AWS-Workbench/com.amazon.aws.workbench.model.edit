@@ -243,9 +243,8 @@ public class IntegrationResponseBuilder_apigatewayItemProvider extends ServiceRe
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "IntegrationResponse " + ((IntegrationResponseBuilder_apigateway) object).getVarName();
-		
-				
+		return "IntegrationResponse " + ((IntegrationResponseBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

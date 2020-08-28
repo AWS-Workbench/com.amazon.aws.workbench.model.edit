@@ -358,9 +358,8 @@ public class UserPoolTriggersBuilder_cognitoItemProvider extends ServiceResource
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "UserPoolTriggers " + ((UserPoolTriggersBuilder_cognito) object).getVarName();
-		
-				
+		return "UserPoolTriggers " + ((UserPoolTriggersBuilder_cognito) object).getVarName();
+
 	}
 
 	/**

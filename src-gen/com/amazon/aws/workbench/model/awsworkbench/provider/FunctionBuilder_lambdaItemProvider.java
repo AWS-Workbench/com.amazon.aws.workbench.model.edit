@@ -692,9 +692,8 @@ public class FunctionBuilder_lambdaItemProvider extends ServiceResourcesItemProv
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Function " + ((FunctionBuilder_lambda) object).getVarName();
-		
-				
+		return "Function " + ((FunctionBuilder_lambda) object).getVarName();
+
 	}
 
 	/**

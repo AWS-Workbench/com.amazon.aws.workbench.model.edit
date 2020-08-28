@@ -308,9 +308,8 @@ public class EventPatternBuilder_eventsItemProvider extends ServiceResourcesItem
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "EventPattern " + ((EventPatternBuilder_events) object).getVarName();
-		
-				
+		return "EventPattern " + ((EventPatternBuilder_events) object).getVarName();
+
 	}
 
 	/**

@@ -203,9 +203,8 @@ public class VolumeBuilder_ecsItemProvider extends ServiceResourcesItemProvider 
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Volume " + ((VolumeBuilder_ecs) object).getVarName();
-		
-				
+		return "Volume " + ((VolumeBuilder_ecs) object).getVarName();
+
 	}
 
 	/**

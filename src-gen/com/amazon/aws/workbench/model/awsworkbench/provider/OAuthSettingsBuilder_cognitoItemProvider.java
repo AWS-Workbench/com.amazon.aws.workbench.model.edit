@@ -206,9 +206,8 @@ public class OAuthSettingsBuilder_cognitoItemProvider extends ServiceResourcesIt
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "OAuthSettings " + ((OAuthSettingsBuilder_cognito) object).getVarName();
-		
-				
+		return "OAuthSettings " + ((OAuthSettingsBuilder_cognito) object).getVarName();
+
 	}
 
 	/**

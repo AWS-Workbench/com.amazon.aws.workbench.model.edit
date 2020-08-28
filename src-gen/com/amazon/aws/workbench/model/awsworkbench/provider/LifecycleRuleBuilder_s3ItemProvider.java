@@ -338,9 +338,8 @@ public class LifecycleRuleBuilder_s3ItemProvider extends ServiceResourcesItemPro
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "LifecycleRule " + ((LifecycleRuleBuilder_s3) object).getVarName();
-		
-				
+		return "LifecycleRule " + ((LifecycleRuleBuilder_s3) object).getVarName();
+
 	}
 
 	/**

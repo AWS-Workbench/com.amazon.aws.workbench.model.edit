@@ -323,9 +323,8 @@ public class Ec2TaskDefinitionBuilder_ecsItemProvider extends ServiceResourcesIt
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Ec2TaskDefinition " + ((Ec2TaskDefinitionBuilder_ecs) object).getVarName();
-		
-				
+		return "Ec2TaskDefinition " + ((Ec2TaskDefinitionBuilder_ecs) object).getVarName();
+
 	}
 
 	/**

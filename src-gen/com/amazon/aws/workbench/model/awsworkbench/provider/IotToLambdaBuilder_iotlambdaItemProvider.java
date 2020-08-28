@@ -210,9 +210,8 @@ public class IotToLambdaBuilder_iotlambdaItemProvider extends ServiceResourcesIt
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "IotToLambda " + ((IotToLambdaBuilder_iotlambda) object).getVarName();
-		
-				
+		return "IotToLambda " + ((IotToLambdaBuilder_iotlambda) object).getVarName();
+
 	}
 
 	/**

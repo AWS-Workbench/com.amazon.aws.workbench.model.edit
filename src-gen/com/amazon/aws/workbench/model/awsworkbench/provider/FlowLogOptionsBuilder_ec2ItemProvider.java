@@ -187,9 +187,8 @@ public class FlowLogOptionsBuilder_ec2ItemProvider extends ServiceResourcesItemP
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "FlowLogOptions " + ((FlowLogOptionsBuilder_ec2) object).getVarName();
-		
-				
+		return "FlowLogOptions " + ((FlowLogOptionsBuilder_ec2) object).getVarName();
+
 	}
 
 	/**

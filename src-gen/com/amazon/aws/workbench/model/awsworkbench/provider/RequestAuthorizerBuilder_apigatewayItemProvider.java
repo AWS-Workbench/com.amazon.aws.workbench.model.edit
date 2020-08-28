@@ -246,9 +246,8 @@ public class RequestAuthorizerBuilder_apigatewayItemProvider extends ServiceReso
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "RequestAuthorizer " + ((RequestAuthorizerBuilder_apigateway) object).getVarName();
-		
-				
+		return "RequestAuthorizer " + ((RequestAuthorizerBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

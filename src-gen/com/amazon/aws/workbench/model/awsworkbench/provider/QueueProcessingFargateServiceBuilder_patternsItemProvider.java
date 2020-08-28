@@ -594,9 +594,8 @@ public class QueueProcessingFargateServiceBuilder_patternsItemProvider extends S
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "QueueProcessingFargateService " + ((QueueProcessingFargateServiceBuilder_patterns) object).getVarName();
-		
-				
+		return "QueueProcessingFargateService " + ((QueueProcessingFargateServiceBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

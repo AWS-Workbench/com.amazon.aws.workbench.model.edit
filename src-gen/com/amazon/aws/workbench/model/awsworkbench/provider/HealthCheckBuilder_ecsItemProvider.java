@@ -241,9 +241,8 @@ public class HealthCheckBuilder_ecsItemProvider extends ServiceResourcesItemProv
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "HealthCheck " + ((HealthCheckBuilder_ecs) object).getVarName();
-		
-				
+		return "HealthCheck " + ((HealthCheckBuilder_ecs) object).getVarName();
+
 	}
 
 	/**

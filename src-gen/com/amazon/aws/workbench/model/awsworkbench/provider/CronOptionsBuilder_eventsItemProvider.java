@@ -254,9 +254,8 @@ public class CronOptionsBuilder_eventsItemProvider extends ServiceResourcesItemP
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "CronOptions " + ((CronOptionsBuilder_events) object).getVarName();
-		
-				
+		return "CronOptions " + ((CronOptionsBuilder_events) object).getVarName();
+
 	}
 
 	/**

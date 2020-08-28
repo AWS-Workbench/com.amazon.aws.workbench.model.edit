@@ -312,9 +312,8 @@ public class PolicyStatementBuilder_iamItemProvider extends ServiceResourcesItem
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "PolicyStatement " + ((PolicyStatementBuilder_iam) object).getVarName();
-		
-				
+		return "PolicyStatement " + ((PolicyStatementBuilder_iam) object).getVarName();
+
 	}
 
 	/**

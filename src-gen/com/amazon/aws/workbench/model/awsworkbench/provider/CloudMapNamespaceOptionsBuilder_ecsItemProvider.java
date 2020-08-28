@@ -207,9 +207,8 @@ public class CloudMapNamespaceOptionsBuilder_ecsItemProvider extends ServiceReso
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "CloudMapNamespaceOptions " + ((CloudMapNamespaceOptionsBuilder_ecs) object).getVarName();
-		
-				
+		return "CloudMapNamespaceOptions " + ((CloudMapNamespaceOptionsBuilder_ecs) object).getVarName();
+
 	}
 
 	/**

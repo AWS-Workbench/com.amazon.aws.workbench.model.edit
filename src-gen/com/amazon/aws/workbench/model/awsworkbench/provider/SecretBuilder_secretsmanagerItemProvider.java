@@ -224,9 +224,8 @@ public class SecretBuilder_secretsmanagerItemProvider extends ServiceResourcesIt
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Secret " + ((SecretBuilder_secretsmanager) object).getVarName();
-		
-				
+		return "Secret " + ((SecretBuilder_secretsmanager) object).getVarName();
+
 	}
 
 	/**

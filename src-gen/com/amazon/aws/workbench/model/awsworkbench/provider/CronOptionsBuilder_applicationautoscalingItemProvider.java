@@ -258,9 +258,8 @@ public class CronOptionsBuilder_applicationautoscalingItemProvider extends Servi
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "CronOptions " + ((CronOptionsBuilder_applicationautoscaling) object).getVarName();
-		
-				
+		return "CronOptions " + ((CronOptionsBuilder_applicationautoscaling) object).getVarName();
+
 	}
 
 	/**

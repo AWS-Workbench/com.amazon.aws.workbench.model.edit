@@ -377,9 +377,8 @@ public class QueueBuilder_sqsItemProvider extends ServiceResourcesItemProvider {
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Queue " + ((QueueBuilder_sqs) object).getVarName();
-		
-				
+		return "Queue " + ((QueueBuilder_sqs) object).getVarName();
+
 	}
 
 	/**

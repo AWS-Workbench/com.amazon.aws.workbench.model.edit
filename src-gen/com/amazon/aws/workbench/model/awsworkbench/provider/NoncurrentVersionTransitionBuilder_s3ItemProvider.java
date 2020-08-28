@@ -190,9 +190,8 @@ public class NoncurrentVersionTransitionBuilder_s3ItemProvider extends ServiceRe
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "NoncurrentVersionTransition " + ((NoncurrentVersionTransitionBuilder_s3) object).getVarName();
-		
-				
+		return "NoncurrentVersionTransition " + ((NoncurrentVersionTransitionBuilder_s3) object).getVarName();
+
 	}
 
 	/**

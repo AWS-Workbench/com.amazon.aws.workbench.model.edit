@@ -192,9 +192,9 @@ public class EventsRuleToStepFunctionBuilder_eventsrulestepfunctionItemProvider 
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "EventsRuleToStepFunction " + ((EventsRuleToStepFunctionBuilder_eventsrulestepfunction) object).getVarName();
-		
-				
+		return "EventsRuleToStepFunction "
+				+ ((EventsRuleToStepFunctionBuilder_eventsrulestepfunction) object).getVarName();
+
 	}
 
 	/**

@@ -230,9 +230,8 @@ public class S3ToLambdaBuilder_s3lambdaItemProvider extends ServiceResourcesItem
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "S3ToLambda " + ((S3ToLambdaBuilder_s3lambda) object).getVarName();
-		
-				
+		return "S3ToLambda " + ((S3ToLambdaBuilder_s3lambda) object).getVarName();
+
 	}
 
 	/**

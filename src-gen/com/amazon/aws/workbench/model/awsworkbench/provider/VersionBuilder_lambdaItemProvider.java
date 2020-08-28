@@ -318,9 +318,8 @@ public class VersionBuilder_lambdaItemProvider extends ServiceResourcesItemProvi
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Version " + ((VersionBuilder_lambda) object).getVarName();
-		
-				
+		return "Version " + ((VersionBuilder_lambda) object).getVarName();
+
 	}
 
 	/**

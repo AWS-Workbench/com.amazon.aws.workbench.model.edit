@@ -503,9 +503,8 @@ public class StageOptionsBuilder_apigatewayItemProvider extends ServiceResources
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "StageOptions " + ((StageOptionsBuilder_apigateway) object).getVarName();
-		
-				
+		return "StageOptions " + ((StageOptionsBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

@@ -247,9 +247,8 @@ public class ApplicationLoadBalancerPropsBuilder_patternsItemProvider extends Se
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ApplicationLoadBalancerProps " + ((ApplicationLoadBalancerPropsBuilder_patterns) object).getVarName();
-		
-				
+		return "ApplicationLoadBalancerProps " + ((ApplicationLoadBalancerPropsBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

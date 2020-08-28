@@ -200,9 +200,8 @@ public class OAuthFlowsBuilder_cognitoItemProvider extends ServiceResourcesItemP
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "OAuthFlows " + ((OAuthFlowsBuilder_cognito) object).getVarName();
-		
-				
+		return "OAuthFlows " + ((OAuthFlowsBuilder_cognito) object).getVarName();
+
 	}
 
 	/**

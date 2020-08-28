@@ -241,9 +241,8 @@ public class ModelBuilder_apigatewayItemProvider extends ServiceResourcesItemPro
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Model " + ((ModelBuilder_apigateway) object).getVarName();
-		
-				
+		return "Model " + ((ModelBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

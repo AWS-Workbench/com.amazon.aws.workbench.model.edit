@@ -183,9 +183,8 @@ public class MfaSecondFactorBuilder_cognitoItemProvider extends ServiceResources
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "MfaSecondFactor " + ((MfaSecondFactorBuilder_cognito) object).getVarName();
-		
-				
+		return "MfaSecondFactor " + ((MfaSecondFactorBuilder_cognito) object).getVarName();
+
 	}
 
 	/**

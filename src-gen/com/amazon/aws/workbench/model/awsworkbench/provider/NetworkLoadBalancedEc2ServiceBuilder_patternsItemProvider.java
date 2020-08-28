@@ -539,9 +539,8 @@ public class NetworkLoadBalancedEc2ServiceBuilder_patternsItemProvider extends S
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "NetworkLoadBalancedEc2Service " + ((NetworkLoadBalancedEc2ServiceBuilder_patterns) object).getVarName();
-		
-				
+		return "NetworkLoadBalancedEc2Service " + ((NetworkLoadBalancedEc2ServiceBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

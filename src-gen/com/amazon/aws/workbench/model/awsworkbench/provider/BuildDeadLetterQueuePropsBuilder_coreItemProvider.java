@@ -187,9 +187,8 @@ public class BuildDeadLetterQueuePropsBuilder_coreItemProvider extends ServiceRe
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "BuildDeadLetterQueueProps " + ((BuildDeadLetterQueuePropsBuilder_core) object).getVarName();
-		
-				
+		return "BuildDeadLetterQueueProps " + ((BuildDeadLetterQueuePropsBuilder_core) object).getVarName();
+
 	}
 
 	/**

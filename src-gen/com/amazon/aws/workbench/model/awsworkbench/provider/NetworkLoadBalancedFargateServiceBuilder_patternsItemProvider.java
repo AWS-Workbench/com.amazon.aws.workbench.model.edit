@@ -563,9 +563,9 @@ public class NetworkLoadBalancedFargateServiceBuilder_patternsItemProvider exten
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "NetworkLoadBalancedFargateService " + ((NetworkLoadBalancedFargateServiceBuilder_patterns) object).getVarName();
-		
-				
+		return "NetworkLoadBalancedFargateService "
+				+ ((NetworkLoadBalancedFargateServiceBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

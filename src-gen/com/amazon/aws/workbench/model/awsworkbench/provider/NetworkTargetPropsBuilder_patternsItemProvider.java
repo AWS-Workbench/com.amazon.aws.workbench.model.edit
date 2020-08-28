@@ -185,9 +185,8 @@ public class NetworkTargetPropsBuilder_patternsItemProvider extends ServiceResou
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "NetworkTargetProps " + ((NetworkTargetPropsBuilder_patterns) object).getVarName();
-		
-				
+		return "NetworkTargetProps " + ((NetworkTargetPropsBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

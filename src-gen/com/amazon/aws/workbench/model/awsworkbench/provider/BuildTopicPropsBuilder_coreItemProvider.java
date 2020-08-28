@@ -203,9 +203,8 @@ public class BuildTopicPropsBuilder_coreItemProvider extends ServiceResourcesIte
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "BuildTopicProps " + ((BuildTopicPropsBuilder_core) object).getVarName();
-		
-				
+		return "BuildTopicProps " + ((BuildTopicPropsBuilder_core) object).getVarName();
+
 	}
 
 	/**

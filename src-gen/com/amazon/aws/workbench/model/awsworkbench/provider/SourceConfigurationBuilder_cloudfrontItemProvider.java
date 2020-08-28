@@ -248,9 +248,8 @@ public class SourceConfigurationBuilder_cloudfrontItemProvider extends ServiceRe
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "SourceConfiguration " + ((SourceConfigurationBuilder_cloudfront) object).getVarName();
-		
-				
+		return "SourceConfiguration " + ((SourceConfigurationBuilder_cloudfront) object).getVarName();
+
 	}
 
 	/**

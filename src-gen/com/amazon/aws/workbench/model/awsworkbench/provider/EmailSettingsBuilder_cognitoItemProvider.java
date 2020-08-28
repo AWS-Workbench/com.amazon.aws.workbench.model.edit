@@ -183,9 +183,8 @@ public class EmailSettingsBuilder_cognitoItemProvider extends ServiceResourcesIt
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "EmailSettings " + ((EmailSettingsBuilder_cognito) object).getVarName();
-		
-				
+		return "EmailSettings " + ((EmailSettingsBuilder_cognito) object).getVarName();
+
 	}
 
 	/**

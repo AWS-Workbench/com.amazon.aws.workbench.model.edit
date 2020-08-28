@@ -258,9 +258,8 @@ public class PasswordPolicyBuilder_cognitoItemProvider extends ServiceResourcesI
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "PasswordPolicy " + ((PasswordPolicyBuilder_cognito) object).getVarName();
-		
-				
+		return "PasswordPolicy " + ((PasswordPolicyBuilder_cognito) object).getVarName();
+
 	}
 
 	/**

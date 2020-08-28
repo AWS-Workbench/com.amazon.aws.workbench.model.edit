@@ -183,9 +183,8 @@ public class RoutingRuleConditionBuilder_s3ItemProvider extends ServiceResources
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "RoutingRuleCondition " + ((RoutingRuleConditionBuilder_s3) object).getVarName();
-		
-				
+		return "RoutingRuleCondition " + ((RoutingRuleConditionBuilder_s3) object).getVarName();
+
 	}
 
 	/**

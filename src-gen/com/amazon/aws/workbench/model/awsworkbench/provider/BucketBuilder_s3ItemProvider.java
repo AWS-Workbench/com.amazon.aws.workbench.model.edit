@@ -468,9 +468,8 @@ public class BucketBuilder_s3ItemProvider extends ServiceResourcesItemProvider {
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Bucket " + ((BucketBuilder_s3) object).getVarName();
-		
-				
+		return "Bucket " + ((BucketBuilder_s3) object).getVarName();
+
 	}
 
 	/**

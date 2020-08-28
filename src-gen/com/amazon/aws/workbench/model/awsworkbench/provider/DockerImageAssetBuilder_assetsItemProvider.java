@@ -293,9 +293,8 @@ public class DockerImageAssetBuilder_assetsItemProvider extends ServiceResources
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "DockerImageAsset " + ((DockerImageAssetBuilder_assets) object).getVarName();
-		
-				
+		return "DockerImageAsset " + ((DockerImageAssetBuilder_assets) object).getVarName();
+
 	}
 
 	/**

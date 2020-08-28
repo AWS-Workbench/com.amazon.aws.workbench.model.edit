@@ -410,9 +410,9 @@ public class CloudFrontWebDistributionPropsBuilder_cloudfrontItemProvider extend
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "CloudFrontWebDistributionProps " + ((CloudFrontWebDistributionPropsBuilder_cloudfront) object).getVarName();
-		
-				
+		return "CloudFrontWebDistributionProps "
+				+ ((CloudFrontWebDistributionPropsBuilder_cloudfront) object).getVarName();
+
 	}
 
 	/**

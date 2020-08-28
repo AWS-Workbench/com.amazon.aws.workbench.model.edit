@@ -329,8 +329,9 @@ public class ApplicationLoadBalancerBuilder_elasticloadbalancingv2ItemProvider e
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ApplicationLoadBalancer " + ((ApplicationLoadBalancerBuilder_elasticloadbalancingv2) object).getVarName();
-		
+		return "ApplicationLoadBalancer "
+				+ ((ApplicationLoadBalancerBuilder_elasticloadbalancingv2) object).getVarName();
+
 	}
 
 	/**

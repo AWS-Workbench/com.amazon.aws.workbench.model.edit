@@ -191,9 +191,8 @@ public class BuildDynamoDBTablePropsBuilder_coreItemProvider extends ServiceReso
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "BuildDynamoDBTableProps " + ((BuildDynamoDBTablePropsBuilder_core) object).getVarName();
-		
-				
+		return "BuildDynamoDBTableProps " + ((BuildDynamoDBTablePropsBuilder_core) object).getVarName();
+
 	}
 
 	/**

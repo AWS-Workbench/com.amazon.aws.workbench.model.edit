@@ -362,9 +362,8 @@ public class BehaviorBuilder_cloudfrontItemProvider extends ServiceResourcesItem
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Behavior " + ((BehaviorBuilder_cloudfront) object).getVarName();
-		
-				
+		return "Behavior " + ((BehaviorBuilder_cloudfront) object).getVarName();
+
 	}
 
 	/**

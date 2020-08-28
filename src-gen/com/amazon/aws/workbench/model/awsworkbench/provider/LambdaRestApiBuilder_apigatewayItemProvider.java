@@ -597,9 +597,8 @@ public class LambdaRestApiBuilder_apigatewayItemProvider extends ServiceResource
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "LambdaRestApi " + ((LambdaRestApiBuilder_apigateway) object).getVarName();
-		
-				
+		return "LambdaRestApi " + ((LambdaRestApiBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

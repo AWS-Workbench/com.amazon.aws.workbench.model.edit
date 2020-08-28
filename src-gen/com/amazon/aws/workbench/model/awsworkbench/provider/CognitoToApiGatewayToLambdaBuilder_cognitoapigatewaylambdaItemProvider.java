@@ -254,8 +254,9 @@ public class CognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambdaItemProvi
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "CognitoToApiGatewayToLambda " + ((CognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambda) object).getVarName();
-		
+		return "CognitoToApiGatewayToLambda "
+				+ ((CognitoToApiGatewayToLambdaBuilder_cognitoapigatewaylambda) object).getVarName();
+
 	}
 
 	/**

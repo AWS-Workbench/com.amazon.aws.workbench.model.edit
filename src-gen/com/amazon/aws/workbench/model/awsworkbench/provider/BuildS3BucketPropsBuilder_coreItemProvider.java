@@ -189,9 +189,8 @@ public class BuildS3BucketPropsBuilder_coreItemProvider extends ServiceResources
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "BuildS3BucketProps " + ((BuildS3BucketPropsBuilder_core) object).getVarName();
-		
-				
+		return "BuildS3BucketProps " + ((BuildS3BucketPropsBuilder_core) object).getVarName();
+
 	}
 
 	/**

@@ -182,9 +182,8 @@ public class RedirectTargetBuilder_s3ItemProvider extends ServiceResourcesItemPr
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "RedirectTarget " + ((RedirectTargetBuilder_s3) object).getVarName();
-		
-				
+		return "RedirectTarget " + ((RedirectTargetBuilder_s3) object).getVarName();
+
 	}
 
 	/**

@@ -472,9 +472,9 @@ public class ApplicationMultipleTargetGroupsFargateServiceBuilder_patternsItemPr
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ApplicationMultipleTargetGroupsFargateService " + ((ApplicationMultipleTargetGroupsFargateServiceBuilder_patterns) object).getVarName();
-		
-				
+		return "ApplicationMultipleTargetGroupsFargateService "
+				+ ((ApplicationMultipleTargetGroupsFargateServiceBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

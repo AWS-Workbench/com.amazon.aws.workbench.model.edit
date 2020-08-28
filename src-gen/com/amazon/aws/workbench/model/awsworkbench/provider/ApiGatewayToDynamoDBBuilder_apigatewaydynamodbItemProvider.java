@@ -304,9 +304,8 @@ public class ApiGatewayToDynamoDBBuilder_apigatewaydynamodbItemProvider extends 
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ApiGatewayToDynamoDB " + ((ApiGatewayToDynamoDBBuilder_apigatewaydynamodb) object).getVarName();
-		
-				
+		return "ApiGatewayToDynamoDB " + ((ApiGatewayToDynamoDBBuilder_apigatewaydynamodb) object).getVarName();
+
 	}
 
 	/**

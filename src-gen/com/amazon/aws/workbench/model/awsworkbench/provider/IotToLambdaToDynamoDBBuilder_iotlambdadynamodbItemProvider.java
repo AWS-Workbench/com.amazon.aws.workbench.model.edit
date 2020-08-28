@@ -253,9 +253,8 @@ public class IotToLambdaToDynamoDBBuilder_iotlambdadynamodbItemProvider extends 
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "IotToLambdaToDynamoDB " + ((IotToLambdaToDynamoDBBuilder_iotlambdadynamodb) object).getVarName();
-		
-				
+		return "IotToLambdaToDynamoDB " + ((IotToLambdaToDynamoDBBuilder_iotlambdadynamodb) object).getVarName();
+
 	}
 
 	/**

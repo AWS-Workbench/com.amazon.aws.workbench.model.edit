@@ -301,9 +301,8 @@ public class MethodDeploymentOptionsBuilder_apigatewayItemProvider extends Servi
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "MethodDeploymentOptions " + ((MethodDeploymentOptionsBuilder_apigateway) object).getVarName();
-		
-				
+		return "MethodDeploymentOptions " + ((MethodDeploymentOptionsBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

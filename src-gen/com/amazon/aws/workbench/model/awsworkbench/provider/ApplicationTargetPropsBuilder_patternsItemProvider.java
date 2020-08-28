@@ -258,9 +258,8 @@ public class ApplicationTargetPropsBuilder_patternsItemProvider extends ServiceR
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ApplicationTargetProps " + ((ApplicationTargetPropsBuilder_patterns) object).getVarName();
-		
-				
+		return "ApplicationTargetProps " + ((ApplicationTargetPropsBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

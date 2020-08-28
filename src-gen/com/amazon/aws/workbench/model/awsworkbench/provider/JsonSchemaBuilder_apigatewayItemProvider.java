@@ -870,9 +870,8 @@ public class JsonSchemaBuilder_apigatewayItemProvider extends ServiceResourcesIt
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "JsonSchema " + ((JsonSchemaBuilder_apigateway) object).getVarName();
-		
-				
+		return "JsonSchema " + ((JsonSchemaBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

@@ -451,9 +451,9 @@ public class ApplicationMultipleTargetGroupsEc2ServiceBuilder_patternsItemProvid
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ApplicationMultipleTargetGroupsEc2Service " + ((ApplicationMultipleTargetGroupsEc2ServiceBuilder_patterns) object).getVarName();
-		
-				
+		return "ApplicationMultipleTargetGroupsEc2Service "
+				+ ((ApplicationMultipleTargetGroupsEc2ServiceBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

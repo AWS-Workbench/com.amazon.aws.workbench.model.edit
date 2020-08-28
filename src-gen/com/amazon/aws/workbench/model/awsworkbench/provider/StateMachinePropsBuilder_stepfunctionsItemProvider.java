@@ -270,9 +270,8 @@ public class StateMachinePropsBuilder_stepfunctionsItemProvider extends ServiceR
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "StateMachineProps " + ((StateMachinePropsBuilder_stepfunctions) object).getVarName();
-		
-				
+		return "StateMachineProps " + ((StateMachinePropsBuilder_stepfunctions) object).getVarName();
+
 	}
 
 	/**

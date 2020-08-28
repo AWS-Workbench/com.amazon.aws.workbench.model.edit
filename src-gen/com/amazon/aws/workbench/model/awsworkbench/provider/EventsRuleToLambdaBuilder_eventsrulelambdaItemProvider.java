@@ -213,9 +213,8 @@ public class EventsRuleToLambdaBuilder_eventsrulelambdaItemProvider extends Serv
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "EventsRuleToLambda " + ((EventsRuleToLambdaBuilder_eventsrulelambda) object).getVarName();
-		
-				
+		return "EventsRuleToLambda " + ((EventsRuleToLambdaBuilder_eventsrulelambda) object).getVarName();
+
 	}
 
 	/**

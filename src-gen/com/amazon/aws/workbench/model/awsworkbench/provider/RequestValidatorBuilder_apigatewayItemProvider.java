@@ -225,9 +225,8 @@ public class RequestValidatorBuilder_apigatewayItemProvider extends ServiceResou
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "RequestValidator " + ((RequestValidatorBuilder_apigateway) object).getVarName();
-		
-				
+		return "RequestValidator " + ((RequestValidatorBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

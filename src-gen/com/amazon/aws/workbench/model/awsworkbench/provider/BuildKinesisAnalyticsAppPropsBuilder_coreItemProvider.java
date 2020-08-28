@@ -190,9 +190,8 @@ public class BuildKinesisAnalyticsAppPropsBuilder_coreItemProvider extends Servi
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "BuildKinesisAnalyticsAppProps " + ((BuildKinesisAnalyticsAppPropsBuilder_core) object).getVarName();
-		
-				
+		return "BuildKinesisAnalyticsAppProps " + ((BuildKinesisAnalyticsAppPropsBuilder_core) object).getVarName();
+
 	}
 
 	/**

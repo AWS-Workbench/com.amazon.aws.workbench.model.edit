@@ -219,9 +219,8 @@ public class SignInAliasesBuilder_cognitoItemProvider extends ServiceResourcesIt
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "SignInAliases " + ((SignInAliasesBuilder_cognito) object).getVarName();
-		
-				
+		return "SignInAliases " + ((SignInAliasesBuilder_cognito) object).getVarName();
+
 	}
 
 	/**

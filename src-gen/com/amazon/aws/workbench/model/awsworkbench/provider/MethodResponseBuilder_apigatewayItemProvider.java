@@ -206,9 +206,8 @@ public class MethodResponseBuilder_apigatewayItemProvider extends ServiceResourc
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "MethodResponse " + ((MethodResponseBuilder_apigateway) object).getVarName();
-		
-				
+		return "MethodResponse " + ((MethodResponseBuilder_apigateway) object).getVarName();
+
 	}
 
 	/**

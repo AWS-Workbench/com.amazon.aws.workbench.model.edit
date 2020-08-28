@@ -245,9 +245,8 @@ public class AmazonLinuxImageBuilder_ec2ItemProvider extends ServiceResourcesIte
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "AmazonLinuxImage " + ((AmazonLinuxImageBuilder_ec2) object).getVarName();
-		
-				
+		return "AmazonLinuxImage " + ((AmazonLinuxImageBuilder_ec2) object).getVarName();
+
 	}
 
 	/**

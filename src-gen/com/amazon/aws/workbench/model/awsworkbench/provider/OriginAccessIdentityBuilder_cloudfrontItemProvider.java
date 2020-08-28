@@ -167,9 +167,8 @@ public class OriginAccessIdentityBuilder_cloudfrontItemProvider extends ServiceR
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "OriginAccessIdentity " + ((OriginAccessIdentityBuilder_cloudfront) object).getVarName();
-		
-				
+		return "OriginAccessIdentity " + ((OriginAccessIdentityBuilder_cloudfront) object).getVarName();
+
 	}
 
 	/**

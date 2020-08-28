@@ -205,9 +205,8 @@ public class LoggingConfigurationBuilder_cloudfrontItemProvider extends ServiceR
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "LoggingConfiguration " + ((LoggingConfigurationBuilder_cloudfront) object).getVarName();
-		
-				
+		return "LoggingConfiguration " + ((LoggingConfigurationBuilder_cloudfront) object).getVarName();
+
 	}
 
 	/**

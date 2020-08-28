@@ -471,9 +471,9 @@ public class NetworkMultipleTargetGroupsFargateServiceBuilder_patternsItemProvid
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "NetworkMultipleTargetGroupsFargateService " + ((NetworkMultipleTargetGroupsFargateServiceBuilder_patterns) object).getVarName();
-		
-				
+		return "NetworkMultipleTargetGroupsFargateService "
+				+ ((NetworkMultipleTargetGroupsFargateServiceBuilder_patterns) object).getVarName();
+
 	}
 
 	/**

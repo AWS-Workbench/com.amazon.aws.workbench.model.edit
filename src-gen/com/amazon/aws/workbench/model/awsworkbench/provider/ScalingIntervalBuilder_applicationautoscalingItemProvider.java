@@ -204,9 +204,8 @@ public class ScalingIntervalBuilder_applicationautoscalingItemProvider extends S
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ScalingInterval " + ((ScalingIntervalBuilder_applicationautoscaling) object).getVarName();
-	
-				
+		return "ScalingInterval " + ((ScalingIntervalBuilder_applicationautoscaling) object).getVarName();
+
 	}
 
 	/**

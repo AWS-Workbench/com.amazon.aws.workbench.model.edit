@@ -184,9 +184,8 @@ public class DeadLetterQueueBuilder_sqsItemProvider extends ServiceResourcesItem
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "DeadLetterQueue " + ((DeadLetterQueueBuilder_sqs) object).getVarName();
-		
-				
+		return "DeadLetterQueue " + ((DeadLetterQueueBuilder_sqs) object).getVarName();
+
 	}
 
 	/**

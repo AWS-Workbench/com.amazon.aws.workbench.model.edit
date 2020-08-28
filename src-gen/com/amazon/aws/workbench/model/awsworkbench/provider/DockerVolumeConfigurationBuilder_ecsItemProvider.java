@@ -241,9 +241,8 @@ public class DockerVolumeConfigurationBuilder_ecsItemProvider extends ServiceRes
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "DockerVolumeConfiguration " + ((DockerVolumeConfigurationBuilder_ecs) object).getVarName();
-		
-				
+		return "DockerVolumeConfiguration " + ((DockerVolumeConfigurationBuilder_ecs) object).getVarName();
+
 	}
 
 	/**

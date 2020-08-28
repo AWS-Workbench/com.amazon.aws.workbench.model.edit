@@ -191,9 +191,8 @@ public class BuildLambdaFunctionPropsBuilder_coreItemProvider extends ServiceRes
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "BuildLambdaFunctionProps " + ((BuildLambdaFunctionPropsBuilder_core) object).getVarName();
-		
-				
+		return "BuildLambdaFunctionProps " + ((BuildLambdaFunctionPropsBuilder_core) object).getVarName();
+
 	}
 
 	/**

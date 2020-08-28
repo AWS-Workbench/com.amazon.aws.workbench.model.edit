@@ -297,9 +297,8 @@ public class ManagedPolicyBuilder_iamItemProvider extends ServiceResourcesItemPr
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ManagedPolicy " + ((ManagedPolicyBuilder_iam) object).getVarName();
-		
-				
+		return "ManagedPolicy " + ((ManagedPolicyBuilder_iam) object).getVarName();
+
 	}
 
 	/**

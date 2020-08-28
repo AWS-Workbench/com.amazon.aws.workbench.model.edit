@@ -242,9 +242,8 @@ public class LambdaToSnsBuilder_lambdasnsItemProvider extends ServiceResourcesIt
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "LambdaToSns " + ((LambdaToSnsBuilder_lambdasns) object).getVarName();
-		
-				
+		return "LambdaToSns " + ((LambdaToSnsBuilder_lambdasns) object).getVarName();
+
 	}
 
 	/**

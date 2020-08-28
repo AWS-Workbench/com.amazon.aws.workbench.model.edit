@@ -228,9 +228,8 @@ public class ApplicationListenerPropsBuilder_patternsItemProvider extends Servic
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ApplicationListenerProps " + ((ApplicationListenerPropsBuilder_patterns) object).getVarName();
-		
-				
+		return "ApplicationListenerProps " + ((ApplicationListenerPropsBuilder_patterns) object).getVarName();
+
 	}
 
 	/**
