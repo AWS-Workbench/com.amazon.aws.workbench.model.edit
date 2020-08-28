@@ -726,6 +726,66 @@ public class ServiceResourcesItemProvider extends ItemProviderAdapter implements
 				AwsworkbenchFactory.eINSTANCE.createScheduledFargateTaskImageOptionsBuilder_patterns()));
 
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createTopicBuilder_sns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createEc2HealthCheckOptionsBuilder_autoscaling()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createAutoScalingGroupBuilder_autoscaling()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createOptionConfigurationBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createOptionGroupBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createPortBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createProcessorFeaturesBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createOracleEeInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createOracleSe1InstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createOracleSe2InstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createOracleSeInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createPostgresInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createSqlServerEeInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createSqlServerExInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createSqlServerSeInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createSqlServerWebInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createMySqlInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createMariaDbInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createParameterGroupBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createDatabaseInstanceBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
 				AwsworkbenchFactory.eINSTANCE.createScheduledFargateTaskBuilder_patterns()));
 	}
 

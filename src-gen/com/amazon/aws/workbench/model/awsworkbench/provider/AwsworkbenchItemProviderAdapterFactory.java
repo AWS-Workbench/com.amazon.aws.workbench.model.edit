@@ -4309,6 +4309,477 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.TopicBuilder_sns} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TopicBuilder_snsItemProvider topicBuilder_snsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.TopicBuilder_sns}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createTopicBuilder_snsAdapter() {
+		if (topicBuilder_snsItemProvider == null) {
+			topicBuilder_snsItemProvider = new TopicBuilder_snsItemProvider(this);
+		}
+
+		return topicBuilder_snsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.Ec2HealthCheckOptionsBuilder_autoscaling} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected Ec2HealthCheckOptionsBuilder_autoscalingItemProvider ec2HealthCheckOptionsBuilder_autoscalingItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.Ec2HealthCheckOptionsBuilder_autoscaling}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createEc2HealthCheckOptionsBuilder_autoscalingAdapter() {
+		if (ec2HealthCheckOptionsBuilder_autoscalingItemProvider == null) {
+			ec2HealthCheckOptionsBuilder_autoscalingItemProvider = new Ec2HealthCheckOptionsBuilder_autoscalingItemProvider(
+					this);
+		}
+
+		return ec2HealthCheckOptionsBuilder_autoscalingItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AutoScalingGroupBuilder_autoscaling} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AutoScalingGroupBuilder_autoscalingItemProvider autoScalingGroupBuilder_autoscalingItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AutoScalingGroupBuilder_autoscaling}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAutoScalingGroupBuilder_autoscalingAdapter() {
+		if (autoScalingGroupBuilder_autoscalingItemProvider == null) {
+			autoScalingGroupBuilder_autoscalingItemProvider = new AutoScalingGroupBuilder_autoscalingItemProvider(this);
+		}
+
+		return autoScalingGroupBuilder_autoscalingItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.OptionConfigurationBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected OptionConfigurationBuilder_rdsItemProvider optionConfigurationBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.OptionConfigurationBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createOptionConfigurationBuilder_rdsAdapter() {
+		if (optionConfigurationBuilder_rdsItemProvider == null) {
+			optionConfigurationBuilder_rdsItemProvider = new OptionConfigurationBuilder_rdsItemProvider(this);
+		}
+
+		return optionConfigurationBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.OptionGroupBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected OptionGroupBuilder_rdsItemProvider optionGroupBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.OptionGroupBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createOptionGroupBuilder_rdsAdapter() {
+		if (optionGroupBuilder_rdsItemProvider == null) {
+			optionGroupBuilder_rdsItemProvider = new OptionGroupBuilder_rdsItemProvider(this);
+		}
+
+		return optionGroupBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.PortBuilder_ec2} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PortBuilder_ec2ItemProvider portBuilder_ec2ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.PortBuilder_ec2}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPortBuilder_ec2Adapter() {
+		if (portBuilder_ec2ItemProvider == null) {
+			portBuilder_ec2ItemProvider = new PortBuilder_ec2ItemProvider(this);
+		}
+
+		return portBuilder_ec2ItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ProcessorFeaturesBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ProcessorFeaturesBuilder_rdsItemProvider processorFeaturesBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ProcessorFeaturesBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createProcessorFeaturesBuilder_rdsAdapter() {
+		if (processorFeaturesBuilder_rdsItemProvider == null) {
+			processorFeaturesBuilder_rdsItemProvider = new ProcessorFeaturesBuilder_rdsItemProvider(this);
+		}
+
+		return processorFeaturesBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.OracleEeInstanceEnginePropsBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected OracleEeInstanceEnginePropsBuilder_rdsItemProvider oracleEeInstanceEnginePropsBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.OracleEeInstanceEnginePropsBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createOracleEeInstanceEnginePropsBuilder_rdsAdapter() {
+		if (oracleEeInstanceEnginePropsBuilder_rdsItemProvider == null) {
+			oracleEeInstanceEnginePropsBuilder_rdsItemProvider = new OracleEeInstanceEnginePropsBuilder_rdsItemProvider(
+					this);
+		}
+
+		return oracleEeInstanceEnginePropsBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.OracleSe1InstanceEnginePropsBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected OracleSe1InstanceEnginePropsBuilder_rdsItemProvider oracleSe1InstanceEnginePropsBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.OracleSe1InstanceEnginePropsBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createOracleSe1InstanceEnginePropsBuilder_rdsAdapter() {
+		if (oracleSe1InstanceEnginePropsBuilder_rdsItemProvider == null) {
+			oracleSe1InstanceEnginePropsBuilder_rdsItemProvider = new OracleSe1InstanceEnginePropsBuilder_rdsItemProvider(
+					this);
+		}
+
+		return oracleSe1InstanceEnginePropsBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.OracleSe2InstanceEnginePropsBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected OracleSe2InstanceEnginePropsBuilder_rdsItemProvider oracleSe2InstanceEnginePropsBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.OracleSe2InstanceEnginePropsBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createOracleSe2InstanceEnginePropsBuilder_rdsAdapter() {
+		if (oracleSe2InstanceEnginePropsBuilder_rdsItemProvider == null) {
+			oracleSe2InstanceEnginePropsBuilder_rdsItemProvider = new OracleSe2InstanceEnginePropsBuilder_rdsItemProvider(
+					this);
+		}
+
+		return oracleSe2InstanceEnginePropsBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.OracleSeInstanceEnginePropsBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected OracleSeInstanceEnginePropsBuilder_rdsItemProvider oracleSeInstanceEnginePropsBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.OracleSeInstanceEnginePropsBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createOracleSeInstanceEnginePropsBuilder_rdsAdapter() {
+		if (oracleSeInstanceEnginePropsBuilder_rdsItemProvider == null) {
+			oracleSeInstanceEnginePropsBuilder_rdsItemProvider = new OracleSeInstanceEnginePropsBuilder_rdsItemProvider(
+					this);
+		}
+
+		return oracleSeInstanceEnginePropsBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.PostgresInstanceEnginePropsBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PostgresInstanceEnginePropsBuilder_rdsItemProvider postgresInstanceEnginePropsBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.PostgresInstanceEnginePropsBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPostgresInstanceEnginePropsBuilder_rdsAdapter() {
+		if (postgresInstanceEnginePropsBuilder_rdsItemProvider == null) {
+			postgresInstanceEnginePropsBuilder_rdsItemProvider = new PostgresInstanceEnginePropsBuilder_rdsItemProvider(
+					this);
+		}
+
+		return postgresInstanceEnginePropsBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SqlServerEeInstanceEnginePropsBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected SqlServerEeInstanceEnginePropsBuilder_rdsItemProvider sqlServerEeInstanceEnginePropsBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SqlServerEeInstanceEnginePropsBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createSqlServerEeInstanceEnginePropsBuilder_rdsAdapter() {
+		if (sqlServerEeInstanceEnginePropsBuilder_rdsItemProvider == null) {
+			sqlServerEeInstanceEnginePropsBuilder_rdsItemProvider = new SqlServerEeInstanceEnginePropsBuilder_rdsItemProvider(
+					this);
+		}
+
+		return sqlServerEeInstanceEnginePropsBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SqlServerExInstanceEnginePropsBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected SqlServerExInstanceEnginePropsBuilder_rdsItemProvider sqlServerExInstanceEnginePropsBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SqlServerExInstanceEnginePropsBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createSqlServerExInstanceEnginePropsBuilder_rdsAdapter() {
+		if (sqlServerExInstanceEnginePropsBuilder_rdsItemProvider == null) {
+			sqlServerExInstanceEnginePropsBuilder_rdsItemProvider = new SqlServerExInstanceEnginePropsBuilder_rdsItemProvider(
+					this);
+		}
+
+		return sqlServerExInstanceEnginePropsBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SqlServerSeInstanceEnginePropsBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected SqlServerSeInstanceEnginePropsBuilder_rdsItemProvider sqlServerSeInstanceEnginePropsBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SqlServerSeInstanceEnginePropsBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createSqlServerSeInstanceEnginePropsBuilder_rdsAdapter() {
+		if (sqlServerSeInstanceEnginePropsBuilder_rdsItemProvider == null) {
+			sqlServerSeInstanceEnginePropsBuilder_rdsItemProvider = new SqlServerSeInstanceEnginePropsBuilder_rdsItemProvider(
+					this);
+		}
+
+		return sqlServerSeInstanceEnginePropsBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.SqlServerWebInstanceEnginePropsBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected SqlServerWebInstanceEnginePropsBuilder_rdsItemProvider sqlServerWebInstanceEnginePropsBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.SqlServerWebInstanceEnginePropsBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createSqlServerWebInstanceEnginePropsBuilder_rdsAdapter() {
+		if (sqlServerWebInstanceEnginePropsBuilder_rdsItemProvider == null) {
+			sqlServerWebInstanceEnginePropsBuilder_rdsItemProvider = new SqlServerWebInstanceEnginePropsBuilder_rdsItemProvider(
+					this);
+		}
+
+		return sqlServerWebInstanceEnginePropsBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.MySqlInstanceEnginePropsBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected MySqlInstanceEnginePropsBuilder_rdsItemProvider mySqlInstanceEnginePropsBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.MySqlInstanceEnginePropsBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createMySqlInstanceEnginePropsBuilder_rdsAdapter() {
+		if (mySqlInstanceEnginePropsBuilder_rdsItemProvider == null) {
+			mySqlInstanceEnginePropsBuilder_rdsItemProvider = new MySqlInstanceEnginePropsBuilder_rdsItemProvider(this);
+		}
+
+		return mySqlInstanceEnginePropsBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.MariaDbInstanceEnginePropsBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected MariaDbInstanceEnginePropsBuilder_rdsItemProvider mariaDbInstanceEnginePropsBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.MariaDbInstanceEnginePropsBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createMariaDbInstanceEnginePropsBuilder_rdsAdapter() {
+		if (mariaDbInstanceEnginePropsBuilder_rdsItemProvider == null) {
+			mariaDbInstanceEnginePropsBuilder_rdsItemProvider = new MariaDbInstanceEnginePropsBuilder_rdsItemProvider(
+					this);
+		}
+
+		return mariaDbInstanceEnginePropsBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ParameterGroupBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ParameterGroupBuilder_rdsItemProvider parameterGroupBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.ParameterGroupBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createParameterGroupBuilder_rdsAdapter() {
+		if (parameterGroupBuilder_rdsItemProvider == null) {
+			parameterGroupBuilder_rdsItemProvider = new ParameterGroupBuilder_rdsItemProvider(this);
+		}
+
+		return parameterGroupBuilder_rdsItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.DatabaseInstanceBuilder_rds} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DatabaseInstanceBuilder_rdsItemProvider databaseInstanceBuilder_rdsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.DatabaseInstanceBuilder_rds}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDatabaseInstanceBuilder_rdsAdapter() {
+		if (databaseInstanceBuilder_rdsItemProvider == null) {
+			databaseInstanceBuilder_rdsItemProvider = new DatabaseInstanceBuilder_rdsItemProvider(this);
+		}
+
+		return databaseInstanceBuilder_rdsItemProvider;
+	}
+
+	/**
 	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.ScheduledFargateTaskBuilder_patterns} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -4823,6 +5294,46 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 			scheduledFargateTaskDefinitionOptionsBuilder_patternsItemProvider.dispose();
 		if (scheduledFargateTaskImageOptionsBuilder_patternsItemProvider != null)
 			scheduledFargateTaskImageOptionsBuilder_patternsItemProvider.dispose();
+		if (topicBuilder_snsItemProvider != null)
+			topicBuilder_snsItemProvider.dispose();
+		if (ec2HealthCheckOptionsBuilder_autoscalingItemProvider != null)
+			ec2HealthCheckOptionsBuilder_autoscalingItemProvider.dispose();
+		if (autoScalingGroupBuilder_autoscalingItemProvider != null)
+			autoScalingGroupBuilder_autoscalingItemProvider.dispose();
+		if (optionConfigurationBuilder_rdsItemProvider != null)
+			optionConfigurationBuilder_rdsItemProvider.dispose();
+		if (optionGroupBuilder_rdsItemProvider != null)
+			optionGroupBuilder_rdsItemProvider.dispose();
+		if (portBuilder_ec2ItemProvider != null)
+			portBuilder_ec2ItemProvider.dispose();
+		if (processorFeaturesBuilder_rdsItemProvider != null)
+			processorFeaturesBuilder_rdsItemProvider.dispose();
+		if (oracleEeInstanceEnginePropsBuilder_rdsItemProvider != null)
+			oracleEeInstanceEnginePropsBuilder_rdsItemProvider.dispose();
+		if (oracleSe1InstanceEnginePropsBuilder_rdsItemProvider != null)
+			oracleSe1InstanceEnginePropsBuilder_rdsItemProvider.dispose();
+		if (oracleSe2InstanceEnginePropsBuilder_rdsItemProvider != null)
+			oracleSe2InstanceEnginePropsBuilder_rdsItemProvider.dispose();
+		if (oracleSeInstanceEnginePropsBuilder_rdsItemProvider != null)
+			oracleSeInstanceEnginePropsBuilder_rdsItemProvider.dispose();
+		if (postgresInstanceEnginePropsBuilder_rdsItemProvider != null)
+			postgresInstanceEnginePropsBuilder_rdsItemProvider.dispose();
+		if (sqlServerEeInstanceEnginePropsBuilder_rdsItemProvider != null)
+			sqlServerEeInstanceEnginePropsBuilder_rdsItemProvider.dispose();
+		if (sqlServerExInstanceEnginePropsBuilder_rdsItemProvider != null)
+			sqlServerExInstanceEnginePropsBuilder_rdsItemProvider.dispose();
+		if (sqlServerSeInstanceEnginePropsBuilder_rdsItemProvider != null)
+			sqlServerSeInstanceEnginePropsBuilder_rdsItemProvider.dispose();
+		if (sqlServerWebInstanceEnginePropsBuilder_rdsItemProvider != null)
+			sqlServerWebInstanceEnginePropsBuilder_rdsItemProvider.dispose();
+		if (mySqlInstanceEnginePropsBuilder_rdsItemProvider != null)
+			mySqlInstanceEnginePropsBuilder_rdsItemProvider.dispose();
+		if (mariaDbInstanceEnginePropsBuilder_rdsItemProvider != null)
+			mariaDbInstanceEnginePropsBuilder_rdsItemProvider.dispose();
+		if (parameterGroupBuilder_rdsItemProvider != null)
+			parameterGroupBuilder_rdsItemProvider.dispose();
+		if (databaseInstanceBuilder_rdsItemProvider != null)
+			databaseInstanceBuilder_rdsItemProvider.dispose();
 		if (scheduledFargateTaskBuilder_patternsItemProvider != null)
 			scheduledFargateTaskBuilder_patternsItemProvider.dispose();
 		if (blockItemProvider != null)

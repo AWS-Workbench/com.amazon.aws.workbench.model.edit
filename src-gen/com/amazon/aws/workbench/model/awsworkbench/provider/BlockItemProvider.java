@@ -763,6 +763,66 @@ public class BlockItemProvider extends ItemProviderAdapter implements IEditingDo
 				AwsworkbenchFactory.eINSTANCE.createScheduledFargateTaskImageOptionsBuilder_patterns()));
 
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createTopicBuilder_sns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createEc2HealthCheckOptionsBuilder_autoscaling()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createAutoScalingGroupBuilder_autoscaling()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createOptionConfigurationBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createOptionGroupBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createPortBuilder_ec2()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createProcessorFeaturesBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createOracleEeInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createOracleSe1InstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createOracleSe2InstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createOracleSeInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createPostgresInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSqlServerEeInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSqlServerExInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSqlServerSeInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createSqlServerWebInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createMySqlInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createMariaDbInstanceEnginePropsBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createParameterGroupBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createDatabaseInstanceBuilder_rds()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
 				AwsworkbenchFactory.eINSTANCE.createScheduledFargateTaskBuilder_patterns()));
 
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__SUBBLOCKS,
