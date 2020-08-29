@@ -202,9 +202,8 @@ public class ParameterGroupBuilder_rdsItemProvider extends ServiceResourcesItemP
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ParameterGroup " + ((ParameterGroupBuilder_rds) object).getVarName();
-		
-				
+		return "ParameterGroup " + ((ParameterGroupBuilder_rds) object).getVarName();
+
 	}
 
 	/**

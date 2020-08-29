@@ -170,9 +170,8 @@ public class PostgresInstanceEnginePropsBuilder_rdsItemProvider extends ServiceR
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "PostgresInstanceEngineProps " + ((PostgresInstanceEnginePropsBuilder_rds) object).getVarName();
-		
-				
+		return "PostgresInstanceEngineProps " + ((PostgresInstanceEnginePropsBuilder_rds) object).getVarName();
+
 	}
 
 	/**

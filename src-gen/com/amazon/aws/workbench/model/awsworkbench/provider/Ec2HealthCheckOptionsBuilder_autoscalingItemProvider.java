@@ -170,9 +170,8 @@ public class Ec2HealthCheckOptionsBuilder_autoscalingItemProvider extends Servic
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Ec2HealthCheckOptions " + ((Ec2HealthCheckOptionsBuilder_autoscaling) object).getVarName();
-		
-				
+		return "Ec2HealthCheckOptions " + ((Ec2HealthCheckOptionsBuilder_autoscaling) object).getVarName();
+
 	}
 
 	/**

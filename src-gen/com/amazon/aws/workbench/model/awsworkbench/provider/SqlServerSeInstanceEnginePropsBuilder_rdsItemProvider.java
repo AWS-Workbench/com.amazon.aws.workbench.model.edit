@@ -171,9 +171,8 @@ public class SqlServerSeInstanceEnginePropsBuilder_rdsItemProvider extends Servi
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "SqlServerSeInstanceEngineProps " + ((SqlServerSeInstanceEnginePropsBuilder_rds) object).getVarName();
-		
-				
+		return "SqlServerSeInstanceEngineProps " + ((SqlServerSeInstanceEnginePropsBuilder_rds) object).getVarName();
+
 	}
 
 	/**

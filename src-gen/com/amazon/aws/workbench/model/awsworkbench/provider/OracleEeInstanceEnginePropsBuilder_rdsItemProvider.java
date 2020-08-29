@@ -170,9 +170,8 @@ public class OracleEeInstanceEnginePropsBuilder_rdsItemProvider extends ServiceR
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "OracleEeInstanceEngineProps " + ((OracleEeInstanceEnginePropsBuilder_rds) object).getVarName();
-		
-				
+		return "OracleEeInstanceEngineProps " + ((OracleEeInstanceEnginePropsBuilder_rds) object).getVarName();
+
 	}
 
 	/**

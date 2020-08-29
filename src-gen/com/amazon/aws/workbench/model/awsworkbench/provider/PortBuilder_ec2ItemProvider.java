@@ -215,9 +215,8 @@ public class PortBuilder_ec2ItemProvider extends ServiceResourcesItemProvider {
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "Port " + ((PortBuilder_ec2) object).getVarName();
-		
-				
+		return "Port " + ((PortBuilder_ec2) object).getVarName();
+
 	}
 
 	/**

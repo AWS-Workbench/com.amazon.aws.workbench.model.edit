@@ -171,9 +171,8 @@ public class SqlServerWebInstanceEnginePropsBuilder_rdsItemProvider extends Serv
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "SqlServerWebInstanceEngineProps " + ((SqlServerWebInstanceEnginePropsBuilder_rds) object).getVarName();
-		
-				
+		return "SqlServerWebInstanceEngineProps " + ((SqlServerWebInstanceEnginePropsBuilder_rds) object).getVarName();
+
 	}
 
 	/**

@@ -240,9 +240,8 @@ public class OptionConfigurationBuilder_rdsItemProvider extends ServiceResources
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "OptionConfiguration " + ((OptionConfigurationBuilder_rds) object).getVarName();
-		
-				
+		return "OptionConfiguration " + ((OptionConfigurationBuilder_rds) object).getVarName();
+
 	}
 
 	/**

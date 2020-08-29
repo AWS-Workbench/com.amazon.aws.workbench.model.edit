@@ -620,9 +620,8 @@ public class AutoScalingGroupBuilder_autoscalingItemProvider extends ServiceReso
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "AutoScalingGroup " + ((AutoScalingGroupBuilder_autoscaling) object).getVarName();
-		
-				
+		return "AutoScalingGroup " + ((AutoScalingGroupBuilder_autoscaling) object).getVarName();
+
 	}
 
 	/**

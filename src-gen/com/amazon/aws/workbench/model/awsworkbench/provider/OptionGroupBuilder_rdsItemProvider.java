@@ -204,9 +204,8 @@ public class OptionGroupBuilder_rdsItemProvider extends ServiceResourcesItemProv
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "OptionGroup " + ((OptionGroupBuilder_rds) object).getVarName();
-		
-				
+		return "OptionGroup " + ((OptionGroupBuilder_rds) object).getVarName();
+
 	}
 
 	/**

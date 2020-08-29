@@ -183,9 +183,8 @@ public class ProcessorFeaturesBuilder_rdsItemProvider extends ServiceResourcesIt
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "ProcessorFeatures " + ((ProcessorFeaturesBuilder_rds) object).getVarName();
-		
-				
+		return "ProcessorFeatures " + ((ProcessorFeaturesBuilder_rds) object).getVarName();
+
 	}
 
 	/**

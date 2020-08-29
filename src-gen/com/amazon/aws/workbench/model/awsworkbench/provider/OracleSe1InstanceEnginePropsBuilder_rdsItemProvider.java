@@ -171,9 +171,8 @@ public class OracleSe1InstanceEnginePropsBuilder_rdsItemProvider extends Service
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "OracleSe1InstanceEngineProps " + ((OracleSe1InstanceEnginePropsBuilder_rds) object).getVarName();
-		
-				
+		return "OracleSe1InstanceEngineProps " + ((OracleSe1InstanceEnginePropsBuilder_rds) object).getVarName();
+
 	}
 
 	/**

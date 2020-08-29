@@ -170,9 +170,8 @@ public class MariaDbInstanceEnginePropsBuilder_rdsItemProvider extends ServiceRe
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "MariaDbInstanceEngineProps " + ((MariaDbInstanceEnginePropsBuilder_rds) object).getVarName();
-		
-				
+		return "MariaDbInstanceEngineProps " + ((MariaDbInstanceEnginePropsBuilder_rds) object).getVarName();
+
 	}
 
 	/**

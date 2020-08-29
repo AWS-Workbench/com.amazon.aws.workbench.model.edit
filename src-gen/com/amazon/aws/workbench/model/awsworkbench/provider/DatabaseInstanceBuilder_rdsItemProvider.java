@@ -973,9 +973,8 @@ public class DatabaseInstanceBuilder_rdsItemProvider extends ServiceResourcesIte
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "DatabaseInstance " + ((DatabaseInstanceBuilder_rds) object).getVarName();
-		
-				
+		return "DatabaseInstance " + ((DatabaseInstanceBuilder_rds) object).getVarName();
+
 	}
 
 	/**

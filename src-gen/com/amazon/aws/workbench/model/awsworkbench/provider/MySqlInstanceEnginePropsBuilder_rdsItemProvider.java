@@ -170,9 +170,8 @@ public class MySqlInstanceEnginePropsBuilder_rdsItemProvider extends ServiceReso
 	 */
 	@Override
 	public String getText(Object object) {
-		return  "MySqlInstanceEngineProps " + ((MySqlInstanceEnginePropsBuilder_rds) object).getVarName();
-		
-				
+		return "MySqlInstanceEngineProps " + ((MySqlInstanceEnginePropsBuilder_rds) object).getVarName();
+
 	}
 
 	/**
