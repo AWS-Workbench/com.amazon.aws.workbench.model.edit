@@ -825,6 +825,15 @@ public class BlockItemProvider extends ItemProviderAdapter implements IEditingDo
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
 				AwsworkbenchFactory.eINSTANCE.createScheduledFargateTaskBuilder_patterns()));
 
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createRestApiBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createMethodBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__BLOCKRESOURCES,
+				AwsworkbenchFactory.eINSTANCE.createAddRulePropsBuilder_elasticloadbalancingv2()));
+
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.BLOCK__SUBBLOCKS,
 				AwsworkbenchFactory.eINSTANCE.createBlock()));
 	}

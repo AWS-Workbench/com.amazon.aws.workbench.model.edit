@@ -4827,6 +4827,76 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.RestApiBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RestApiBuilder_apigatewayItemProvider restApiBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.RestApiBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRestApiBuilder_apigatewayAdapter() {
+		if (restApiBuilder_apigatewayItemProvider == null) {
+			restApiBuilder_apigatewayItemProvider = new RestApiBuilder_apigatewayItemProvider(this);
+		}
+
+		return restApiBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.MethodBuilder_apigateway} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected MethodBuilder_apigatewayItemProvider methodBuilder_apigatewayItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.MethodBuilder_apigateway}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createMethodBuilder_apigatewayAdapter() {
+		if (methodBuilder_apigatewayItemProvider == null) {
+			methodBuilder_apigatewayItemProvider = new MethodBuilder_apigatewayItemProvider(this);
+		}
+
+		return methodBuilder_apigatewayItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.amazon.aws.workbench.model.awsworkbench.AddRulePropsBuilder_elasticloadbalancingv2} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AddRulePropsBuilder_elasticloadbalancingv2ItemProvider addRulePropsBuilder_elasticloadbalancingv2ItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.amazon.aws.workbench.model.awsworkbench.AddRulePropsBuilder_elasticloadbalancingv2}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAddRulePropsBuilder_elasticloadbalancingv2Adapter() {
+		if (addRulePropsBuilder_elasticloadbalancingv2ItemProvider == null) {
+			addRulePropsBuilder_elasticloadbalancingv2ItemProvider = new AddRulePropsBuilder_elasticloadbalancingv2ItemProvider(
+					this);
+		}
+
+		return addRulePropsBuilder_elasticloadbalancingv2ItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -5338,6 +5408,12 @@ public class AwsworkbenchItemProviderAdapterFactory extends AwsworkbenchAdapterF
 			scheduledFargateTaskBuilder_patternsItemProvider.dispose();
 		if (blockItemProvider != null)
 			blockItemProvider.dispose();
+		if (restApiBuilder_apigatewayItemProvider != null)
+			restApiBuilder_apigatewayItemProvider.dispose();
+		if (methodBuilder_apigatewayItemProvider != null)
+			methodBuilder_apigatewayItemProvider.dispose();
+		if (addRulePropsBuilder_elasticloadbalancingv2ItemProvider != null)
+			addRulePropsBuilder_elasticloadbalancingv2ItemProvider.dispose();
 	}
 
 }

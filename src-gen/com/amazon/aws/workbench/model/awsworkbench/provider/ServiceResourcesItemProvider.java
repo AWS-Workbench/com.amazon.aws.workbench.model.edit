@@ -769,6 +769,15 @@ public class ServiceResourcesItemProvider extends ItemProviderAdapter implements
 
 		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
 				AwsworkbenchFactory.eINSTANCE.createScheduledFargateTaskBuilder_patterns()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createRestApiBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createMethodBuilder_apigateway()));
+
+		newChildDescriptors.add(createChildParameter(AwsworkbenchPackage.Literals.SERVICE_RESOURCES__DEPENDS_ON,
+				AwsworkbenchFactory.eINSTANCE.createAddRulePropsBuilder_elasticloadbalancingv2()));
 	}
 
 	/**
